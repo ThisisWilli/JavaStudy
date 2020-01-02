@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/linkedlist/printListFromTailToHead/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/ReplaceSpace/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/ReplaceSpace/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/reConstructBinaryTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -29,12 +39,14 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1V9oNBQkimOAJQwCSWevAo6Geki" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -44,39 +56,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ExecutorDemo">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="ExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.thread.executor.ExecutorDemo" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.thread.executor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.thread.createThread.Lambda" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.thread.createThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.thread.createThread.Method2" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.thread.createThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +83,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnsychBankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.thread.bank.UnsychBankTest" />
+    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.string.ReplaceSpace" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.thread.bank.*" />
+          <option name="PATTERN" value="com.coding.sword.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.tree.reConstructBinaryTree.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword.tree.reConstructBinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.string.ReplaceSpace.Solution2" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword.string.ReplaceSpace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,19 +123,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Method2" />
-      <item itemvalue="Application.Lambda" />
-      <item itemvalue="Application.UnsychBankTest" />
       <item itemvalue="Application.Method3" />
       <item itemvalue="Application.ExecutorDemo" />
+      <item itemvalue="Application.ReplaceSpace" />
+      <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.ExecutorDemo" />
         <item itemvalue="Application.Method3" />
-        <item itemvalue="Application.UnsychBankTest" />
-        <item itemvalue="Application.Lambda" />
-        <item itemvalue="Application.Method2" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +169,7 @@
       <workItem from="1576759099352" duration="2726000" />
       <workItem from="1576910987561" duration="722000" />
       <workItem from="1577106885570" duration="879000" />
-      <workItem from="1577281708261" duration="59506000" />
+      <workItem from="1577281708261" duration="78609000" />
     </task>
     <servers />
   </component>
@@ -173,37 +185,64 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577281762106" />
-    <state x="894" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1577429148586">
+    <state x="894" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1577951677346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="894" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577429148586" />
+    <state x="894" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577951677346" />
     <state x="746" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577503974712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="746" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577503974712" />
-    <state width="1876" height="409" key="GridCell.Tab.0.bottom" timestamp="1577690431371">
+    <state width="1876" height="249" key="GridCell.Tab.0.bottom" timestamp="1577961118114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="409" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577690431371" />
-    <state width="1876" height="409" key="GridCell.Tab.0.center" timestamp="1577690431371">
+    <state width="1876" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577961118114" />
+    <state width="1876" height="249" key="GridCell.Tab.0.center" timestamp="1577961118114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="409" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577690431371" />
-    <state width="1876" height="409" key="GridCell.Tab.0.left" timestamp="1577690431371">
+    <state width="1876" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577961118114" />
+    <state width="1876" height="249" key="GridCell.Tab.0.left" timestamp="1577961118114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="409" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577690431371" />
-    <state width="1876" height="409" key="GridCell.Tab.0.right" timestamp="1577690431371">
+    <state width="1876" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577961118114" />
+    <state width="1876" height="249" key="GridCell.Tab.0.right" timestamp="1577961118114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="409" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577690431371" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1577685281485">
+    <state width="1876" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577961118114" />
+    <state width="1876" height="352" key="GridCell.Tab.1.bottom" timestamp="1577960131954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577685281485" />
-    <state x="752" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1577685763521">
+    <state width="1876" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577960131954" />
+    <state width="1876" height="352" key="GridCell.Tab.1.center" timestamp="1577960131953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577685763521" />
+    <state width="1876" height="352" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577960131953" />
+    <state width="1876" height="352" key="GridCell.Tab.1.left" timestamp="1577960131953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577960131953" />
+    <state width="1876" height="352" key="GridCell.Tab.1.right" timestamp="1577960131954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577960131954" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1577955339359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577955339359" />
+    <state x="752" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1577929012740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577929012740" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword/string/ReplaceSpace/Solution2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
