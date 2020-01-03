@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/linkedlist/printListFromTailToHead/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/ReplaceSpace/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/ReplaceSpace/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/reConstructBinaryTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/recursion/fibonacci/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/search/minNumberInRotateArray/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/stack/twoStack2Array/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/sword/tree/reConstructBinaryTree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/sword/tree/reConstructBinaryTree/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaStudy" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,41 +56,41 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="ExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.thread.executor.ExecutorDemo" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.thread.executor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Method3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.thread.createThread.Method3" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.thread.createThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.sword.string.ReplaceSpace" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.coding.sword.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.search.minNumberInRotateArray.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword.search.minNumberInRotateArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.recursion.fibonacci.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword.recursion.fibonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,19 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Method3" />
-      <item itemvalue="Application.ExecutorDemo" />
       <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.ReplaceSpace" />
-        <item itemvalue="Application.ExecutorDemo" />
-        <item itemvalue="Application.Method3" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +172,7 @@
       <workItem from="1576910987561" duration="722000" />
       <workItem from="1577106885570" duration="879000" />
       <workItem from="1577281708261" duration="78609000" />
+      <workItem from="1577972675730" duration="9224000" />
     </task>
     <servers />
   </component>
@@ -193,42 +196,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="746" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577503974712" />
-    <state width="1876" height="249" key="GridCell.Tab.0.bottom" timestamp="1577961118114">
+    <state width="1599" height="264" key="GridCell.Tab.0.bottom" timestamp="1578032750458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577961118114" />
-    <state width="1876" height="249" key="GridCell.Tab.0.center" timestamp="1577961118114">
+    <state width="1599" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578032750458" />
+    <state width="1599" height="264" key="GridCell.Tab.0.center" timestamp="1578032750456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577961118114" />
-    <state width="1876" height="249" key="GridCell.Tab.0.left" timestamp="1577961118114">
+    <state width="1599" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578032750456" />
+    <state width="1599" height="264" key="GridCell.Tab.0.left" timestamp="1578032750456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577961118114" />
-    <state width="1876" height="249" key="GridCell.Tab.0.right" timestamp="1577961118114">
+    <state width="1599" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578032750456" />
+    <state width="1599" height="264" key="GridCell.Tab.0.right" timestamp="1578032750457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577961118114" />
-    <state width="1876" height="352" key="GridCell.Tab.1.bottom" timestamp="1577960131954">
+    <state width="1599" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578032750457" />
+    <state width="1599" height="310" key="GridCell.Tab.1.bottom" timestamp="1578032515475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577960131954" />
-    <state width="1876" height="352" key="GridCell.Tab.1.center" timestamp="1577960131953">
+    <state width="1599" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578032515475" />
+    <state width="1599" height="310" key="GridCell.Tab.1.center" timestamp="1578032515475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="352" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577960131953" />
-    <state width="1876" height="352" key="GridCell.Tab.1.left" timestamp="1577960131953">
+    <state width="1599" height="310" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578032515475" />
+    <state width="1599" height="310" key="GridCell.Tab.1.left" timestamp="1578032515475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="352" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577960131953" />
-    <state width="1876" height="352" key="GridCell.Tab.1.right" timestamp="1577960131954">
+    <state width="1599" height="310" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578032515475" />
+    <state width="1599" height="310" key="GridCell.Tab.1.right" timestamp="1578032515475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="352" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577960131954" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1577955339359">
+    <state width="1599" height="310" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578032515475" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1578037332085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577955339359" />
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578037332085" />
+    <state x="615" y="265" key="Vcs.Push.Dialog.v2" timestamp="1578037471226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="615" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578037471226" />
+    <state x="704" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1577972676436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="704" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577972676436" />
     <state x="752" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1577929012740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
