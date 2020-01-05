@@ -4,11 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/ary/numberOf1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/recursion/jumpFloor/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/recursion/jumpFloorII/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/recursion/rectCover/Solution.java" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="剑指offer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/abstractAndInterface/abstractTest/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/abstractAndInterface/abstractTest/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/abstractAndInterface/interfaceTest/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -56,12 +61,25 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Dog">
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.abstractAndInterface.abstractTest.Dog" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.abstractAndInterface.abstractTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.sword.ary.numberOf1.Solution" />
       <module name="JavaStudy" />
@@ -114,33 +132,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newCodeTest.Test" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newCodeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Dog" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +190,8 @@
       <workItem from="1578106031131" duration="3000" />
       <workItem from="1578106048315" duration="3000" />
       <workItem from="1578106169733" duration="274000" />
-      <workItem from="1578106459403" duration="5191000" />
+      <workItem from="1578106459403" duration="7201000" />
+      <workItem from="1578204462200" duration="3361000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -194,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578037800551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="剑指offer">
+      <created>1578115972919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578115972919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,34 +226,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577281762106" />
-    <state x="894" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1577951677346">
+    <state x="894" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1578224653060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="894" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577951677346" />
+    <state x="894" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578224653060" />
     <state x="746" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577503974712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="746" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577503974712" />
-    <state x="603" y="125" key="CommitChangelistDialog2" timestamp="1578037798195">
+    <state x="603" y="125" key="CommitChangelistDialog2" timestamp="1578226893003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="603" y="125" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578037798195" />
-    <state width="1599" height="264" key="GridCell.Tab.0.bottom" timestamp="1578115517061">
+    <state x="603" y="125" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578226893003" />
+    <state width="1599" height="264" key="GridCell.Tab.0.bottom" timestamp="1578136654284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578115517061" />
-    <state width="1599" height="264" key="GridCell.Tab.0.center" timestamp="1578115517061">
+    <state width="1599" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578136654284" />
+    <state width="1599" height="264" key="GridCell.Tab.0.center" timestamp="1578136654282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578115517061" />
-    <state width="1599" height="264" key="GridCell.Tab.0.left" timestamp="1578115517061">
+    <state width="1599" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578136654282" />
+    <state width="1599" height="264" key="GridCell.Tab.0.left" timestamp="1578136654281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578115517061" />
-    <state width="1599" height="264" key="GridCell.Tab.0.right" timestamp="1578115517061">
+    <state width="1599" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578136654281" />
+    <state width="1599" height="264" key="GridCell.Tab.0.right" timestamp="1578136654283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1599" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578115517061" />
+    <state width="1599" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578136654283" />
     <state width="1599" height="310" key="GridCell.Tab.1.bottom" timestamp="1578037959109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,18 +270,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1599" height="310" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578037959109" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1578037332085">
+    <state x="440" y="93" key="SettingsEditor" timestamp="1578224700172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578037332085" />
-    <state x="615" y="265" key="Vcs.Push.Dialog.v2" timestamp="1578037471226">
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578224700172" />
+    <state x="615" y="265" key="Vcs.Push.Dialog.v2" timestamp="1578116636826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578037471226" />
+    <state x="615" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578116636826" />
     <state x="704" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1578106460758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578106460758" />
+    <state x="755" y="309" key="git4idea.merge.GitPullDialog" timestamp="1578116469319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="755" y="309" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578116469319" />
     <state x="752" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1577929012740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
