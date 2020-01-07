@@ -8,7 +8,11 @@ package com.study.abstractAndInterface.interfaceTest;
  * \* description:
  * \
  */
-public interface Person {
+interface A{
+
+}
+
+public interface Person extends A{
     // 不能定义构造器和初始化块
     // 默认为public static final
     int a = 0;
