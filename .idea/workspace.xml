@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/printMatrix/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/stack/includeMinnumStack/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/stack/isPopOrder/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/printFromTopToBottom/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/verifySquenceOfBST/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/passAValue/BasicParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/passAValue/CollectionsType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/passAValue/PackageClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/findpath/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/getnext/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/reConstructBinaryTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/reConstructBinaryTree/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.CollectionsType">
     <configuration name="BasicParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -198,7 +193,9 @@
       <workItem from="1578106459403" duration="7201000" />
       <workItem from="1578204462200" duration="18505000" />
       <workItem from="1578376233004" duration="6370000" />
-      <workItem from="1578449600146" duration="20527000" />
+      <workItem from="1578449600146" duration="22492000" />
+      <workItem from="1578624409678" duration="10119000" />
+      <workItem from="1578726816323" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578382336530</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="coding exercise">
+      <created>1578559727903</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578559727904</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +264,8 @@
     <MESSAGE value="剑指offer" />
     <MESSAGE value="sword offer" />
     <MESSAGE value="study" />
-    <option name="LAST_COMMIT_MESSAGE" value="study" />
+    <MESSAGE value="coding exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="coding exercise" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -287,26 +292,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="746" y="440" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1577503974712" />
-    <state x="603" y="125" key="CommitChangelistDialog2" timestamp="1578382334679">
+    <state x="603" y="125" key="CommitChangelistDialog2" timestamp="1578559725258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="603" y="125" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578382334679" />
-    <state width="1417" height="278" key="GridCell.Tab.0.bottom" timestamp="1578485393884">
+    <state x="603" y="125" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578559725258" />
+    <state width="1417" height="278" key="GridCell.Tab.0.bottom" timestamp="1578569678519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578485393884" />
-    <state width="1417" height="278" key="GridCell.Tab.0.center" timestamp="1578485393884">
+    <state width="1417" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578569678519" />
+    <state width="1417" height="278" key="GridCell.Tab.0.center" timestamp="1578569678519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578485393884" />
-    <state width="1417" height="278" key="GridCell.Tab.0.left" timestamp="1578485393884">
+    <state width="1417" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578569678519" />
+    <state width="1417" height="278" key="GridCell.Tab.0.left" timestamp="1578569678518">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578485393884" />
-    <state width="1417" height="278" key="GridCell.Tab.0.right" timestamp="1578485393884">
+    <state width="1417" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578569678518" />
+    <state width="1417" height="278" key="GridCell.Tab.0.right" timestamp="1578569678519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578485393884" />
+    <state width="1417" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578569678519" />
     <state width="1599" height="310" key="GridCell.Tab.1.bottom" timestamp="1578376166330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -323,14 +328,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1599" height="310" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578376166330" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1578224700172">
+    <state x="440" y="93" key="SettingsEditor" timestamp="1578641976860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578224700172" />
-    <state x="615" y="265" key="Vcs.Push.Dialog.v2" timestamp="1578382343720">
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578641976860" />
+    <state x="615" y="265" key="Vcs.Push.Dialog.v2" timestamp="1578559742406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578382343720" />
+    <state x="615" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1578559742406" />
     <state x="704" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1578449599148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,11 +352,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword/string/ReplaceSpace/Solution2.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/newCodeTest/Test.java</url>
           <line>41</line>

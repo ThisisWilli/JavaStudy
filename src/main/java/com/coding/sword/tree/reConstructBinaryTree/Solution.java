@@ -30,33 +30,33 @@ public class Solution {
 //        return constructBinaryTree(pre, in);
         return constructBinaryTree2(pre, in, 0, pre.length - 1, 0, in.length - 1);
     }
-    private TreeNode constructBinaryTree(int[] pre, int[] in){
-        // 通过先序遍历确定根节点的位置
-        if (pre.length != 0){
-            TreeNode root = new TreeNode(pre[0]);
-            int loc = -1;
-            for (int i = 0;i < pre.length; i++){
-                // 在中序遍历中找到根几点的位置
-                if (in[i] == root.val){
-                    loc = i;
-                    break;
-                }
-            }
-            int[] preLeft = Arrays.copyOfRange(pre, 1, 1 + loc);
-            int[] inLeft = Arrays.copyOfRange(in, 0, loc);
-            int[] preRight = Arrays.copyOfRange(pre, 1 + loc, pre.length);
-            int[] inRight = Arrays.copyOfRange(pre, 1 + loc, in.length);
-            if (loc != -1){
-                root.left = constructBinaryTree(preLeft, inLeft);
-                root.right = constructBinaryTree(preRight, inRight);
-                return root;
-            }else {
-                return null;
-            }
-        }else {
-            return null;
-        }
-    }
+//    private TreeNode constructBinaryTree(int[] pre, int[] in){
+//        // 通过先序遍历确定根节点的位置
+//        if (pre.length != 0){
+//            TreeNode root = new TreeNode(pre[0]);
+//            int loc = -1;
+//            for (int i = 0;i < pre.length; i++){
+//                // 在中序遍历中找到根几点的位置
+//                if (in[i] == root.val){
+//                    loc = i;
+//                    break;
+//                }
+//            }
+//            int[] preLeft = Arrays.copyOfRange(pre, 1, 1 + loc);
+//            int[] inLeft = Arrays.copyOfRange(in, 0, loc);
+//            int[] preRight = Arrays.copyOfRange(pre, 1 + loc, pre.length);
+//            int[] inRight = Arrays.copyOfRange(pre, 1 + loc, in.length);
+//            if (loc != -1){
+//                root.left = constructBinaryTree(preLeft, inLeft);
+//                root.right = constructBinaryTree(preRight, inRight);
+//                return root;
+//            }else {
+//                return null;
+//            }
+//        }else {
+//            return null;
+//        }
+//    }
 
     private TreeNode constructBinaryTree2(int[] pre, int[] in, int startPre, int endPre, int startIn, int endIn){
         // 通过先序遍历确定根节点的位置
