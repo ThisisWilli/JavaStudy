@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/findpath/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/getnext/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/linkedlist/clone/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/nowcoder/test/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/nowcoder/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/nowcoder/test/TestStaticMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/reConstructBinaryTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/reConstructBinaryTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/findpath/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/findpath/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/sword/tree/reConstructBinaryTree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/coding/sword/tree/reConstructBinaryTree/Solution.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +45,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Idea/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\Idea\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.0/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -59,14 +64,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.CollectionsType">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestStaticMethod">
     <configuration name="BasicParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.passAValue.BasicParameter" />
       <module name="JavaStudy" />
@@ -106,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword.mathProblem.power.Solution" />
+    <configuration name="PassLambdaToFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.lambda.PassLambdaToFunc" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword.mathProblem.power.*" />
+          <option name="PATTERN" value="com.study.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword.array.reOrderArray.Solution" />
+    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.test.TestStaticMethod" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword.array.reOrderArray.*" />
+          <option name="PATTERN" value="com.nowcoder.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,33 +151,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.BasicParameter" />
       <item itemvalue="Application.PackageClass" />
       <item itemvalue="Application.CollectionsType" />
+      <item itemvalue="Application.PassLambdaToFunc" />
+      <item itemvalue="Application.TestStaticMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStaticMethod" />
+        <item itemvalue="Application.PassLambdaToFunc" />
         <item itemvalue="Application.CollectionsType" />
         <item itemvalue="Application.PackageClass" />
         <item itemvalue="Application.BasicParameter" />
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
@@ -196,6 +202,9 @@
       <workItem from="1578449600146" duration="22492000" />
       <workItem from="1578624409678" duration="10119000" />
       <workItem from="1578726816323" duration="2213000" />
+      <workItem from="1578814059956" duration="1288000" />
+      <workItem from="1578890663089" duration="2357000" />
+      <workItem from="1579247339067" duration="4725000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -258,6 +267,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java daily study" />

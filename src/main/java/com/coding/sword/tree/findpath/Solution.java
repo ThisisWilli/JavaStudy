@@ -21,8 +21,62 @@ class TreeNode {
 
     }
 }
-public class Solution {
-    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
 
+public class Solution {
+
+    private void preFindPath(TreeNode node, int sum, int target, ArrayList<Integer>temp, ArrayList<ArrayList<Integer>> result){
+        // 如果节点为空，则向上返回
+        if (node == null){
+            return;
+        }
+        // 如果节点值和之前的sum相加等于target，则将temp添加进result，并向上返回
+        if (node.val + sum == target){
+            if (node.left == null && node.right == null){
+                temp.add(node.val);
+                // 此处注意一定要重新创建一个list，如果只是将temp传进去，那么之后temp还是原来哪个temp的引用，后续操作会影响result中的值
+                result.add(new ArrayList<>(temp));
+                temp.remove(temp.size() - 1);
+                return;
+            }else {
+                // 如果节点下面还有节点，说明这条路径不对，向上返回
+                return;
+            }
+        }
+        // 如果节点值加之前的值小于target，则继续向下寻找
+        if (node.val + sum < target){
+            temp.add(node.val);
+            if (node.left == null && node.right == null){
+                // 节点无左右子🌲，则去除这个节点的值向上返回
+                temp.remove(temp.size() - 1);
+                return;
+            }
+            if (node.left != null && node.right != null){
+                preFindPath(node.left, sum + node.val, target, temp, result);
+                preFindPath(node.right, sum + node.val, target, temp, result);
+                // 找遍左右子🌲还是没有结果，去除这个节点的值向上返回
+                temp.remove(temp.size() - 1);
+                return;
+            }
+            if (node.left != null && node.right == null){
+                preFindPath(node.left, sum + node.val, target, temp, result);
+                temp.remove(temp.size() - 1);
+                return;
+            }
+            if (node.left == null && node.right != null){
+                preFindPath(node.right, sum + node.val, target, temp, result);
+                temp.remove(temp.size() - 1);
+                return;
+            }
+        }
+        if (node.val + sum > target){
+            return;
+        }
+    }
+
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
+        ArrayList<ArrayList<Integer>> results = new ArrayList<>();
+        ArrayList<Integer> temp = new ArrayList<>();
+        preFindPath(root, 0, target, temp, results);
+        return results;
     }
 }
