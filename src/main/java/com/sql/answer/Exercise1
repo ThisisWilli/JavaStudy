@@ -1,0 +1,17 @@
+use MySqlAnswer;
+select t1.S, s.Sname, t1.c1,t2.c2 from
+    (select S, score as c1 from SC where C = '01')t1
+        left join
+    (select S, score as c2 from SC where C = '02') t2
+    on t1.S=t2.S
+        join
+    Student s
+    on t1.S=s.S
+where t1.c1 > t2.c2 or t2.c2 is null;
+
+select distinct sc2.S, s.Sname, sc2.C, sc2.score as c1, sc3.score as c2 from SC sc1
+    join SC sc2 on sc1.S=sc2.S and sc2.C='01'
+left join SC sc3 on sc1.S = sc3.S and sc3.C='02'
+    join Student s
+    on s.S=sc2.S
+where sc2.score > sc3.score or sc3.score is null;
