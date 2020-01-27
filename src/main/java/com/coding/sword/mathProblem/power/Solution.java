@@ -12,22 +12,29 @@ public class Solution {
 
     /**
      * 快速幂方法 题解：https://juejin.im/post/5d4e493851882546ef680417
-     * @param base
-     * @param exponent
+     * 利用快速幂的方法，将指数与1进行&位运算，若为1，则结果乘上该位上对应的底数^2的对应次方
+     * @param base 底数
+     * @param exponent 指数
      * @return
      */
     public double Power(double base, int exponent){
-        double cur = base, result = 1;
+        // 特殊情况，需要考虑指数为负数的情况
+        if (base == 0){
+            return 0;
+        }
         if (exponent < 0){
-            cur = 1 / base;
+            base = 1 / base;
             exponent = -exponent;
         }
-        while (exponent != 0){
+        double result = 1;
+        double cur = base;
+        while(exponent > 0){
             if ((exponent & 1) == 1){
                 result *= cur;
             }
-            // 转换为相应的二进制次方所对应的结果
+            // 注意这里是指数次增长的
             cur *= cur;
+            // 指数右移
             exponent = exponent >> 1;
         }
         return result;
@@ -52,6 +59,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().Power(2, -3));
+        System.out.println(new Solution().Power(3, 5));
     }
 }
