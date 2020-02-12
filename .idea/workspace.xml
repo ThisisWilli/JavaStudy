@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/linkedlist/entrynodeofloop/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise21.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/issymmetrical/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jvm/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jvm/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise22.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise23.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise24.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/thread/createThread/Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/thread/createThread/Lambda.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,13 +155,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
-    <configuration name="BasicParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.passAValue.BasicParameter" />
+  <component name="RunManager" selected="Application.Car">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jvm.Car" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.passAValue.*" />
+          <option name="PATTERN" value="com.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,18 +223,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.BasicParameter" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Car" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.BasicParameter" />
       </list>
     </recent_temporary>
   </component>
@@ -240,12 +245,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f0fcdf3a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d2f28896" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f0fcdf3a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2e37f5a0" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d2f28896" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1bbc5fa4" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +313,9 @@
       <workItem from="1581157795660" duration="3775000" />
       <workItem from="1581210855149" duration="14112000" />
       <workItem from="1581299719580" duration="8595000" />
-      <workItem from="1581394674374" duration="5002000" />
+      <workItem from="1581394674374" duration="5071000" />
+      <workItem from="1581404886503" duration="3001000" />
+      <workItem from="1581469993885" duration="2833000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -415,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581338112245</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="链表中是否有环(双重检测) + 统计男女人数">
+      <created>1581404017729</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581404017729</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +461,8 @@
     <MESSAGE value="剑指offer正则表达式匹配" />
     <MESSAGE value="理解sql执行顺序以及子查询的概念" />
     <MESSAGE value="sql exercise + 剑指offer" />
-    <option name="LAST_COMMIT_MESSAGE" value="sql exercise + 剑指offer" />
+    <MESSAGE value="链表中是否有环(双重检测) + 统计男女人数" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表中是否有环(双重检测) + 统计男女人数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
