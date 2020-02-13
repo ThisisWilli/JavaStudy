@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/issymmetrical/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jvm/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jvm/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise22.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise23.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise24.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jvm/NativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise25.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/nowcoder/test/HashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/thread/createThread/Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/thread/createThread/Lambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sword/linkedlist/clone/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/linkedlist/clone/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/thread/createThread/Lambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/thread/createThread/Lambda.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +134,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -155,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Car">
+  <component name="RunManager" selected="Application.HashMapTest">
     <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jvm.Car" />
       <module name="JavaStudy" />
@@ -169,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword.recursion.movingcount.Solution" />
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.test.HashMapTest" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword.recursion.movingcount.*" />
+          <option name="PATTERN" value="com.nowcoder.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,19 +220,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Car" />
+      <item itemvalue="Application.HashMapTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,12 +243,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d2f28896" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c69b2c1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d2f28896" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1bbc5fa4" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c69b2c1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@391d5759" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +313,8 @@
       <workItem from="1581299719580" duration="8595000" />
       <workItem from="1581394674374" duration="5071000" />
       <workItem from="1581404886503" duration="3001000" />
-      <workItem from="1581469993885" duration="2833000" />
+      <workItem from="1581469993885" duration="3157000" />
+      <workItem from="1581558034132" duration="6261000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -429,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581404017729</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="树的镜像 + sql exercise">
+      <created>1581501713033</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581501713033</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +468,8 @@
     <MESSAGE value="理解sql执行顺序以及子查询的概念" />
     <MESSAGE value="sql exercise + 剑指offer" />
     <MESSAGE value="链表中是否有环(双重检测) + 统计男女人数" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表中是否有环(双重检测) + 统计男女人数" />
+    <MESSAGE value="树的镜像 + sql exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="树的镜像 + sql exercise" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
