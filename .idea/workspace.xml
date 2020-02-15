@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/convert/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise26.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/serializedanddeserialized/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise27.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise25.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise25.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,12 +240,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@df8dac6a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@35586672" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@df8dac6a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@153cc087" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@35586672" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3902fddf" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -313,7 +312,9 @@
       <workItem from="1581404886503" duration="3001000" />
       <workItem from="1581469993885" duration="3157000" />
       <workItem from="1581558034132" duration="8843000" />
-      <workItem from="1581644432120" duration="8236000" />
+      <workItem from="1581644432120" duration="8434000" />
+      <workItem from="1581679384092" duration="13000" />
+      <workItem from="1581728893197" duration="5814000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -441,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581572542019</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="二叉搜索树和二叉链表">
+      <created>1581660289797</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581660289797</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +484,8 @@
     <MESSAGE value="链表中是否有环(双重检测) + 统计男女人数" />
     <MESSAGE value="树的镜像 + sql exercise" />
     <MESSAGE value="复杂链表的复制用到hashmap + sql exercise ifnull的用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="复杂链表的复制用到hashmap + sql exercise ifnull的用法" />
+    <MESSAGE value="二叉搜索树和二叉链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树和二叉链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
