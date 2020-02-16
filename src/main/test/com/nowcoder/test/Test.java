@@ -1,5 +1,6 @@
 package com.nowcoder.test;
 
+
 /**
  * @program: JavaStudy
  * @description:
@@ -8,14 +9,12 @@ package com.nowcoder.test;
  **/
 
 public class Test {
-    public void nonStaticMethod(){
-        System.out.println("nonStatic Method");
-    }
-
-    static void testMethod(){
-        System.out.println("Test");
-    }
-
     public static void main(String[] args) {
+        StringBuffer str = new StringBuffer("abc");
+        swap(str);
+        System.out.println(str);
+    }
+    public static void swap(StringBuffer str){
+        str.setCharAt(0, str.charAt(1));
     }
 }
