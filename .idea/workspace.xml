@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/string/permutation/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jvm/GetMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise29.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/MoreThanHalfNumSolution/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,7 +130,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="jprofiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -151,20 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetMemory">
-    <configuration name="CollectionsType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.passAValue.CollectionsType" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.passAValue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="GetMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jvm.GetMemory" />
       <module name="JavaStudy" />
@@ -217,20 +202,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.array.MoreThanHalfNumSolution.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword.array.MoreThanHalfNumSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CollectionsType" />
       <item itemvalue="Application.PackageClass" />
       <item itemvalue="Application.PassString" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.GetMemory" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.GetMemory" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.PassString" />
         <item itemvalue="Application.PackageClass" />
-        <item itemvalue="Application.CollectionsType" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +316,9 @@
       <workItem from="1581728893197" duration="5870000" />
       <workItem from="1581815540862" duration="8568000" />
       <workItem from="1581835315140" duration="1521000" />
-      <workItem from="1581902613022" duration="6791000" />
+      <workItem from="1581902613022" duration="7121000" />
+      <workItem from="1581990042631" duration="2564000" />
+      <workItem from="1582006910187" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -467,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581839610116</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="全排列">
+      <created>1581934597069</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581934597069</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,6 +608,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/string/permutation/Solution.java</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword/array/MoreThanHalfNumSolution/Solution.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
