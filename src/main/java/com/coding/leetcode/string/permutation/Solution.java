@@ -1,4 +1,4 @@
-package com.coding.leetcode.sql.string.permutation;
+package com.coding.leetcode.string.permutation;
 
 /**
  * @program: JavaStudy

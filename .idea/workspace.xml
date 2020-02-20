@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/ObjectLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/SynchronizedStudy1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/SynchronizedStudy2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/SynchronizedStudy3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/SynchronizedStudy4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise596.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/insertandgetmedian/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/SimulateDeadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise31.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/string/permutation/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/permutation/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="MysqlExercise: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="course: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MysqlExercise: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="courses: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -153,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedStudy4">
+  <component name="RunManager" selected="Application.SimulateDeadlock">
     <configuration name="ObjectLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.ObjectLock" />
       <module name="JavaStudy" />
@@ -167,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword.array.getleastnumbers_solution.Solution" />
+    <configuration name="SimulateDeadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.SimulateDeadlock" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword.array.getleastnumbers_solution.*" />
+          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword.array.MoreThanHalfNumSolution.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.tree.insertandgetmedian.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword.array.MoreThanHalfNumSolution.*" />
+          <option name="PATTERN" value="com.coding.sword.tree.insertandgetmedian.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,19 +227,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.SynchronizedStudy4" />
       <item itemvalue="Application.SynchronizedStudy1" />
       <item itemvalue="Application.ObjectLock" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.SimulateDeadlock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimulateDeadlock" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.SynchronizedStudy4" />
         <item itemvalue="Application.ObjectLock" />
         <item itemvalue="Application.SynchronizedStudy1" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -243,12 +250,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a3b3f5dc" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9fad2487" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a3b3f5dc" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5ed1a7c7" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9fad2487" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@74df08f7" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -323,7 +330,8 @@
       <workItem from="1581902613022" duration="7121000" />
       <workItem from="1581990042631" duration="2564000" />
       <workItem from="1582006910187" duration="798000" />
-      <workItem from="1582031480027" duration="10101000" />
+      <workItem from="1582031480027" duration="10280000" />
+      <workItem from="1582120823775" duration="8098000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -493,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582081851667</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="synchronized关键字">
+      <created>1582101556508</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1582101556508</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +548,8 @@
     <MESSAGE value="全排列" />
     <MESSAGE value="寻找出现次数最多的数字" />
     <MESSAGE value="寻找最小的k个数" />
-    <option name="LAST_COMMIT_MESSAGE" value="寻找最小的k个数" />
+    <MESSAGE value="synchronized关键字" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronized关键字" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -626,7 +642,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/string/permutation/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/permutation/Solution.java</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
