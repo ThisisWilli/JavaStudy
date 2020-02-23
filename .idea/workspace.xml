@@ -4,11 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise627.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/search/numberof1between1andn/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/V1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise33.sql" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="volatile关键字 + update 用法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise1179.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/printminnumber/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/MyContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/MyContainer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/MyContainer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise34.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise35.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,13 +127,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.V1">
-    <configuration name="ObjectLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.ObjectLock" />
+  <component name="RunManager" selected="Application.MyContainer3">
+    <configuration name="MyContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.MyContainer" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
+          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimulateDeadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.SimulateDeadlock" />
+    <configuration name="MyContainer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.MyContainer2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
+          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword.tree.insertandgetmedian.Solution" />
+    <configuration name="MyContainer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.MyContainer3" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword.tree.insertandgetmedian.*" />
+          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedStudy4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.SynchronizedStudy4" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.array.printminnumber.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
+          <option name="PATTERN" value="com.coding.sword.array.printminnumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,19 +194,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SynchronizedStudy4" />
-      <item itemvalue="Application.ObjectLock" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.SimulateDeadlock" />
       <item itemvalue="Application.V1" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.MyContainer" />
+      <item itemvalue="Application.MyContainer2" />
+      <item itemvalue="Application.MyContainer3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyContainer3" />
+        <item itemvalue="Application.MyContainer2" />
+        <item itemvalue="Application.MyContainer" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.V1" />
-        <item itemvalue="Application.SimulateDeadlock" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.SynchronizedStudy4" />
-        <item itemvalue="Application.ObjectLock" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +305,8 @@
       <workItem from="1582031480027" duration="10280000" />
       <workItem from="1582120823775" duration="8456000" />
       <workItem from="1582247711843" duration="2298000" />
-      <workItem from="1582290450058" duration="5268000" />
+      <workItem from="1582290450058" duration="5929000" />
+      <workItem from="1582420099478" duration="6276000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -493,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582259946290</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="volatile关键字 + update 用法">
+      <created>1582361526173</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1582361526173</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +547,8 @@
     <MESSAGE value="synchronized关键字" />
     <MESSAGE value="java中PriorityQueue实现堆 + 写一个会产生死锁的程序" />
     <MESSAGE value="数组子序列中的最大和" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组子序列中的最大和" />
+    <MESSAGE value="volatile关键字 + update 用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="volatile关键字 + update 用法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -637,6 +649,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword/array/MoreThanHalfNumSolution/Solution.java</url>
           <line>19</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword/array/printminnumber/Solution.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
