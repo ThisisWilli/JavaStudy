@@ -4,14 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="volatile关键字 + update 用法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise1179.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/printminnumber/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/MyContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/MyContainer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/MyContainer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise34.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise35.sql" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise626.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/ary/getuglynumber/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/T1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyContainer3">
+  <component name="RunManager" selected="Application.T1">
     <configuration name="MyContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.MyContainer" />
       <module name="JavaStudy" />
@@ -167,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword.array.printminnumber.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.ary.getuglynumber.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword.array.printminnumber.*" />
+          <option name="PATTERN" value="com.coding.sword.ary.getuglynumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="V1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.V1" />
+    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.T1" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
+          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.V1" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.MyContainer" />
       <item itemvalue="Application.MyContainer2" />
       <item itemvalue="Application.MyContainer3" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.T1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T1" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.MyContainer3" />
         <item itemvalue="Application.MyContainer2" />
         <item itemvalue="Application.MyContainer" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.V1" />
       </list>
     </recent_temporary>
   </component>
@@ -217,17 +213,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b877ec3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@df99bed8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b877ec3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2baf3bbd" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b877ec3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@560e7988" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@df99bed8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4bfc9b08" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -306,7 +297,8 @@
       <workItem from="1582120823775" duration="8456000" />
       <workItem from="1582247711843" duration="2298000" />
       <workItem from="1582290450058" duration="5929000" />
-      <workItem from="1582420099478" duration="6276000" />
+      <workItem from="1582420099478" duration="6768000" />
+      <workItem from="1582466508574" duration="8136000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -504,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582361526173</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="全排列复习 + wait()和notify()">
+      <created>1582434713237</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1582434713237</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +547,8 @@
     <MESSAGE value="java中PriorityQueue实现堆 + 写一个会产生死锁的程序" />
     <MESSAGE value="数组子序列中的最大和" />
     <MESSAGE value="volatile关键字 + update 用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="volatile关键字 + update 用法" />
+    <MESSAGE value="全排列复习 + wait()和notify()" />
+    <option name="LAST_COMMIT_MESSAGE" value="全排列复习 + wait()和notify()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
