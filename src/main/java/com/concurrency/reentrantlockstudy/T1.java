@@ -14,7 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class T1 {
     Lock lock = new ReentrantLock();
 
-    private int count = 0;
+    private volatile int count = 0;
     public static void main(String[] args) {
         T1 t = new T1();
 

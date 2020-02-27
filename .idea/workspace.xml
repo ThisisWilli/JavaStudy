@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise626.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/ary/getuglynumber/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise178.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/firstnotrepeatingchar/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/producerandconsumer/MyContainer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/producerandconsumer/MyContainer2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/T1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/T1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,13 +125,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T1">
-    <configuration name="MyContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.MyContainer" />
+  <component name="RunManager" selected="Application.MyContainer2">
+    <configuration name="MyContainer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.producerandconsumer.MyContainer1" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
+          <option name="PATTERN" value="com.concurrency.producerandconsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,24 +140,11 @@
       </method>
     </configuration>
     <configuration name="MyContainer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.MyContainer2" />
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.producerandconsumer.MyContainer2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyContainer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.MyContainer3" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
+          <option name="PATTERN" value="com.concurrency.producerandconsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,6 +158,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.coding.sword.ary.getuglynumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.string.firstnotrepeatingchar.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword.string.firstnotrepeatingchar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyContainer" />
-      <item itemvalue="Application.MyContainer2" />
-      <item itemvalue="Application.MyContainer3" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.T1" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.MyContainer1" />
+      <item itemvalue="Application.MyContainer2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T1" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.MyContainer3" />
         <item itemvalue="Application.MyContainer2" />
-        <item itemvalue="Application.MyContainer" />
+        <item itemvalue="Application.MyContainer1" />
+        <item itemvalue="Application.T1" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +300,7 @@
       <workItem from="1582247711843" duration="2298000" />
       <workItem from="1582290450058" duration="5929000" />
       <workItem from="1582420099478" duration="6768000" />
-      <workItem from="1582466508574" duration="8136000" />
+      <workItem from="1582466508574" duration="21096000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -503,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582434713237</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="push">
+      <created>1582697272670</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1582697272670</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java daily study" />
     <MESSAGE value="剑指offer" />
     <MESSAGE value="sword offer" />
     <MESSAGE value="study" />
@@ -548,7 +556,8 @@
     <MESSAGE value="数组子序列中的最大和" />
     <MESSAGE value="volatile关键字 + update 用法" />
     <MESSAGE value="全排列复习 + wait()和notify()" />
-    <option name="LAST_COMMIT_MESSAGE" value="全排列复习 + wait()和notify()" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
