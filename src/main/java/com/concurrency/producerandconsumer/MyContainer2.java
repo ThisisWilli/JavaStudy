@@ -16,24 +16,29 @@ import java.util.concurrent.locks.ReentrantLock;
  * 上一道题，能够配合reentrantlock + Condition来实现，可以精确指定哪些线程被叫醒
  */
 public class MyContainer2 <T>{
-    final private LinkedList<T> lists = new LinkedList<>();
-    private static int MAX = 10;
-    private int count = 0;
 
     private ReentrantLock lock = new ReentrantLock();
     private Condition producer = lock.newCondition();
     private Condition consumer = lock.newCondition();
+    private LinkedList<T> lists = new LinkedList<>();
+    private final static int MAX = 10;
+    private int count = 0;
 
+
+    // producer先成产，生产完之后提醒consumer开始工作
     private void put(T t){
+        // 先拿锁
         try {
+            // producer先拿锁
             lock.lock();
+            // 要注意container中可能已经满了的情况
             while (lists.size() == MAX){
-                // 容器是满的，生产者先不要生产
+                // prodcuer线程进入condition队列等待
                 producer.await();
             }
             lists.add(t);
             count++;
-            // 容器中已经被新加进去东西，消费者赶紧来消费
+            // 注意不是notify而是signalAll
             consumer.signalAll();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -42,11 +47,14 @@ public class MyContainer2 <T>{
         }
     }
 
+    // consumer先消费，消费完之后提醒producer开始生产
     private T get(){
         T t = null;
+        // consumer先拿锁
         try {
             lock.lock();
             while (lists.size() == 0){
+                // 容器容量为0，consumer进入condition队列等待，避免拿空
                 consumer.await();
             }
             t = lists.removeFirst();
