@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/getnumberofk/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/kthnode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/concurrentcontainer/CopyOnWriteList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/leetcode/Exercise184.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/findnumsappearonce/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/treedepth/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ExecutorServiceStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/MyExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/SearchEmpFirstAndLastName.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise1179.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/leetcode/Exercise1179.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise175.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/leetcode/Exercise175.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise178.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/leetcode/Exercise178.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise180.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/leetcode/Exercise180.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise596.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/leetcode/Exercise596.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise626.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/leetcode/Exercise626.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/sql/Exercise627.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/leetcode/Exercise627.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.ExecutorServiceStudy">
     <configuration name="ConcurrentMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.concurrentcontainer.ConcurrentMap" />
       <module name="JavaStudy" />
@@ -152,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyContainer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.producerandconsumer.MyContainer2" />
+    <configuration name="ExecutorServiceStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.ExecutorServiceStudy" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.producerandconsumer.*" />
+          <option name="PATTERN" value="com.concurrency.threadpoolstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,19 +200,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyContainer2" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.ThreadLocal1" />
       <item itemvalue="Application.ConcurrentMap" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.ExecutorServiceStudy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorServiceStudy" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.ConcurrentMap" />
         <item itemvalue="Application.ThreadLocal1" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.MyContainer2" />
       </list>
     </recent_temporary>
   </component>
@@ -242,8 +237,7 @@
     </option>
   </component>
   <component name="StructureViewFactory">
-    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
-    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_PROPERTIES" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -314,7 +308,7 @@
       <workItem from="1582290450058" duration="5929000" />
       <workItem from="1582420099478" duration="6768000" />
       <workItem from="1582466508574" duration="34958000" />
-      <workItem from="1582900868510" duration="20492000" />
+      <workItem from="1582900868510" duration="31506000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -547,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582983344403</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据">
+      <created>1583064658221</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1583064658221</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="coding exercise" />
     <MESSAGE value="sword coding" />
     <MESSAGE value="sql exercise" />
     <MESSAGE value="回溯+sql exercise" />
@@ -592,7 +592,8 @@
     <MESSAGE value="LinkedHashMap是有序hash表，写一个容器容纳生产者消费者" />
     <MESSAGE value="归并排序" />
     <MESSAGE value="同步容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="同步容器" />
+    <MESSAGE value="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
