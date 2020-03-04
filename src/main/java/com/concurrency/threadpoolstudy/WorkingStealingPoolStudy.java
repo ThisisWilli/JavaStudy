@@ -34,7 +34,7 @@ public class WorkingStealingPoolStudy {
         ExecutorService service = Executors.newWorkStealingPool(4);
         System.out.println(Runtime.getRuntime().availableProcessors());
 
-        // 线程1处理的任务时间比任务2长
+        // 线程1处理的任务时间比任务2长，启动线程为一个daemon线程，虚拟机不结束永远不停止运行
         service.execute(new R(3000));
         service.execute(new R(1000));
         service.execute(new R(2000));

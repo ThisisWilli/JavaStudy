@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/ary/findcontinuoussequence/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/reversesentence/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/FutureStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ParallelCompute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ScheduledPoolStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/SingleThreadPoolStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/WorkingStealingPoolStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/SearchEmployeeSalariesAndOrder.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/maxinwindows/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/iscontinuous/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ForkJoinPoolStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ExecutorServiceStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ExecutorServiceStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/WorkingStealingPoolStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/WorkingStealingPoolStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/SearchEmployeeSalariesAndOrder.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/SearchEmployeeSalariesAndOrder.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,9 +132,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParallelCompute">
-    <configuration name="CachedThreadPoolStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.CachedThreadPoolStudy" />
+  <component name="RunManager" selected="Application.ForkJoinPoolStudy">
+    <configuration name="ForkJoinPoolStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.ForkJoinPoolStudy" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -165,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduledPoolStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.ScheduledPoolStudy" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.string.iscontinuous.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadpoolstudy.*" />
+          <option name="PATTERN" value="com.coding.sword.string.iscontinuous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadPoolStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.SingleThreadPoolStudy" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.array.maxinwindows.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadpoolstudy.*" />
+          <option name="PATTERN" value="com.coding.sword.array.maxinwindows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CachedThreadPoolStudy" />
-      <item itemvalue="Application.SingleThreadPoolStudy" />
-      <item itemvalue="Application.ScheduledPoolStudy" />
       <item itemvalue="Application.WorkingStealingPoolStudy" />
       <item itemvalue="Application.ParallelCompute" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.ForkJoinPoolStudy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelCompute" />
+        <item itemvalue="Application.ForkJoinPoolStudy" />
         <item itemvalue="Application.WorkingStealingPoolStudy" />
-        <item itemvalue="Application.ScheduledPoolStudy" />
-        <item itemvalue="Application.SingleThreadPoolStudy" />
-        <item itemvalue="Application.CachedThreadPoolStudy" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.ParallelCompute" />
       </list>
     </recent_temporary>
   </component>
@@ -228,17 +222,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8f6657c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5c1be649" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8f6657c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@8f606fd" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8f6657c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@495e1ac8" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5c1be649" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2e619908" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -319,7 +308,7 @@
       <workItem from="1582420099478" duration="6768000" />
       <workItem from="1582466508574" duration="34958000" />
       <workItem from="1582900868510" duration="36941000" />
-      <workItem from="1583205842935" duration="9967000" />
+      <workItem from="1583205842935" duration="21793000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -566,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583148471536</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="和为s的连续正数序列 + 线程池">
+      <created>1583231229756</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1583231229756</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sql exercise" />
     <MESSAGE value="回溯+sql exercise" />
     <MESSAGE value="删除链表，二进制位编程+sql exercise" />
     <MESSAGE value="剑指offer正则表达式匹配" />
@@ -611,7 +606,8 @@
     <MESSAGE value="同步容器" />
     <MESSAGE value="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据" />
     <MESSAGE value="二叉树的深度+找出唯二两个出现一次的数字+线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树的深度+找出唯二两个出现一次的数字+线程池" />
+    <MESSAGE value="和为s的连续正数序列 + 线程池" />
+    <option name="LAST_COMMIT_MESSAGE" value="和为s的连续正数序列 + 线程池" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -732,6 +728,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword/ary/findcontinuoussequence/Solution.java</url>
           <line>34</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/WorkingStealingPoolStudy.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

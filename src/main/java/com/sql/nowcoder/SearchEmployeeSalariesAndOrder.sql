@@ -31,6 +31,25 @@ INSERT INTO salaries VALUES(10001,62102,'1987-06-26','1988-06-25');
 INSERT INTO salaries VALUES(10001,66074,'1988-06-25','1989-06-25');
 INSERT INTO salaries VALUES(10001,66596,'1989-06-25','1990-06-25');
 INSERT INTO salaries VALUES(10001,66961,'1990-06-25','1991-06-25');
-select salaries.emp_no, salaries.salary
+INSERT INTO salaries VALUES(10002,61102,'1987-06-26','1988-06-25');
+INSERT INTO salaries VALUES(10002,65074,'1988-06-25','1989-06-25');
+INSERT INTO salaries VALUES(10002,66596,'1989-06-25','1990-06-25');
+INSERT INTO salaries VALUES(10002,66961,'1990-06-25','1991-06-25');
+
+select *
+from salaries;
+
+select s1.emp_no, s1.salary
+from salaries as s1
+cross join
+    (
+         select emp_no, min(from_date) as hire
+         from salaries
+         group by emp_no
+    ) as s2
+on s1.emp_no = s2.emp_no and s1.from_date = s2.hire
+order by s1.salary desc ;
+
+select emp_no, min(from_date)
 from salaries
-order by emp_no desc ;
+group by emp_no
