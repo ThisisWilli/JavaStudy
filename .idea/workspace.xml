@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/maxinwindows/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/iscontinuous/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/ForkJoinPoolStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/ary/sum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/mathProblem/lastremaining/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找薪水涨幅超过15次的员工号emp_no以及其对应的涨幅次数t.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/WorkingStealingPoolStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/WorkingStealingPoolStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/SearchEmployeeSalariesAndOrder.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/SearchEmployeeSalariesAndOrder.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,22 +130,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForkJoinPoolStudy">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="ForkJoinPoolStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.ForkJoinPoolStudy" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.threadpoolstudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelCompute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.ParallelCompute" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -165,6 +150,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.coding.sword.string.iscontinuous.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.ary.sum.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword.ary.sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,18 +198,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.WorkingStealingPoolStudy" />
-      <item itemvalue="Application.ParallelCompute" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.ForkJoinPoolStudy" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.ForkJoinPoolStudy" />
         <item itemvalue="Application.WorkingStealingPoolStudy" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ParallelCompute" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +226,11 @@
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5c1be649" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2e619908" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5c1be649" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4f84c27a" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +311,7 @@
       <workItem from="1582420099478" duration="6768000" />
       <workItem from="1582466508574" duration="34958000" />
       <workItem from="1582900868510" duration="36941000" />
-      <workItem from="1583205842935" duration="21793000" />
+      <workItem from="1583205842935" duration="28722000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -562,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583231229756</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="ForkJoinPool">
+      <created>1583324356637</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1583324356637</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="回溯+sql exercise" />
     <MESSAGE value="删除链表，二进制位编程+sql exercise" />
     <MESSAGE value="剑指offer正则表达式匹配" />
     <MESSAGE value="理解sql执行顺序以及子查询的概念" />
@@ -607,7 +616,8 @@
     <MESSAGE value="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据" />
     <MESSAGE value="二叉树的深度+找出唯二两个出现一次的数字+线程池" />
     <MESSAGE value="和为s的连续正数序列 + 线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="和为s的连续正数序列 + 线程池" />
+    <MESSAGE value="ForkJoinPool" />
+    <option name="LAST_COMMIT_MESSAGE" value="ForkJoinPool" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
