@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/ary/add/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/leftrotatestring/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/isbalancetree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/找出所有员工当前薪水salary情况.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/multiply/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/mathProblem/findnumberswithsum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有部门当前manager的当前薪水情况.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/singletonpattern/HungryMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/singletonpattern/LazyMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/singletonpattern/LazyModeDCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/singletonpattern/LazyModeSingleLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/singletonpattern/LazyModeStaticClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,26 +136,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
-    <configuration name="ForkJoinPoolStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.ForkJoinPoolStudy" />
+  <component name="RunManager" selected="Application.VolatileTest">
+    <configuration name="HungryMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.singletonpattern.HungryMode" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadpoolstudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword.string.iscontinuous.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.sword.string.iscontinuous.*" />
+          <option name="PATTERN" value="com.study.designpattern.singletonpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +176,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingStealingPoolStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.WorkingStealingPoolStudy" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.mathProblem.findnumberswithsum.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadpoolstudy.*" />
+          <option name="PATTERN" value="com.coding.sword.mathProblem.findnumberswithsum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.VolatileTest" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WorkingStealingPoolStudy" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.ForkJoinPoolStudy" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.HungryMode" />
+      <item itemvalue="Application.VolatileTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VolatileTest" />
+        <item itemvalue="Application.HungryMode" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.ForkJoinPoolStudy" />
-        <item itemvalue="Application.WorkingStealingPoolStudy" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -221,12 +226,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b062b2a6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6d7feb84" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b062b2a6" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@70aa64a1" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6d7feb84" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6d5210d" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +314,8 @@
       <workItem from="1582900868510" duration="36941000" />
       <workItem from="1583205842935" duration="28722000" />
       <workItem from="1583387888676" duration="60000" />
-      <workItem from="1583456812291" duration="3707000" />
+      <workItem from="1583456812291" duration="3764000" />
+      <workItem from="1583543223693" duration="9534000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -577,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583387919295</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="递归翻转字符串">
+      <created>1583461409757</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1583461409758</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="剑指offer正则表达式匹配" />
     <MESSAGE value="理解sql执行顺序以及子查询的概念" />
     <MESSAGE value="sql exercise + 剑指offer" />
     <MESSAGE value="链表中是否有环(双重检测) + 统计男女人数" />
@@ -622,7 +634,8 @@
     <MESSAGE value="和为s的连续正数序列 + 线程池" />
     <MESSAGE value="ForkJoinPool" />
     <MESSAGE value="Java中的运算符短路" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java中的运算符短路" />
+    <MESSAGE value="递归翻转字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归翻转字符串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
