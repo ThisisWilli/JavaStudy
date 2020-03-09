@@ -9,7 +9,7 @@ package com.study.designpattern.factorypattern.simplefactory;
 
 public class CarFactory {
     // 方法一
-    public static Car buyCar(String car){
+    static Car buyCar(String car){
         if (car.equals("WuLing")){
             return new WuLing();
         }else if (car.equals("Tesla")){
@@ -17,10 +17,5 @@ public class CarFactory {
         }else {
             return null;
         }
-    }
-
-    // 方法二
-    public static Car getWuLing(){
-        return new WuLing();
     }
 }

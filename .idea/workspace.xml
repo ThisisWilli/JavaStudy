@@ -4,33 +4,16 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/array/duplicate/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/strtoint/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/HuaweiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/HuaweiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/HuaweiRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/PhoneProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/RouteProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/XiaomiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/XiaomiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/XiaomiRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory/TeslaCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory/WuLing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory/WuLingFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/WuLing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/singletonpattern/EnumSingle.java" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="工厂模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/insertandfirstappear/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/bfs/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/zhiprint/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有员工当前的manager.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/nowcoder02.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/nowcoder02.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有部门当前manager的当前薪水情况.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有部门当前manager的当前薪水情况.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/CarFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +116,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -156,7 +139,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="Application.Consumer (2)">
+    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.factorypattern.simplefactory.Consumer" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.designpattern.factorypattern.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.factorypattern.abstractfactory.Consumer" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.designpattern.factorypattern.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.designpattern.factorypattern.methodfactory.Consumer" />
       <module name="JavaStudy" />
@@ -183,19 +192,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HungryMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.singletonpattern.HungryMode" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.designpattern.singletonpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.sword.string.strtoint.Solution" />
       <module name="JavaStudy" />
@@ -209,33 +205,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.VolatileTest" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.HungryMode" />
-      <item itemvalue="Application.VolatileTest" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.EnumSingle" />
       <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Consumer (1)" />
+      <item itemvalue="Application.Consumer (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consumer (2)" />
+        <item itemvalue="Application.Consumer (1)" />
         <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.EnumSingle" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.HungryMode" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +318,7 @@
       <workItem from="1583205842935" duration="28722000" />
       <workItem from="1583387888676" duration="60000" />
       <workItem from="1583456812291" duration="3764000" />
-      <workItem from="1583543223693" duration="19372000" />
+      <workItem from="1583543223693" duration="34516000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -617,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583590930288</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="工厂模式">
+      <created>1583676138528</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1583676138528</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +627,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sql exercise + 剑指offer" />
     <MESSAGE value="链表中是否有环(双重检测) + 统计男女人数" />
     <MESSAGE value="树的镜像 + sql exercise" />
     <MESSAGE value="复杂链表的复制用到hashmap + sql exercise ifnull的用法" />
@@ -662,7 +651,8 @@
     <MESSAGE value="Java中的运算符短路" />
     <MESSAGE value="递归翻转字符串" />
     <MESSAGE value="单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式" />
+    <MESSAGE value="工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
