@@ -4,16 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="工厂模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/insertandfirstappear/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/bfs/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/tree/zhiprint/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有员工当前的manager.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/abstractfactory/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/Consumer.java" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/diameterofbinarytree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有部门中当前员工薪水最高的相关信息.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/simplefactory/CarFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -318,7 +312,7 @@
       <workItem from="1583205842935" duration="28722000" />
       <workItem from="1583387888676" duration="60000" />
       <workItem from="1583456812291" duration="3764000" />
-      <workItem from="1583543223693" duration="34516000" />
+      <workItem from="1583543223693" duration="41780000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -607,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583676138528</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="工厂模式修补+剑指offer完结散花">
+      <created>1583765140273</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1583765140273</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="链表中是否有环(双重检测) + 统计男女人数" />
     <MESSAGE value="树的镜像 + sql exercise" />
     <MESSAGE value="复杂链表的复制用到hashmap + sql exercise ifnull的用法" />
     <MESSAGE value="二叉搜索树和二叉链表" />
@@ -652,7 +652,8 @@
     <MESSAGE value="递归翻转字符串" />
     <MESSAGE value="单例模式" />
     <MESSAGE value="工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
+    <MESSAGE value="工厂模式修补+剑指offer完结散花" />
+    <option name="LAST_COMMIT_MESSAGE" value="工厂模式修补+剑指offer完结散花" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
