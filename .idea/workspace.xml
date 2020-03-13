@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/gcdofstrings/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/connect117/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/从titles表获取按照title进行分组，每组个数大于等于2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/majorityelement/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/ladderLength127/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/DaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/StartAndRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/ThreadInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/ThreadInterrupt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/ThreadPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/ThreadSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/TwoPhaseTermination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找employees表所有emp_no为奇数.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,12 +52,6 @@
         <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="LeetCode: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="nowcoder: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -134,26 +135,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
-    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.factorypattern.simplefactory.Consumer" />
+  <component name="RunManager" selected="Application.DaemonThread">
+    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadstructure.DaemonThread" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.designpattern.factorypattern.simplefactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.factorypattern.abstractfactory.Consumer" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.designpattern.factorypattern.abstractfactory.*" />
+          <option name="PATTERN" value="com.concurrency.threadstructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +150,11 @@
       </method>
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.canthreepartsequalsum.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.ladderLength127.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.canthreepartsequalsum.*" />
+          <option name="PATTERN" value="com.coding.leetcode.string.ladderLength127.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.gcdofstrings.Solution" />
+    <configuration name="ThreadInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadstructure.ThreadInterrupt" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.string.gcdofstrings.*" />
+          <option name="PATTERN" value="com.concurrency.threadstructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +175,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.permutation.Solution" />
+    <configuration name="ThreadInterrupt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadstructure.ThreadInterrupt2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.string.permutation.*" />
+          <option name="PATTERN" value="com.concurrency.threadstructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoPhaseTermination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadstructure.TwoPhaseTermination" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrency.threadstructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Consumer (1)" />
-      <item itemvalue="Application.Consumer (2)" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.ThreadInterrupt" />
+      <item itemvalue="Application.ThreadInterrupt2" />
+      <item itemvalue="Application.TwoPhaseTermination" />
+      <item itemvalue="Application.DaemonThread" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.DaemonThread" />
+        <item itemvalue="Application.TwoPhaseTermination" />
+        <item itemvalue="Application.ThreadInterrupt2" />
+        <item itemvalue="Application.ThreadInterrupt" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Consumer (2)" />
-        <item itemvalue="Application.Consumer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -224,12 +225,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@796c856d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c460a6db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@796c856d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@21056fa0" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c460a6db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@49c83a3e" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -316,7 +317,8 @@
       <workItem from="1583543223693" duration="41780000" />
       <workItem from="1583851281128" duration="1106000" />
       <workItem from="1583890293769" duration="4936000" />
-      <workItem from="1583938660386" duration="4754000" />
+      <workItem from="1583938660386" duration="4819000" />
+      <workItem from="1584011780980" duration="20334000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -626,7 +628,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583938700213</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="能将两个字符串最大程度整除的字符串">
+      <created>1583992686028</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1583992686028</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,7 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉搜索树和二叉链表" />
     <MESSAGE value="序列化二叉树+group by的运用" />
     <MESSAGE value="全排列" />
     <MESSAGE value="寻找出现次数最多的数字" />
@@ -671,7 +679,8 @@
     <MESSAGE value="工厂模式修补+剑指offer完结散花" />
     <MESSAGE value="求二叉树直径即dfs求解" />
     <MESSAGE value="指向右节点的二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="指向右节点的二叉树" />
+    <MESSAGE value="能将两个字符串最大程度整除的字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="能将两个字符串最大程度整除的字符串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
