@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/majorityelement/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/ladderLength127/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/DaemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/StartAndRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/ThreadInterrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/ThreadInterrupt2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/ThreadPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/ThreadSleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/TwoPhaseTermination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找employees表所有emp_no为奇数.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/lengthoflis/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/LocalVariableTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/LocalVariableTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/LocalVariableTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/统计出当前各个title类型对应的员工当前的平均工资.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DaemonThread">
+  <component name="RunManager" selected="Application.LocalVariableTest3">
     <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.threadstructure.DaemonThread" />
       <module name="JavaStudy" />
@@ -149,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.ladderLength127.Solution" />
+    <configuration name="LocalVariableTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.LocalVariableTest1" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.string.ladderLength127.*" />
+          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadstructure.ThreadInterrupt" />
+    <configuration name="LocalVariableTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.LocalVariableTest2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadstructure.*" />
+          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInterrupt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadstructure.ThreadInterrupt2" />
+    <configuration name="LocalVariableTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.LocalVariableTest3" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadstructure.*" />
+          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.ThreadInterrupt" />
-      <item itemvalue="Application.ThreadInterrupt2" />
       <item itemvalue="Application.TwoPhaseTermination" />
       <item itemvalue="Application.DaemonThread" />
+      <item itemvalue="Application.LocalVariableTest1" />
+      <item itemvalue="Application.LocalVariableTest2" />
+      <item itemvalue="Application.LocalVariableTest3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocalVariableTest3" />
+        <item itemvalue="Application.LocalVariableTest2" />
+        <item itemvalue="Application.LocalVariableTest1" />
         <item itemvalue="Application.DaemonThread" />
         <item itemvalue="Application.TwoPhaseTermination" />
-        <item itemvalue="Application.ThreadInterrupt2" />
-        <item itemvalue="Application.ThreadInterrupt" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -225,12 +220,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c460a6db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@619eb415" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c460a6db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@49c83a3e" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@619eb415" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5589706d" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +313,8 @@
       <workItem from="1583851281128" duration="1106000" />
       <workItem from="1583890293769" duration="4936000" />
       <workItem from="1583938660386" duration="4819000" />
-      <workItem from="1584011780980" duration="20334000" />
+      <workItem from="1584011780980" duration="20406000" />
+      <workItem from="1584146082501" duration="8577000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -635,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583992686028</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="单词接龙 + Thread类中的各种方法">
+      <created>1584099841803</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1584099841804</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +658,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="序列化二叉树+group by的运用" />
     <MESSAGE value="全排列" />
     <MESSAGE value="寻找出现次数最多的数字" />
     <MESSAGE value="寻找最小的k个数" />
@@ -680,7 +682,8 @@
     <MESSAGE value="求二叉树直径即dfs求解" />
     <MESSAGE value="指向右节点的二叉树" />
     <MESSAGE value="能将两个字符串最大程度整除的字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="能将两个字符串最大程度整除的字符串" />
+    <MESSAGE value="单词接龙 + Thread类中的各种方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="单词接龙 + Thread类中的各种方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
