@@ -4,12 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="Java中变量的线程安全分析 + leetcode单词接龙">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dfs/maxareaofIsland695/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/MonitorByteCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找薪水第二多的员工.sql" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/coinchange322/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/Guarded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/找出员工中第二高的薪水不能使用orderby.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/ladderLength127/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/ladderLength127/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,26 +128,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MonitorByteCode">
-    <configuration name="LocalVariableTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.LocalVariableTest1" />
+  <component name="RunManager" selected="Application.Guarded">
+    <configuration name="Guarded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.Guarded" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocalVariableTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.LocalVariableTest2" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
+          <option name="PATTERN" value="com.concurrency.threaddesignpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,6 +168,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.coinchange322.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.leetcode.dp.coinchange322.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.maxareaofIsland695.Solution" />
       <module name="JavaStudy" />
@@ -196,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LocalVariableTest1" />
-      <item itemvalue="Application.LocalVariableTest2" />
       <item itemvalue="Application.LocalVariableTest3" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.MonitorByteCode" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Guarded" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Guarded" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.MonitorByteCode" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.LocalVariableTest3" />
-        <item itemvalue="Application.LocalVariableTest2" />
-        <item itemvalue="Application.LocalVariableTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -219,12 +218,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@62ca7906" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f243f324" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@62ca7906" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@51f45599" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f243f324" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2ab40253" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +313,8 @@
       <workItem from="1583938660386" duration="4819000" />
       <workItem from="1584011780980" duration="20406000" />
       <workItem from="1584146082501" duration="9261000" />
-      <workItem from="1584235448938" duration="9610000" />
+      <workItem from="1584235448938" duration="9658000" />
+      <workItem from="1584320930031" duration="12433000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -645,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584193331104</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="synchronized优化即monitor，偏向锁优化">
+      <created>1584267008678</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1584267008678</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +672,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="寻找出现次数最多的数字" />
     <MESSAGE value="寻找最小的k个数" />
     <MESSAGE value="synchronized关键字" />
     <MESSAGE value="java中PriorityQueue实现堆 + 写一个会产生死锁的程序" />
@@ -690,7 +696,8 @@
     <MESSAGE value="能将两个字符串最大程度整除的字符串" />
     <MESSAGE value="单词接龙 + Thread类中的各种方法" />
     <MESSAGE value="Java中变量的线程安全分析 + leetcode单词接龙" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java中变量的线程安全分析 + leetcode单词接龙" />
+    <MESSAGE value="synchronized优化即monitor，偏向锁优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronized优化即monitor，偏向锁优化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
