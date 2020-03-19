@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/coinchange322/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/Guarded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/找出员工中第二高的薪水不能使用orderby.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/countcharacters1160/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/longestpalindrome/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/math/isrectangleoverlap836/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/ParkAndUnpack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/Guard02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找员工编号emp_no为10001其自入职以来的薪水salary涨幅值growth.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找所有员工的last_name和first_name以及对应的dept_name，也包括暂时没有分配部门的员工.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/找出员工中第二高的薪水不能使用orderby.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/找出员工中第二高的薪水不能使用orderby.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +50,18 @@
         <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="LeetCode: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="MysqlExercise: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="nowcoder: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -128,7 +145,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Guarded">
+  <component name="RunManager" selected="Application.ParkAndUnpack">
+    <configuration name="Guard02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.Guard02" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrency.threaddesignpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Guarded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.Guarded" />
       <module name="JavaStudy" />
@@ -142,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalVariableTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.LocalVariableTest3" />
+    <configuration name="ParkAndUnpack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.ParkAndUnpack" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -155,25 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonitorByteCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.MonitorByteCode" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.countcharacters1160.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.coinchange322.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dp.coinchange322.*" />
+          <option name="PATTERN" value="com.coding.leetcode.array.countcharacters1160.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +199,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.maxareaofIsland695.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.longestpalindrome.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dfs.maxareaofIsland695.*" />
+          <option name="PATTERN" value="com.coding.leetcode.array.longestpalindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +212,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LocalVariableTest3" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.MonitorByteCode" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Guarded" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Guard02" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.ParkAndUnpack" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Guarded" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.MonitorByteCode" />
+        <item itemvalue="Application.ParkAndUnpack" />
+        <item itemvalue="Application.Guard02" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.LocalVariableTest3" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Guarded" />
       </list>
     </recent_temporary>
   </component>
@@ -218,12 +235,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f243f324" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ddd470af" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f243f324" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2ab40253" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ddd470af" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7ea0a167" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -314,7 +331,9 @@
       <workItem from="1584011780980" duration="20406000" />
       <workItem from="1584146082501" duration="9261000" />
       <workItem from="1584235448938" duration="9658000" />
-      <workItem from="1584320930031" duration="12433000" />
+      <workItem from="1584320930031" duration="12494000" />
+      <workItem from="1584407793942" duration="3984000" />
+      <workItem from="1584494536950" duration="16907000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer">
       <created>1578037800550</created>
@@ -652,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584267008678</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="leetcode耍不来。。">
+      <created>1584357009825</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1584357009827</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="寻找最小的k个数" />
     <MESSAGE value="synchronized关键字" />
     <MESSAGE value="java中PriorityQueue实现堆 + 写一个会产生死锁的程序" />
     <MESSAGE value="数组子序列中的最大和" />
@@ -697,7 +722,8 @@
     <MESSAGE value="单词接龙 + Thread类中的各种方法" />
     <MESSAGE value="Java中变量的线程安全分析 + leetcode单词接龙" />
     <MESSAGE value="synchronized优化即monitor，偏向锁优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="synchronized优化即monitor，偏向锁优化" />
+    <MESSAGE value="leetcode耍不来。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode耍不来。。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
