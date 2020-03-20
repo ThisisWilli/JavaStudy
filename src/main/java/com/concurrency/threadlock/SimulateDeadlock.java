@@ -1,4 +1,4 @@
-package com.concurrency.synchronizedstudy;
+package com.concurrency.threadlock;
 
 /**
  * @program: JavaStudy
