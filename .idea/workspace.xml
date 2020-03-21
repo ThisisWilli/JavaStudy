@@ -4,16 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="最大回文子串之打表 + 线程设计模式之保护性暂停(类似RPC？)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/heap/getleastnumbers/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadlock/PhilosopherEating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadlock/SimulateLiveLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/problemsolve/whyequals/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/problemsolve/whyequals/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找所有员工自入职以来的薪水涨幅情况.sql" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dfs/canmeasurewater365/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/SolvePhilosophy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/TestInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/TestReentrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/TestTryLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/统计各个部门的工资记录数.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/SimulateDeadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadlock/SimulateDeadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/synchronizedstudy/SimulateDeadlock.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,25 +42,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="LeetCode: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="LeetCode: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="salaries: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="MysqlExercise: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -152,13 +131,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PhilosopherEating">
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.problemsolve.whyequals.Person" />
+  <component name="RunManager" selected="Application.SolvePhilosophy">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.canmeasurewater365.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.problemsolve.whyequals.*" />
+          <option name="PATTERN" value="com.coding.leetcode.dfs.canmeasurewater365.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhilosopherEating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadlock.PhilosopherEating" />
+    <configuration name="SolvePhilosophy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.SolvePhilosophy" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadlock.*" />
+          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimulateDeadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadlock.SimulateDeadlock" />
+    <configuration name="TestInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.TestInterrupt" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadlock.*" />
+          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimulateLiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadlock.SimulateLiveLock" />
+    <configuration name="TestReentrant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.TestReentrant" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threadlock.*" />
+          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.problemsolve.whyequals.Test" />
+    <configuration name="TestTryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.TestTryLock" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.problemsolve.whyequals.*" />
+          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,35 +198,36 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Person" />
-      <item itemvalue="Application.SimulateDeadlock" />
-      <item itemvalue="Application.SimulateLiveLock" />
-      <item itemvalue="Application.PhilosopherEating" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.TestReentrant" />
+      <item itemvalue="Application.TestInterrupt" />
+      <item itemvalue="Application.TestTryLock" />
+      <item itemvalue="Application.SolvePhilosophy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PhilosopherEating" />
-        <item itemvalue="Application.SimulateLiveLock" />
-        <item itemvalue="Application.SimulateDeadlock" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SolvePhilosophy" />
+        <item itemvalue="Application.TestTryLock" />
+        <item itemvalue="Application.TestInterrupt" />
+        <item itemvalue="Application.TestReentrant" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.19721872" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ddd470af" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@457a654a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ddd470af" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7ea0a167" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@457a654a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7f2272ca" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -340,14 +320,9 @@
       <workItem from="1584235448938" duration="9658000" />
       <workItem from="1584320930031" duration="12494000" />
       <workItem from="1584407793942" duration="3984000" />
-      <workItem from="1584494536950" duration="37437000" />
-    </task>
-    <task id="LOCAL-00002" summary="剑指offer">
-      <created>1578115972919</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1578115972919</updated>
+      <workItem from="1584494536950" duration="37934000" />
+      <workItem from="1584712449700" duration="5696000" />
+      <workItem from="1584755750657" duration="13065000" />
     </task>
     <task id="LOCAL-00003" summary="java daily study">
       <created>1578226874715</created>
@@ -685,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584605255941</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()">
+      <created>1584710445139</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1584710445139</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -705,7 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java中PriorityQueue实现堆 + 写一个会产生死锁的程序" />
     <MESSAGE value="数组子序列中的最大和" />
     <MESSAGE value="volatile关键字 + update 用法" />
     <MESSAGE value="全排列复习 + wait()和notify()" />
@@ -730,7 +711,8 @@
     <MESSAGE value="synchronized优化即monitor，偏向锁优化" />
     <MESSAGE value="leetcode耍不来。。" />
     <MESSAGE value="最大回文子串之打表 + 线程设计模式之保护性暂停(类似RPC？)" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大回文子串之打表 + 线程设计模式之保护性暂停(类似RPC？)" />
+    <MESSAGE value="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()" />
+    <option name="LAST_COMMIT_MESSAGE" value="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
