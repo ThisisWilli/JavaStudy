@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dfs/canmeasurewater365/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/SolvePhilosophy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/TestInterrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/TestReentrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/reentrantlockstudy/TestTryLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/统计各个部门的工资记录数.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/minincrementforunique945/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/alternatelyprint/UseParkUnpark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/alternatelyprint/UseReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/alternatelyprint/UseSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/stableorderexec/UsePark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/stableorderexec/UseSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/对所有员工的当前薪水按照salary进行按照1-N的排名.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,13 +132,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SolvePhilosophy">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.canmeasurewater365.Solution" />
+  <component name="RunManager" selected="Application.UseParkUnpark">
+    <configuration name="UsePark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.stableorderexec.UsePark" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dfs.canmeasurewater365.*" />
+          <option name="PATTERN" value="com.concurrency.threaddesignpattern.stableorderexec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolvePhilosophy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.SolvePhilosophy" />
+    <configuration name="UseParkUnpark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.alternatelyprint.UseParkUnpark" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
+          <option name="PATTERN" value="com.concurrency.threaddesignpattern.alternatelyprint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.TestInterrupt" />
+    <configuration name="UseReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.alternatelyprint.UseReentrantLock" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
+          <option name="PATTERN" value="com.concurrency.threaddesignpattern.alternatelyprint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReentrant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.TestReentrant" />
+    <configuration name="UseSynchronized (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.alternatelyprint.UseSynchronized" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
+          <option name="PATTERN" value="com.concurrency.threaddesignpattern.alternatelyprint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.TestTryLock" />
+    <configuration name="UseSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.stableorderexec.UseSynchronized" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
+          <option name="PATTERN" value="com.concurrency.threaddesignpattern.stableorderexec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.TestReentrant" />
-      <item itemvalue="Application.TestInterrupt" />
-      <item itemvalue="Application.TestTryLock" />
-      <item itemvalue="Application.SolvePhilosophy" />
+      <item itemvalue="Application.UseSynchronized" />
+      <item itemvalue="Application.UsePark" />
+      <item itemvalue="Application.UseSynchronized (1)" />
+      <item itemvalue="Application.UseReentrantLock" />
+      <item itemvalue="Application.UseParkUnpark" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SolvePhilosophy" />
-        <item itemvalue="Application.TestTryLock" />
-        <item itemvalue="Application.TestInterrupt" />
-        <item itemvalue="Application.TestReentrant" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.UseParkUnpark" />
+        <item itemvalue="Application.UseReentrantLock" />
+        <item itemvalue="Application.UseSynchronized (1)" />
+        <item itemvalue="Application.UsePark" />
+        <item itemvalue="Application.UseSynchronized" />
       </list>
     </recent_temporary>
   </component>
@@ -222,12 +223,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@457a654a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@20674bb2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@457a654a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7f2272ca" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@20674bb2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@60e19ca" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -322,14 +323,9 @@
       <workItem from="1584407793942" duration="3984000" />
       <workItem from="1584494536950" duration="37934000" />
       <workItem from="1584712449700" duration="5696000" />
-      <workItem from="1584755750657" duration="13065000" />
-    </task>
-    <task id="LOCAL-00003" summary="java daily study">
-      <created>1578226874715</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1578226874715</updated>
+      <workItem from="1584755750657" duration="13348000" />
+      <workItem from="1584783973632" duration="27000" />
+      <workItem from="1584799782504" duration="10636000" />
     </task>
     <task id="LOCAL-00004" summary="剑指offer">
       <created>1578226911464</created>
@@ -667,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584710445139</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="两个桶倒水问题 + ReentrantLock 可重入，可主动可被动打断 + 哲学家问题优化">
+      <created>1584775096547</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1584775096548</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组子序列中的最大和" />
     <MESSAGE value="volatile关键字 + update 用法" />
     <MESSAGE value="全排列复习 + wait()和notify()" />
     <MESSAGE value="push" />
@@ -712,7 +714,8 @@
     <MESSAGE value="leetcode耍不来。。" />
     <MESSAGE value="最大回文子串之打表 + 线程设计模式之保护性暂停(类似RPC？)" />
     <MESSAGE value="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()" />
-    <option name="LAST_COMMIT_MESSAGE" value="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()" />
+    <MESSAGE value="两个桶倒水问题 + ReentrantLock 可重入，可主动可被动打断 + 哲学家问题优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="两个桶倒水问题 + ReentrantLock 可重入，可主动可被动打断 + 哲学家问题优化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
