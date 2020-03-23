@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/minincrementforunique945/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/alternatelyprint/UseParkUnpark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/alternatelyprint/UseReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/alternatelyprint/UseSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/stableorderexec/UsePark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/stableorderexec/UseSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/对所有员工的当前薪水按照salary进行按照1-N的排名.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/linkedlist/middlenode/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/balking/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threaddesignpattern/twophasetermination/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有非manager员工当前的薪水情况.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,6 +40,12 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="LeetCode: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -132,7 +135,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseParkUnpark">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.twophasetermination.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrency.threaddesignpattern.twophasetermination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UsePark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.stableorderexec.UsePark" />
       <module name="JavaStudy" />
@@ -185,33 +201,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.stableorderexec.UseSynchronized" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.threaddesignpattern.stableorderexec.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.UseSynchronized" />
       <item itemvalue="Application.UsePark" />
       <item itemvalue="Application.UseSynchronized (1)" />
       <item itemvalue="Application.UseReentrantLock" />
       <item itemvalue="Application.UseParkUnpark" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.UseParkUnpark" />
         <item itemvalue="Application.UseReentrantLock" />
         <item itemvalue="Application.UseSynchronized (1)" />
         <item itemvalue="Application.UsePark" />
-        <item itemvalue="Application.UseSynchronized" />
       </list>
     </recent_temporary>
   </component>
@@ -223,12 +226,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@20674bb2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8e8b678e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@20674bb2" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@60e19ca" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8e8b678e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1e5b7776" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -325,14 +328,8 @@
       <workItem from="1584712449700" duration="5696000" />
       <workItem from="1584755750657" duration="13348000" />
       <workItem from="1584783973632" duration="27000" />
-      <workItem from="1584799782504" duration="10636000" />
-    </task>
-    <task id="LOCAL-00004" summary="剑指offer">
-      <created>1578226911464</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1578226911464</updated>
+      <workItem from="1584799782504" duration="11257000" />
+      <workItem from="1584881919165" duration="6430000" />
     </task>
     <task id="LOCAL-00005" summary="剑指offer">
       <created>1578310817270</created>
@@ -670,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584775096548</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="线程设计模式之线程之间交替打印 + 固定顺序打印">
+      <created>1584856864907</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1584856864907</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +694,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="volatile关键字 + update 用法" />
     <MESSAGE value="全排列复习 + wait()和notify()" />
     <MESSAGE value="push" />
     <MESSAGE value="LinkedHashMap是有序hash表，写一个容器容纳生产者消费者" />
@@ -715,7 +718,8 @@
     <MESSAGE value="最大回文子串之打表 + 线程设计模式之保护性暂停(类似RPC？)" />
     <MESSAGE value="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()" />
     <MESSAGE value="两个桶倒水问题 + ReentrantLock 可重入，可主动可被动打断 + 哲学家问题优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="两个桶倒水问题 + ReentrantLock 可重入，可主动可被动打断 + 哲学家问题优化" />
+    <MESSAGE value="线程设计模式之线程之间交替打印 + 固定顺序打印" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程设计模式之线程之间交替打印 + 固定顺序打印" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
