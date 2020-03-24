@@ -1,0 +1,17 @@
+# 获取员工其当前的薪水比其manager当前薪水还高的相关信息
+use nowcoder;
+
+select t1.emp_no, t2.emp_no as manager_no, t1.salary as emp_salary, t2.salary as manager_salary
+from
+    (
+        select dept_emp.emp_no, dept_no, salary
+        from dept_emp, salaries
+        where dept_emp.to_date = '9999-01-01' and salaries.to_date = '9999-01-01' and dept_emp.emp_no = salaries.emp_no
+    ) as t1
+    inner join
+    (
+        select dept_manager.emp_no, dept_no, salary
+        from dept_manager, salaries
+        where dept_manager.to_date = '9999-01-01' and salaries.to_date = '9999-01-01' and dept_manager.emp_no = salaries.emp_no
+    ) as t2
+on t1.dept_no = t2.dept_no and t1.salary > t2.salary
