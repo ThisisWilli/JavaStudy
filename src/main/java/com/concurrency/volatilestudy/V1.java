@@ -16,12 +16,12 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class V1 {
     // volatile不能保证多个线程共同修改一个值时所带来的不一致问题，如下这种情况可能会出现重复加的情况
-//    /*volatile*/ int count = 0;
-    AtomicInteger count = new AtomicInteger(0);
+    volatile int count = 0;
+//    AtomicInteger count = new AtomicInteger(0);
     public /*synchronized*/ void method(){
         for (int i = 0; i < 10000; i++){
-//            count++;
-            count.incrementAndGet();
+            count++;
+//            count.incrementAndGet();
         }
     }
 
@@ -36,6 +36,7 @@ public class V1 {
         threads.forEach(thread->{
             try {
                 // join过后，主线程必须等其他线程执行完毕之后才能继续执行
+                System.out.println(Thread.currentThread().getName() + "正在join等待");
                 thread.join();
             } catch (InterruptedException e) {
                 e.printStackTrace();

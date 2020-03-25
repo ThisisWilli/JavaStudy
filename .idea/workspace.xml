@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/massage1716/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/massage1716/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/synchronizedstudy/HappensBefore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取员工其当前的薪水比其manager当前薪水还高的相关信息" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/math/surfacearea892/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/TestAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/TestAtomicInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/汇总各个部门当前员工的title类型的分配数目，结果给出部门编号dept_no、dept_name、其当前员工所有的title以及该类型title对应的数目count.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/V1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/V1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/volatilestudy/V1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/concurrency/volatilestudy/V1.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HappensBefore">
+  <component name="RunManager" selected="Application.V1">
     <configuration name="HappensBefore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.HappensBefore" />
       <module name="JavaStudy" />
@@ -175,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseParkUnpark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.alternatelyprint.UseParkUnpark" />
+    <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.TestAccount" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threaddesignpattern.alternatelyprint.*" />
+          <option name="PATTERN" value="com.concurrency.cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.alternatelyprint.UseReentrantLock" />
+    <configuration name="V1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.V1" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threaddesignpattern.alternatelyprint.*" />
+          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UseReentrantLock" />
-      <item itemvalue="Application.UseParkUnpark" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.HappensBefore" />
+      <item itemvalue="Application.TestAccount" />
+      <item itemvalue="Application.V1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.V1" />
+        <item itemvalue="Application.TestAccount" />
         <item itemvalue="Application.HappensBefore" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.UseParkUnpark" />
-        <item itemvalue="Application.UseReentrantLock" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +225,17 @@
       <serviceView>
         <option name="contentProportion" value="0.19721872" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fcc115c0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fcc115c0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@111f7c88" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -320,14 +332,8 @@
       <workItem from="1584783973632" duration="27000" />
       <workItem from="1584799782504" duration="11257000" />
       <workItem from="1584881919165" duration="6611000" />
-      <workItem from="1584971271061" duration="11232000" />
-    </task>
-    <task id="LOCAL-00006" summary="sword offer">
-      <created>1578381779996</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1578381779996</updated>
+      <workItem from="1584971271061" duration="11317000" />
+      <workItem from="1585060094946" duration="7477000" />
     </task>
     <task id="LOCAL-00007" summary="study">
       <created>1578382336530</created>
@@ -665,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584940433018</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结">
+      <created>1585024257477</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1585024257477</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="push" />
     <MESSAGE value="LinkedHashMap是有序hash表，写一个容器容纳生产者消费者" />
     <MESSAGE value="归并排序" />
     <MESSAGE value="同步容器" />
@@ -710,7 +722,8 @@
     <MESSAGE value="两个桶倒水问题 + ReentrantLock 可重入，可主动可被动打断 + 哲学家问题优化" />
     <MESSAGE value="线程设计模式之线程之间交替打印 + 固定顺序打印" />
     <MESSAGE value="链表的中间节点+volatile保护性暂停优化 + 线程设计模式之犹豫模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表的中间节点+volatile保护性暂停优化 + 线程设计模式之犹豫模式" />
+    <MESSAGE value="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -846,6 +859,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword/string/strtoint/Solution.java</url>
           <line>15</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/concurrency/cas/TestAccount.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
