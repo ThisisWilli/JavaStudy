@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/math/surfacearea892/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/TestAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/TestAtomicInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/汇总各个部门当前员工的title类型的分配数目，结果给出部门编号dept_no、dept_name、其当前员工所有的title以及该类型title对应的数目count.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dfs/numrookcaptures999/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/StudyAtomicIntegerArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/StudyAtomicMarkableReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/StudyAtomicReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/StudyAtomicStampedReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/给出每个员工每年薪水涨幅超过5000的员工编号.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/V1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/volatilestudy/V1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/volatilestudy/V1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/concurrency/volatilestudy/V1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,10 +112,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -137,13 +138,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.V1">
-    <configuration name="HappensBefore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.synchronizedstudy.HappensBefore" />
+  <component name="RunManager" selected="Application.StudyAtomicIntegerArray">
+    <configuration name="StudyAtomicIntegerArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.StudyAtomicIntegerArray" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.synchronizedstudy.*" />
+          <option name="PATTERN" value="com.concurrency.cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.massage1716.Solution" />
+    <configuration name="StudyAtomicMarkableReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.StudyAtomicMarkableReference" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dp.massage1716.*" />
+          <option name="PATTERN" value="com.concurrency.cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threaddesignpattern.twophasetermination.Solution" />
+    <configuration name="StudyAtomicReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.StudyAtomicReference" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.threaddesignpattern.twophasetermination.*" />
+          <option name="PATTERN" value="com.concurrency.cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,8 +178,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.TestAccount" />
+    <configuration name="StudyAtomicStampedReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.StudyAtomicStampedReference" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -204,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.HappensBefore" />
-      <item itemvalue="Application.TestAccount" />
       <item itemvalue="Application.V1" />
+      <item itemvalue="Application.StudyAtomicReference" />
+      <item itemvalue="Application.StudyAtomicStampedReference" />
+      <item itemvalue="Application.StudyAtomicMarkableReference" />
+      <item itemvalue="Application.StudyAtomicIntegerArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudyAtomicIntegerArray" />
+        <item itemvalue="Application.StudyAtomicMarkableReference" />
+        <item itemvalue="Application.StudyAtomicStampedReference" />
+        <item itemvalue="Application.StudyAtomicReference" />
         <item itemvalue="Application.V1" />
-        <item itemvalue="Application.TestAccount" />
-        <item itemvalue="Application.HappensBefore" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -228,12 +229,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fcc115c0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56aa8d02" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fcc115c0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@111f7c88" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56aa8d02" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@14200ef4" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -333,14 +334,8 @@
       <workItem from="1584799782504" duration="11257000" />
       <workItem from="1584881919165" duration="6611000" />
       <workItem from="1584971271061" duration="11317000" />
-      <workItem from="1585060094946" duration="7477000" />
-    </task>
-    <task id="LOCAL-00007" summary="study">
-      <created>1578382336530</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1578382336530</updated>
+      <workItem from="1585060094946" duration="7746000" />
+      <workItem from="1585184727203" duration="12107000" />
     </task>
     <task id="LOCAL-00008" summary="coding exercise">
       <created>1578559727903</created>
@@ -678,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585024257477</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="CAS操作，以及AtmoicInteger的用法">
+      <created>1585110207686</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1585110207686</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +700,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LinkedHashMap是有序hash表，写一个容器容纳生产者消费者" />
     <MESSAGE value="归并排序" />
     <MESSAGE value="同步容器" />
     <MESSAGE value="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据" />
@@ -723,7 +724,8 @@
     <MESSAGE value="线程设计模式之线程之间交替打印 + 固定顺序打印" />
     <MESSAGE value="链表的中间节点+volatile保护性暂停优化 + 线程设计模式之犹豫模式" />
     <MESSAGE value="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结" />
+    <MESSAGE value="CAS操作，以及AtmoicInteger的用法" />
+    <option name="LAST_COMMIT_MESSAGE" value="CAS操作，以及AtmoicInteger的用法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
