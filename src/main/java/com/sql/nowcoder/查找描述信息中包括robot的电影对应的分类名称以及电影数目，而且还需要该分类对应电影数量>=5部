@@ -1,0 +1,26 @@
+use nowcoder;
+CREATE TABLE IF NOT EXISTS film (
+                                    film_id smallint(5)  NOT NULL DEFAULT '0',
+                                    title varchar(255) NOT NULL,
+                                    description text,
+                                    PRIMARY KEY (film_id));
+
+CREATE TABLE category  (
+                           category_id  tinyint(3)  NOT NULL ,
+                           name  varchar(25) NOT NULL, `last_update` timestamp,
+                           PRIMARY KEY ( category_id ));
+
+CREATE TABLE film_category  (
+                                film_id  smallint(5)  NOT NULL,
+                                category_id  tinyint(3)  NOT NULL, `last_update` timestamp);
+
+
+
+
+SELECT c.name AS name, COUNT(f.film_id) AS amount
+FROM film AS f, film_category AS fc, category AS c,
+     (SELECT category_id FROM film_category GROUP BY category_id HAVING COUNT(category_id) >= 5) AS cc
+WHERE f.description LIKE '%robot%'
+  AND f.film_id = fc.film_id
+  AND fc.category_id = c.category_id
+  AND c.category_id = cc.category_id
