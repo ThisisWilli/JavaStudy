@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/hasgroupssizex914/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/cas/StudyAtomicReferenceFieldUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找描述信息中包括robot的电影对应的分类名称以及电影数目，而且还需要该分类对应电影数量&gt;=5部" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/minimumlengthencoding820/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/diypool/CreateConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/使用join查询方式找出没有分类的电影id以及名称.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,7 +134,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StudyAtomicReferenceFieldUpdater">
+  <component name="RunManager" selected="Application.CreateConnectionPool">
+    <configuration name="CreateConnectionPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.diypool.CreateConnectionPool" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrency.diypool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.minimumlengthencoding820.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.leetcode.string.minimumlengthencoding820.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.hasgroupssizex914.Solution" />
       <module name="JavaStudy" />
@@ -161,19 +187,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyAtomicMarkableReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.StudyAtomicMarkableReference" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.cas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudyAtomicReferenceFieldUpdater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.StudyAtomicReferenceFieldUpdater" />
       <module name="JavaStudy" />
@@ -187,33 +200,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyAtomicStampedReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.StudyAtomicStampedReference" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.cas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StudyAtomicStampedReference" />
-      <item itemvalue="Application.StudyAtomicMarkableReference" />
       <item itemvalue="Application.StudyAtomicIntegerArray" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.StudyAtomicReferenceFieldUpdater" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.CreateConnectionPool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateConnectionPool" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.StudyAtomicReferenceFieldUpdater" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.StudyAtomicIntegerArray" />
-        <item itemvalue="Application.StudyAtomicMarkableReference" />
-        <item itemvalue="Application.StudyAtomicStampedReference" />
       </list>
     </recent_temporary>
   </component>
@@ -225,12 +225,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f6a0b63b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5cf80f58" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f6a0b63b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@146d01fe" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5cf80f58" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@729735e3" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -332,14 +332,8 @@
       <workItem from="1584971271061" duration="11317000" />
       <workItem from="1585060094946" duration="7746000" />
       <workItem from="1585184727203" duration="12198000" />
-      <workItem from="1585216885358" duration="11400000" />
-    </task>
-    <task id="LOCAL-00009" summary="sword coding">
-      <created>1579253649976</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1579253649976</updated>
+      <workItem from="1585216885358" duration="11663000" />
+      <workItem from="1585357820977" duration="8446000" />
     </task>
     <task id="LOCAL-00010" summary="sql exercise">
       <created>1579615010335</created>
@@ -677,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585203717253</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="最大公约数gcd + sql模糊搜索like + &quot;% %&quot; + cas中的unsafe对象 + longAddr源码阅读 + 自己实现一个AtmoicInteger">
+      <created>1585282832336</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1585282832336</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="同步容器" />
     <MESSAGE value="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据" />
     <MESSAGE value="二叉树的深度+找出唯二两个出现一次的数字+线程池" />
     <MESSAGE value="和为s的连续正数序列 + 线程池" />
@@ -722,7 +722,8 @@
     <MESSAGE value="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结" />
     <MESSAGE value="CAS操作，以及AtmoicInteger的用法" />
     <MESSAGE value="无锁并发中的原子整数 + 原子引用 + 原子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="无锁并发中的原子整数 + 原子引用 + 原子数组" />
+    <MESSAGE value="最大公约数gcd + sql模糊搜索like + &quot;% %&quot; + cas中的unsafe对象 + longAddr源码阅读 + 自己实现一个AtmoicInteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="最大公约数gcd + sql模糊搜索like + &quot;% %&quot; + cas中的unsafe对象 + longAddr源码阅读 + 自己实现一个AtmoicInteger" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -868,6 +869,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/hasgroupssizex914/Solution.java</url>
           <line>20</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/minimumlengthencoding820/Solution.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
