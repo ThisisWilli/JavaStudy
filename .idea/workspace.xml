@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/minimumlengthencoding820/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/diypool/CreateConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/使用join查询方式找出没有分类的电影id以及名称.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/bfs/maxdistance1162/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/使用子查询的方式找出属于Action分类的所有电影对应的title,description.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -225,12 +224,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5cf80f58" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a3193b2f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5cf80f58" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@729735e3" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a3193b2f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@238b65e8" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -333,14 +332,8 @@
       <workItem from="1585060094946" duration="7746000" />
       <workItem from="1585184727203" duration="12198000" />
       <workItem from="1585216885358" duration="11663000" />
-      <workItem from="1585357820977" duration="8446000" />
-    </task>
-    <task id="LOCAL-00010" summary="sql exercise">
-      <created>1579615010335</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1579615010336</updated>
+      <workItem from="1585357820977" duration="8556000" />
+      <workItem from="1585404976207" duration="4647000" />
     </task>
     <task id="LOCAL-00011" summary="回溯+sql exercise">
       <created>1579761291166</created>
@@ -678,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585282832336</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="反转加字典序排序解决字符串压缩 + 享元模式 + 自己设计一个连接池">
+      <created>1585367652813</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1585367652814</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据" />
     <MESSAGE value="二叉树的深度+找出唯二两个出现一次的数字+线程池" />
     <MESSAGE value="和为s的连续正数序列 + 线程池" />
     <MESSAGE value="ForkJoinPool" />
@@ -723,7 +722,8 @@
     <MESSAGE value="CAS操作，以及AtmoicInteger的用法" />
     <MESSAGE value="无锁并发中的原子整数 + 原子引用 + 原子数组" />
     <MESSAGE value="最大公约数gcd + sql模糊搜索like + &quot;% %&quot; + cas中的unsafe对象 + longAddr源码阅读 + 自己实现一个AtmoicInteger" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大公约数gcd + sql模糊搜索like + &quot;% %&quot; + cas中的unsafe对象 + longAddr源码阅读 + 自己实现一个AtmoicInteger" />
+    <MESSAGE value="反转加字典序排序解决字符串压缩 + 享元模式 + 自己设计一个连接池" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转加字典序排序解决字符串压缩 + 享元模式 + 自己设计一个连接池" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
