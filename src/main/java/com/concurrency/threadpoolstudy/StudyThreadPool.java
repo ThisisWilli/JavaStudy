@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * @create: 2020-03-02 15:39
  **/
 
-public class ThreadPool {
+public class StudyThreadPool {
     public static void main(String[] args) throws InterruptedException {
         ExecutorService service = Executors.newFixedThreadPool(5);
         System.out.println(service);
