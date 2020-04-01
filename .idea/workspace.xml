@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.4566879" />
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/sortarray912/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将employees表的所有员工的last_name和first_name拼接起来作为Name，中间以一个空格区分.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/stack/maxdepthaftersplit/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/创建actor并创建数据.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +63,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -110,7 +113,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -133,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="CreateAThreadpool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.CreateAThreadpool" />
       <module name="JavaStudy" />
@@ -160,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.minimumlengthencoding820.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.math.lastremaining62.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.string.minimumlengthencoding820.*" />
+          <option name="PATTERN" value="com.coding.leetcode.math.lastremaining62.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.math.lastremaining62.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.stack.maxdepthaftersplit.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.math.lastremaining62.*" />
+          <option name="PATTERN" value="com.coding.leetcode.stack.maxdepthaftersplit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.CreateConnectionPool" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.CreateAThreadpool" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.CreateAThreadpool" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.CreateConnectionPool" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -224,12 +227,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a3193b2f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@645c9e99" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a3193b2f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@238b65e8" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@645c9e99" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4dcb42b7" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -333,14 +336,9 @@
       <workItem from="1585184727203" duration="12198000" />
       <workItem from="1585216885358" duration="11663000" />
       <workItem from="1585357820977" duration="8556000" />
-      <workItem from="1585404976207" duration="36690000" />
-    </task>
-    <task id="LOCAL-00013" summary="剑指offer正则表达式匹配">
-      <created>1580191937152</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1580191937152</updated>
+      <workItem from="1585404976207" duration="37369000" />
+      <workItem from="1585663747659" duration="5644000" />
+      <workItem from="1585710928964" duration="169000" />
     </task>
     <task id="LOCAL-00014" summary="理解sql执行顺序以及子查询的概念">
       <created>1581242970851</created>
@@ -678,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585556250377</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="快速排序 + mysql字符串合并concat + 线程池">
+      <created>1585629425153</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1585629425153</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +703,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ForkJoinPool" />
     <MESSAGE value="Java中的运算符短路" />
     <MESSAGE value="递归翻转字符串" />
     <MESSAGE value="单例模式" />
@@ -723,7 +727,8 @@
     <MESSAGE value="反转加字典序排序解决字符串压缩 + 享元模式 + 自己设计一个连接池" />
     <MESSAGE value="选好陆地中最远的海洋。。bad day" />
     <MESSAGE value="约瑟夫环问题 + sql expalin的应用 + 自定义一个线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="约瑟夫环问题 + sql expalin的应用 + 自定义一个线程池" />
+    <MESSAGE value="快速排序 + mysql字符串合并concat + 线程池" />
+    <option name="LAST_COMMIT_MESSAGE" value="快速排序 + mysql字符串合并concat + 线程池" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
