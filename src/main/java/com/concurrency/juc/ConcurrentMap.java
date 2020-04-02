@@ -1,8 +1,7 @@
-package com.concurrency.concurrentcontainer;
+package com.concurrency.juc;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.concurrent.CountDownLatch;
 
 /**

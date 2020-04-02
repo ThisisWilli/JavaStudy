@@ -1,7 +1,6 @@
-package com.concurrency.concurrentcontainer;
+package com.concurrency.juc;
 
 import java.util.List;
-import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**

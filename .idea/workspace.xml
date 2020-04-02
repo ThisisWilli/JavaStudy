@@ -6,10 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/stack/maxdepthaftersplit/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/创建actor并创建数据.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/gameoflife289/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/juc/CreateAQS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/对于表actor批量插入如下数据,如果数据已经存在，请忽略，不使用replace操作.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/concurrentcontainer/ConcurrentMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/juc/ConcurrentMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/concurrentcontainer/CopyOnWriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/juc/CopyOnWriteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/concurrentcontainer/ConcurrentMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/concurrentcontainer/CopyOnWriteList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +143,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.CreateAQS">
+    <configuration name="CreateAQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.juc.CreateAQS" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrency.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateAThreadpool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.CreateAThreadpool" />
       <module name="JavaStudy" />
@@ -150,25 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateConnectionPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.diypool.CreateConnectionPool" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.gameoflife289.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.diypool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.math.lastremaining62.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.math.lastremaining62.*" />
+          <option name="PATTERN" value="com.coding.leetcode.array.gameoflife289.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +210,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreateConnectionPool" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.CreateAThreadpool" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.CreateAQS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateAQS" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.CreateAThreadpool" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.CreateConnectionPool" />
       </list>
     </recent_temporary>
   </component>
@@ -338,14 +345,8 @@
       <workItem from="1585357820977" duration="8556000" />
       <workItem from="1585404976207" duration="37369000" />
       <workItem from="1585663747659" duration="5644000" />
-      <workItem from="1585710928964" duration="169000" />
-    </task>
-    <task id="LOCAL-00014" summary="理解sql执行顺序以及子查询的概念">
-      <created>1581242970851</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1581242970851</updated>
+      <workItem from="1585710928964" duration="423000" />
+      <workItem from="1585746387814" duration="8517000" />
     </task>
     <task id="LOCAL-00015" summary="sql exercise + 剑指offer">
       <created>1581338112245</created>
@@ -683,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585629425153</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题">
+      <created>1585711825171</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1585711825172</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,7 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java中的运算符短路" />
     <MESSAGE value="递归翻转字符串" />
     <MESSAGE value="单例模式" />
     <MESSAGE value="工厂模式" />
@@ -728,7 +735,8 @@
     <MESSAGE value="选好陆地中最远的海洋。。bad day" />
     <MESSAGE value="约瑟夫环问题 + sql expalin的应用 + 自定义一个线程池" />
     <MESSAGE value="快速排序 + mysql字符串合并concat + 线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="快速排序 + mysql字符串合并concat + 线程池" />
+    <MESSAGE value="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
