@@ -6,17 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/gameoflife289/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/juc/CreateAQS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/对于表actor批量插入如下数据,如果数据已经存在，请忽略，不使用replace操作.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/myatoi8/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/bfs/canfinish207/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/创建一个actor_name表，将actor表中的所有first_name以及last_name导入改表.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/concurrentcontainer/ConcurrentMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/juc/ConcurrentMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/concurrentcontainer/CopyOnWriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/juc/CopyOnWriteList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/concurrentcontainer/ConcurrentMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/concurrentcontainer/CopyOnWriteList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/concurrency/threadpoolstudy/CachedThreadPoolStudy.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,26 +136,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateAQS">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="CreateAQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.juc.CreateAQS" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.concurrency.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateAThreadpool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadpoolstudy.CreateAThreadpool" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.threadpoolstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,8 +189,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.myatoi8.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.leetcode.array.myatoi8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CreateAThreadpool" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (1)" />
@@ -222,7 +214,6 @@
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.CreateAThreadpool" />
       </list>
     </recent_temporary>
   </component>
@@ -234,12 +225,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@645c9e99" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4c6d0b12" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@645c9e99" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4dcb42b7" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4c6d0b12" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2e30dfa2" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -346,14 +337,9 @@
       <workItem from="1585404976207" duration="37369000" />
       <workItem from="1585663747659" duration="5644000" />
       <workItem from="1585710928964" duration="423000" />
-      <workItem from="1585746387814" duration="8517000" />
-    </task>
-    <task id="LOCAL-00015" summary="sql exercise + 剑指offer">
-      <created>1581338112245</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1581338112245</updated>
+      <workItem from="1585746387814" duration="8610000" />
+      <workItem from="1585838488195" duration="10395000" />
+      <workItem from="1585924434003" duration="501000" />
     </task>
     <task id="LOCAL-00016" summary="链表中是否有环(双重检测) + 统计男女人数">
       <created>1581404017729</created>
@@ -691,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585711825172</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁">
+      <created>1585801407718</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1585801407718</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +704,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="递归翻转字符串" />
     <MESSAGE value="单例模式" />
     <MESSAGE value="工厂模式" />
     <MESSAGE value="工厂模式修补+剑指offer完结散花" />
@@ -736,7 +728,8 @@
     <MESSAGE value="约瑟夫环问题 + sql expalin的应用 + 自定义一个线程池" />
     <MESSAGE value="快速排序 + mysql字符串合并concat + 线程池" />
     <MESSAGE value="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题" />
+    <MESSAGE value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -887,6 +880,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/minimumlengthencoding820/Solution.java</url>
           <line>33</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/myatoi8/Solution.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
