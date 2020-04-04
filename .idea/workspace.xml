@@ -6,9 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/myatoi8/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/bfs/canfinish207/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/创建一个actor_name表，将actor表中的所有first_name以及last_name导入改表.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/trap42/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/针对如下表actor结构创建索引.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="CreateAQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.juc.CreateAQS" />
       <module name="JavaStudy" />
@@ -156,6 +155,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.coding.leetcode.array.gameoflife289.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.trap42.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.leetcode.array.trap42.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,9 +219,11 @@
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.CreateAQS" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.CreateAQS" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (3)" />
@@ -339,14 +353,7 @@
       <workItem from="1585710928964" duration="423000" />
       <workItem from="1585746387814" duration="8610000" />
       <workItem from="1585838488195" duration="10395000" />
-      <workItem from="1585924434003" duration="501000" />
-    </task>
-    <task id="LOCAL-00016" summary="链表中是否有环(双重检测) + 统计男女人数">
-      <created>1581404017729</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1581404017729</updated>
+      <workItem from="1585924434003" duration="4571000" />
     </task>
     <task id="LOCAL-00017" summary="树的镜像 + sql exercise">
       <created>1581501713033</created>
@@ -684,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585801407718</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="字符转换为数字 + mysql将旧表数据导入新表 + ReentrantLock竞争锁成功和竞争锁失败">
+      <created>1585925394468</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1585925394468</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +718,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="单例模式" />
     <MESSAGE value="工厂模式" />
     <MESSAGE value="工厂模式修补+剑指offer完结散花" />
     <MESSAGE value="求二叉树直径即dfs求解" />
@@ -729,7 +742,8 @@
     <MESSAGE value="快速排序 + mysql字符串合并concat + 线程池" />
     <MESSAGE value="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题" />
     <MESSAGE value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
+    <MESSAGE value="字符转换为数字 + mysql将旧表数据导入新表 + ReentrantLock竞争锁成功和竞争锁失败" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符转换为数字 + mysql将旧表数据导入新表 + ReentrantLock竞争锁成功和竞争锁失败" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -885,6 +899,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/myatoi8/Solution.java</url>
           <line>12</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/trap42/Solution.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
