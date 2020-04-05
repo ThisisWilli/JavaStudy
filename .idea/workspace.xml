@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/trap42/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/针对如下表actor结构创建索引.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/design/lfucache/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/针对actor表创建视图actor_name_view，只包含first_name以及last_name两列，并对这两列重新命名，first_name为first_name_v，last_name修改为last_name_v.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (4)">
     <configuration name="CreateAQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.juc.CreateAQS" />
       <module name="JavaStudy" />
@@ -188,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.sortarray912.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.design.lfucache.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.sortarray912.*" />
+          <option name="PATTERN" value="com.coding.leetcode.design.lfucache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,14 +220,15 @@
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.CreateAQS" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.CreateAQS" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -239,12 +240,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4c6d0b12" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4c6d0b12" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2e30dfa2" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec08e81b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -353,14 +349,9 @@
       <workItem from="1585710928964" duration="423000" />
       <workItem from="1585746387814" duration="8610000" />
       <workItem from="1585838488195" duration="10395000" />
-      <workItem from="1585924434003" duration="4571000" />
-    </task>
-    <task id="LOCAL-00017" summary="树的镜像 + sql exercise">
-      <created>1581501713033</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1581501713033</updated>
+      <workItem from="1585924434003" duration="4646000" />
+      <workItem from="1586010870786" duration="11479000" />
+      <workItem from="1586075275449" duration="86000" />
     </task>
     <task id="LOCAL-00018" summary="复杂链表的复制用到hashmap + sql exercise ifnull的用法">
       <created>1581572542019</created>
@@ -698,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585925394468</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="双指针接雨水 + mysql建立索引。。反正我也不会">
+      <created>1586001796030</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1586001796030</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,7 +716,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工厂模式" />
     <MESSAGE value="工厂模式修补+剑指offer完结散花" />
     <MESSAGE value="求二叉树直径即dfs求解" />
     <MESSAGE value="指向右节点的二叉树" />
@@ -743,7 +740,8 @@
     <MESSAGE value="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题" />
     <MESSAGE value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
     <MESSAGE value="字符转换为数字 + mysql将旧表数据导入新表 + ReentrantLock竞争锁成功和竞争锁失败" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符转换为数字 + mysql将旧表数据导入新表 + ReentrantLock竞争锁成功和竞争锁失败" />
+    <MESSAGE value="双指针接雨水 + mysql建立索引。。反正我也不会" />
+    <option name="LAST_COMMIT_MESSAGE" value="双指针接雨水 + mysql建立索引。。反正我也不会" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
