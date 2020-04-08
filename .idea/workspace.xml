@@ -6,8 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/design/lfucache/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/针对actor表创建视图actor_name_view，只包含first_name以及last_name两列，并对这两列重新命名，first_name为first_name_v，last_name修改为last_name_v.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/rotate0107/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dfs/movingcount13/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/mindistance72/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/构造一个触发器audit_log，在向employees_test表中插入一条数据的时候，触发插入相关的数据到audit中.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/现在在last_update后面新增加一列名字为create_date, 类型为datetime, NOT NULL，默认值为'0000 00:00:00'.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,12 +120,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sql/nowcoder" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sql/leetcode" />
       <recent name="$PROJECT_DIR$/src/main/java/com/sql/myanswer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -135,26 +141,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="CreateAQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.juc.CreateAQS" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.concurrency.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.gameoflife289.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.gameoflife289.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.stack.maxdepthaftersplit.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.stack.maxdepthaftersplit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.design.lfucache.Solution" />
       <module name="JavaStudy" />
@@ -201,12 +181,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.myatoi8.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.rotate0107.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.myatoi8.*" />
+          <option name="PATTERN" value="com.coding.leetcode.array.rotate0107.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.movingcount13.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.leetcode.dfs.movingcount13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,20 +208,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.CreateAQS" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.CreateAQS" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +232,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ec08e81b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@645767dd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@645767dd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@44b16aa3" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -351,14 +348,9 @@
       <workItem from="1585838488195" duration="10395000" />
       <workItem from="1585924434003" duration="4646000" />
       <workItem from="1586010870786" duration="11479000" />
-      <workItem from="1586075275449" duration="86000" />
-    </task>
-    <task id="LOCAL-00018" summary="复杂链表的复制用到hashmap + sql exercise ifnull的用法">
-      <created>1581572542019</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1581572542019</updated>
+      <workItem from="1586075275449" duration="5715000" />
+      <workItem from="1586220574827" duration="2665000" />
+      <workItem from="1586307996320" duration="1872000" />
     </task>
     <task id="LOCAL-00019" summary="二叉搜索树和二叉链表">
       <created>1581660289797</created>
@@ -696,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586001796030</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="设计LRU缓存 + ReentrantLock锁重入，可打断锁，不可打断锁">
+      <created>1586092067262</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1586092067262</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,7 +715,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工厂模式修补+剑指offer完结散花" />
     <MESSAGE value="求二叉树直径即dfs求解" />
     <MESSAGE value="指向右节点的二叉树" />
     <MESSAGE value="能将两个字符串最大程度整除的字符串" />
@@ -741,7 +739,8 @@
     <MESSAGE value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
     <MESSAGE value="字符转换为数字 + mysql将旧表数据导入新表 + ReentrantLock竞争锁成功和竞争锁失败" />
     <MESSAGE value="双指针接雨水 + mysql建立索引。。反正我也不会" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针接雨水 + mysql建立索引。。反正我也不会" />
+    <MESSAGE value="设计LRU缓存 + ReentrantLock锁重入，可打断锁，不可打断锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计LRU缓存 + ReentrantLock锁重入，可打断锁，不可打断锁" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
