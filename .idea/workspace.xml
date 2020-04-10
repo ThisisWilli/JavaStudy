@@ -5,9 +5,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/generateparenthesis22/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/删除emp_no重复的记录，只保留最小的id对应的记录.sql" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/reversewords151/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将所有to_date为9999-01-01的全部更新为NULL,且 from_date更新为2001-01-01.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.generateparenthesis22.Solution" />
       <module name="JavaStudy" />
@@ -150,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.trap42.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.reversewords151.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.trap42.*" />
+          <option name="PATTERN" value="com.coding.leetcode.string.reversewords151.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -227,12 +227,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e5689dfd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b574e136" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e5689dfd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@660ce455" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b574e136" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1cabe370" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -346,14 +346,9 @@
       <workItem from="1586075275449" duration="5715000" />
       <workItem from="1586220574827" duration="2665000" />
       <workItem from="1586307996320" duration="1872000" />
-      <workItem from="1586355460196" duration="5553000" />
-    </task>
-    <task id="LOCAL-00020" summary="序列化二叉树+group by的运用">
-      <created>1581743083871</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1581743083871</updated>
+      <workItem from="1586355460196" duration="5654000" />
+      <workItem from="1586441767825" duration="22000" />
+      <workItem from="1586441794570" duration="4611000" />
     </task>
     <task id="LOCAL-00021" summary="全排列">
       <created>1581839610116</created>
@@ -691,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586355573984</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错">
+      <created>1586399797011</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1586399797012</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +713,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="指向右节点的二叉树" />
     <MESSAGE value="能将两个字符串最大程度整除的字符串" />
     <MESSAGE value="单词接龙 + Thread类中的各种方法" />
     <MESSAGE value="Java中变量的线程安全分析 + leetcode单词接龙" />
@@ -736,7 +737,8 @@
     <MESSAGE value="双指针接雨水 + mysql建立索引。。反正我也不会" />
     <MESSAGE value="设计LRU缓存 + ReentrantLock锁重入，可打断锁，不可打断锁" />
     <MESSAGE value="dfs + mysql构造一个触发器 + mysql新加一列数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfs + mysql构造一个触发器 + mysql新加一列数据" />
+    <MESSAGE value="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
