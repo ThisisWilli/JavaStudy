@@ -5,9 +5,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/reversewords151/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将所有to_date为9999-01-01的全部更新为NULL,且 from_date更新为2001-01-01.sql" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/supereggdrop887/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将id=5以及emp_no=10001的行数据替换成id=5以及emp_no=10005,其他数据保持不变，使用replace实现.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -227,12 +227,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b574e136" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@39a3a2d0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b574e136" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1cabe370" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@39a3a2d0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6eace6a9" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@39a3a2d0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7fb959cf" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -348,14 +353,8 @@
       <workItem from="1586307996320" duration="1872000" />
       <workItem from="1586355460196" duration="5654000" />
       <workItem from="1586441767825" duration="22000" />
-      <workItem from="1586441794570" duration="4611000" />
-    </task>
-    <task id="LOCAL-00021" summary="全排列">
-      <created>1581839610116</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1581839610116</updated>
+      <workItem from="1586441794570" duration="4928000" />
+      <workItem from="1586566284129" duration="1344000" />
     </task>
     <task id="LOCAL-00022" summary="全排列">
       <created>1581934597069</created>
@@ -693,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586399797012</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="翻转单词 + mysql update更新数据 update table_name set column_name = value">
+      <created>1586485654081</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1586485654081</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="能将两个字符串最大程度整除的字符串" />
     <MESSAGE value="单词接龙 + Thread类中的各种方法" />
     <MESSAGE value="Java中变量的线程安全分析 + leetcode单词接龙" />
     <MESSAGE value="synchronized优化即monitor，偏向锁优化" />
@@ -738,7 +743,8 @@
     <MESSAGE value="设计LRU缓存 + ReentrantLock锁重入，可打断锁，不可打断锁" />
     <MESSAGE value="dfs + mysql构造一个触发器 + mysql新加一列数据" />
     <MESSAGE value="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错" />
+    <MESSAGE value="翻转单词 + mysql update更新数据 update table_name set column_name = value" />
+    <option name="LAST_COMMIT_MESSAGE" value="翻转单词 + mysql update更新数据 update table_name set column_name = value" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
