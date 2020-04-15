@@ -6,8 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/heap/twitter/Twitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/在audit表上创建外键约束，其emp_no对应employees_test表的主键id.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/diningphilosophers/DiningPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dfs/updatematrix/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/如何获取emp_v和employees有相同的数据.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.generateparenthesis22.Solution" />
       <module name="JavaStudy" />
@@ -150,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.reversewords151.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.updatematrix.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.string.reversewords151.*" />
+          <option name="PATTERN" value="com.coding.leetcode.dfs.updatematrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.design.lfucache.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.reversewords151.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.design.lfucache.*" />
+          <option name="PATTERN" value="com.coding.leetcode.string.reversewords151.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -351,14 +352,9 @@
       <workItem from="1586441794570" duration="4928000" />
       <workItem from="1586566284129" duration="1836000" />
       <workItem from="1586654429051" duration="505000" />
-      <workItem from="1586739163222" duration="603000" />
-    </task>
-    <task id="LOCAL-00024" summary="寻找最小的k个数">
-      <created>1582081851667</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1582081851667</updated>
+      <workItem from="1586739163222" duration="744000" />
+      <workItem from="1586786943933" duration="252000" />
+      <workItem from="1586912956650" duration="6942000" />
     </task>
     <task id="LOCAL-00025" summary="synchronized关键字">
       <created>1582101556508</created>
@@ -696,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586654990327</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="mysql中添加外键依赖">
+      <created>1586740536584</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1586740536585</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="synchronized优化即monitor，偏向锁优化" />
     <MESSAGE value="leetcode耍不来。。" />
     <MESSAGE value="最大回文子串之打表 + 线程设计模式之保护性暂停(类似RPC？)" />
     <MESSAGE value="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()" />
@@ -741,7 +743,8 @@
     <MESSAGE value="翻转单词 + mysql update更新数据 update table_name set column_name = value" />
     <MESSAGE value="dp + mysql中如何使用replace" />
     <MESSAGE value="mysql中如何使用replace修改表名" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysql中如何使用replace修改表名" />
+    <MESSAGE value="mysql中添加外键依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql中添加外键依赖" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -902,6 +905,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/trap42/Solution.java</url>
           <line>24</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/dfs/updatematrix/Solution.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
