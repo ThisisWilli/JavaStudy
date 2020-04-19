@@ -5,8 +5,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/maxarea11/Solution.java" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="双指针盛水 + 包装类中的值都是final类型的">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/backtrack/solvequeens/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,13 +135,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.updatematrix.Solution" />
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.backtrack.solvequeens.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dfs.updatematrix.*" />
+          <option name="PATTERN" value="com.coding.leetcode.backtrack.solvequeens.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.reversewords151.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.updatematrix.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.string.reversewords151.*" />
+          <option name="PATTERN" value="com.coding.leetcode.dfs.updatematrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -346,14 +346,7 @@
       <workItem from="1586958513874" duration="341000" />
       <workItem from="1586960556816" duration="5622000" />
       <workItem from="1587086578482" duration="4512000" />
-      <workItem from="1587171954940" duration="4507000" />
-    </task>
-    <task id="LOCAL-00028" summary="volatile关键字 + update 用法">
-      <created>1582361526173</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1582361526173</updated>
+      <workItem from="1587171954940" duration="11771000" />
     </task>
     <task id="LOCAL-00029" summary="全排列复习 + wait()和notify()">
       <created>1582434713237</created>
@@ -691,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587091673256</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="双指针盛水 + 包装类中的值都是final类型的">
+      <created>1587179467686</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1587179467686</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两个桶倒水问题 + ReentrantLock 可重入，可主动可被动打断 + 哲学家问题优化" />
     <MESSAGE value="线程设计模式之线程之间交替打印 + 固定顺序打印" />
     <MESSAGE value="链表的中间节点+volatile保护性暂停优化 + 线程设计模式之犹豫模式" />
     <MESSAGE value="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结" />
@@ -736,7 +735,8 @@
     <MESSAGE value="超级0解决寻找最近的1问题 + mysql寻找交集" />
     <MESSAGE value="合并数组区间" />
     <MESSAGE value="贪心算法跳台阶" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心算法跳台阶" />
+    <MESSAGE value="双指针盛水 + 包装类中的值都是final类型的" />
+    <option name="LAST_COMMIT_MESSAGE" value="双指针盛水 + 包装类中的值都是final类型的" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -902,6 +902,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/canJump55/Solution.java</url>
           <line>45</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/backtrack/solvequeens/Solution.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
