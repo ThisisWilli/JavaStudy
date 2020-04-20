@@ -5,8 +5,20 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="双指针盛水 + 包装类中的值都是final类型的">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/backtrack/solvequeens/Solution.java" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/bfs/numislands200/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/MixFund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/MixTranscation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/StackFund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/StackTranscation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/staticproxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/staticproxy/Fund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/staticproxy/FundManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/staticproxy/Transcation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -135,7 +147,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.proxypattern.staticproxy.Client" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.designpattern.proxypattern.staticproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.proxypattern.dynamicproxy.Client" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.designpattern.proxypattern.dynamicproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.passAValue.CollectionsType" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.passAValue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.backtrack.solvequeens.Solution" />
       <module name="JavaStudy" />
@@ -149,51 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dfs.updatematrix.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.bfs.numislands200.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dfs.updatematrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.merge56.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.merge56.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.canJump55.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.canJump55.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.maxarea11.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.maxarea11.*" />
+          <option name="PATTERN" value="com.coding.leetcode.bfs.numislands200.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +214,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.CollectionsType" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.CollectionsType" />
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -347,13 +359,7 @@
       <workItem from="1586960556816" duration="5622000" />
       <workItem from="1587086578482" duration="4512000" />
       <workItem from="1587171954940" duration="11771000" />
-    </task>
-    <task id="LOCAL-00029" summary="全排列复习 + wait()和notify()">
-      <created>1582434713237</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1582434713237</updated>
+      <workItem from="1587302128578" duration="13952000" />
     </task>
     <task id="LOCAL-00030" summary="push">
       <created>1582697272670</created>
@@ -691,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587179467686</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="八皇后问题">
+      <created>1587302154027</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1587302154028</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +724,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="线程设计模式之线程之间交替打印 + 固定顺序打印" />
     <MESSAGE value="链表的中间节点+volatile保护性暂停优化 + 线程设计模式之犹豫模式" />
     <MESSAGE value="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结" />
     <MESSAGE value="CAS操作，以及AtmoicInteger的用法" />
@@ -736,7 +748,8 @@
     <MESSAGE value="合并数组区间" />
     <MESSAGE value="贪心算法跳台阶" />
     <MESSAGE value="双指针盛水 + 包装类中的值都是final类型的" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针盛水 + 包装类中的值都是final类型的" />
+    <MESSAGE value="八皇后问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="八皇后问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
