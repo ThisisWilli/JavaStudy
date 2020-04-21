@@ -23,7 +23,5 @@ public class Client {
         MixTranscation mixProxy = (MixTranscation)pih.getProxy();
         mixProxy.buy();
         mixProxy.sell();
-
-
     }
 }
