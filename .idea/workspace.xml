@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/numberofsubarrays1248/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/bfs/rightsideview199/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.designpattern.proxypattern.staticproxy.Client" />
       <module name="JavaStudy" />
@@ -205,12 +205,10 @@
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.CollectionsType" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.CollectionsType" />
@@ -347,14 +345,8 @@
       <workItem from="1586960556816" duration="5622000" />
       <workItem from="1587086578482" duration="4512000" />
       <workItem from="1587171954940" duration="11771000" />
-      <workItem from="1587302128578" duration="19540000" />
-    </task>
-    <task id="LOCAL-00031" summary="LinkedHashMap是有序hash表，写一个容器容纳生产者消费者">
-      <created>1582805536503</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1582805536503</updated>
+      <workItem from="1587302128578" duration="19727000" />
+      <workItem from="1587471574766" duration="3150000" />
     </task>
     <task id="LOCAL-00032" summary="归并排序">
       <created>1582900892877</created>
@@ -692,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587384372943</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="完美子数组">
+      <created>1587469452510</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1587469452510</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dp找出数组中间隔数字的最大值 + 单例模式DCL的解释 + happens-before原则总结" />
     <MESSAGE value="CAS操作，以及AtmoicInteger的用法" />
     <MESSAGE value="无锁并发中的原子整数 + 原子引用 + 原子数组" />
     <MESSAGE value="最大公约数gcd + sql模糊搜索like + &quot;% %&quot; + cas中的unsafe对象 + longAddr源码阅读 + 自己实现一个AtmoicInteger" />
@@ -737,7 +735,8 @@
     <MESSAGE value="双指针盛水 + 包装类中的值都是final类型的" />
     <MESSAGE value="八皇后问题" />
     <MESSAGE value="岛屿问题 + 静态代理 + 动态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="岛屿问题 + 静态代理 + 动态代理" />
+    <MESSAGE value="完美子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="完美子数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -913,6 +912,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/numberofsubarrays1248/Solution.java</url>
           <line>43</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/bfs/rightsideview199/Solution.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
