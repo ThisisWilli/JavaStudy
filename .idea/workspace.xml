@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/bfs/rightsideview199/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/waytochange0811/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.designpattern.proxypattern.staticproxy.Client" />
       <module name="JavaStudy" />
@@ -175,6 +175,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.waytochange0811.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.leetcode.dp.waytochange0811.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.bfs.numislands200.Solution" />
       <module name="JavaStudy" />
@@ -206,9 +219,11 @@
       <item itemvalue="Application.CollectionsType" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.CollectionsType" />
@@ -346,14 +361,7 @@
       <workItem from="1587086578482" duration="4512000" />
       <workItem from="1587171954940" duration="11771000" />
       <workItem from="1587302128578" duration="19727000" />
-      <workItem from="1587471574766" duration="3150000" />
-    </task>
-    <task id="LOCAL-00032" summary="归并排序">
-      <created>1582900892877</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1582900892877</updated>
+      <workItem from="1587471574766" duration="7967000" />
     </task>
     <task id="LOCAL-00033" summary="同步容器">
       <created>1582983344403</created>
@@ -691,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587469452510</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="BFS从右边看二叉树">
+      <created>1587553225598</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1587553225598</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CAS操作，以及AtmoicInteger的用法" />
     <MESSAGE value="无锁并发中的原子整数 + 原子引用 + 原子数组" />
     <MESSAGE value="最大公约数gcd + sql模糊搜索like + &quot;% %&quot; + cas中的unsafe对象 + longAddr源码阅读 + 自己实现一个AtmoicInteger" />
     <MESSAGE value="反转加字典序排序解决字符串压缩 + 享元模式 + 自己设计一个连接池" />
@@ -736,7 +750,8 @@
     <MESSAGE value="八皇后问题" />
     <MESSAGE value="岛屿问题 + 静态代理 + 动态代理" />
     <MESSAGE value="完美子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="完美子数组" />
+    <MESSAGE value="BFS从右边看二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS从右边看二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -912,11 +927,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/numberofsubarrays1248/Solution.java</url>
           <line>43</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/bfs/rightsideview199/Solution.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
