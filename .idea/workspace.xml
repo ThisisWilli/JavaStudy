@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/waytochange0811/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/reversepairs/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/backtrack/permute46/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.designpattern.proxypattern.staticproxy.Client" />
       <module name="JavaStudy" />
@@ -162,19 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.passAValue.CollectionsType" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.passAValue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.waytochange0811.Solution" />
       <module name="JavaStudy" />
@@ -188,12 +176,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.bfs.numislands200.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.reversepairs.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.bfs.numislands200.*" />
+          <option name="PATTERN" value="com.coding.leetcode.array.reversepairs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.backtrack.permute46.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.leetcode.backtrack.permute46.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,19 +216,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.CollectionsType" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.CollectionsType" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -361,14 +362,9 @@
       <workItem from="1587086578482" duration="4512000" />
       <workItem from="1587171954940" duration="11771000" />
       <workItem from="1587302128578" duration="19727000" />
-      <workItem from="1587471574766" duration="7967000" />
-    </task>
-    <task id="LOCAL-00033" summary="同步容器">
-      <created>1582983344403</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1582983344403</updated>
+      <workItem from="1587471574766" duration="8059000" />
+      <workItem from="1587688712734" duration="5379000" />
+      <workItem from="1587776254727" duration="3166000" />
     </task>
     <task id="LOCAL-00034" summary="递归二分查找统计数出现的次数 + sql查找每类数据的前几位数据">
       <created>1583064658221</created>
@@ -706,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587553225598</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="dp换硬币">
+      <created>1587641169816</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1587641169816</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,7 +729,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="无锁并发中的原子整数 + 原子引用 + 原子数组" />
     <MESSAGE value="最大公约数gcd + sql模糊搜索like + &quot;% %&quot; + cas中的unsafe对象 + longAddr源码阅读 + 自己实现一个AtmoicInteger" />
     <MESSAGE value="反转加字典序排序解决字符串压缩 + 享元模式 + 自己设计一个连接池" />
     <MESSAGE value="选好陆地中最远的海洋。。bad day" />
@@ -751,7 +753,8 @@
     <MESSAGE value="岛屿问题 + 静态代理 + 动态代理" />
     <MESSAGE value="完美子数组" />
     <MESSAGE value="BFS从右边看二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS从右边看二叉树" />
+    <MESSAGE value="dp换硬币" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp换硬币" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
