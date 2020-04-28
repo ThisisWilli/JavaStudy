@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/linkedlist/mergeKLists/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/search33/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/singlenumbers56/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,20 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.proxypattern.dynamicproxy.Client" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.designpattern.proxypattern.dynamicproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution (5)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.waytochange0811.Solution" />
       <module name="JavaStudy" />
@@ -201,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.numberofsubarrays1248.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.singlenumbers56.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.numberofsubarrays1248.*" />
+          <option name="PATTERN" value="com.coding.leetcode.array.singlenumbers56.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -364,14 +352,9 @@
       <workItem from="1587471574766" duration="8059000" />
       <workItem from="1587688712734" duration="5379000" />
       <workItem from="1587776254727" duration="3235000" />
-      <workItem from="1587863546567" duration="4939000" />
-    </task>
-    <task id="LOCAL-00035" summary="二叉树的深度+找出唯二两个出现一次的数字+线程池">
-      <created>1583148471536</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1583148471536</updated>
+      <workItem from="1587863546567" duration="5029000" />
+      <workItem from="1587948541668" duration="1708000" />
+      <workItem from="1588035060473" duration="2886000" />
     </task>
     <task id="LOCAL-00036" summary="和为s的连续正数序列 + 线程池">
       <created>1583231229756</created>
@@ -709,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587791726120</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="归并合并k个链表">
+      <created>1587877161019</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1587877161019</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="反转加字典序排序解决字符串压缩 + 享元模式 + 自己设计一个连接池" />
     <MESSAGE value="选好陆地中最远的海洋。。bad day" />
     <MESSAGE value="约瑟夫环问题 + sql expalin的应用 + 自定义一个线程池" />
     <MESSAGE value="快速排序 + mysql字符串合并concat + 线程池" />
@@ -754,7 +743,8 @@
     <MESSAGE value="BFS从右边看二叉树" />
     <MESSAGE value="dp换硬币" />
     <MESSAGE value="全排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="全排列" />
+    <MESSAGE value="归并合并k个链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="归并合并k个链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
@@ -930,6 +920,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/numberofsubarrays1248/Solution.java</url>
           <line>43</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/singlenumbers56/Solution.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
