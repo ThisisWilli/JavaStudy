@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/findinmountainarray1095/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/math/ishappy202/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -354,14 +354,7 @@
       <workItem from="1587863546567" duration="5029000" />
       <workItem from="1587948541668" duration="1708000" />
       <workItem from="1588035060473" duration="3376000" />
-      <workItem from="1588076044411" duration="2273000" />
-    </task>
-    <task id="LOCAL-00037" summary="ForkJoinPool">
-      <created>1583324356637</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1583324356637</updated>
+      <workItem from="1588076044411" duration="3773000" />
     </task>
     <task id="LOCAL-00038" summary="Java中的运算符短路">
       <created>1583387919295</created>
@@ -699,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588039667481</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="二分查找1095">
+      <created>1588139834642</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1588139834642</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="约瑟夫环问题 + sql expalin的应用 + 自定义一个线程池" />
     <MESSAGE value="快速排序 + mysql字符串合并concat + 线程池" />
     <MESSAGE value="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题" />
     <MESSAGE value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
@@ -744,7 +743,8 @@
     <MESSAGE value="全排列" />
     <MESSAGE value="归并合并k个链表" />
     <MESSAGE value="在数组中寻找两个只出现一次的数（两个相同的数异或为0）" />
-    <option name="LAST_COMMIT_MESSAGE" value="在数组中寻找两个只出现一次的数（两个相同的数异或为0）" />
+    <MESSAGE value="二分查找1095" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找1095" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
