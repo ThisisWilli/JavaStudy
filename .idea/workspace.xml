@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/math/ishappy202/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/annotation/CustomizeAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/annotation/TestMetaAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,13 +136,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.waytochange0811.Solution" />
+  <component name="RunManager" selected="Application.CustomizeAnnotation">
+    <configuration name="CustomizeAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.annotation.CustomizeAnnotation" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dp.waytochange0811.*" />
+          <option name="PATTERN" value="com.study.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +203,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.CustomizeAnnotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomizeAnnotation" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -354,14 +355,8 @@
       <workItem from="1587863546567" duration="5029000" />
       <workItem from="1587948541668" duration="1708000" />
       <workItem from="1588035060473" duration="3376000" />
-      <workItem from="1588076044411" duration="3773000" />
-    </task>
-    <task id="LOCAL-00038" summary="Java中的运算符短路">
-      <created>1583387919295</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1583387919295</updated>
+      <workItem from="1588076044411" duration="3812000" />
+      <workItem from="1588337260507" duration="3180000" />
     </task>
     <task id="LOCAL-00039" summary="递归翻转字符串">
       <created>1583461409757</created>
@@ -699,7 +694,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588139834642</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="快乐就完事了">
+      <created>1588225561782</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1588225561783</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +721,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="快速排序 + mysql字符串合并concat + 线程池" />
     <MESSAGE value="括号匹配 + mysql中建表时now函数，mysql批量插入数据 + 线程池各司其职解决starvation问题" />
     <MESSAGE value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
     <MESSAGE value="字符转换为数字 + mysql将旧表数据导入新表 + ReentrantLock竞争锁成功和竞争锁失败" />
@@ -744,7 +745,8 @@
     <MESSAGE value="归并合并k个链表" />
     <MESSAGE value="在数组中寻找两个只出现一次的数（两个相同的数异或为0）" />
     <MESSAGE value="二分查找1095" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找1095" />
+    <MESSAGE value="快乐就完事了" />
+    <option name="LAST_COMMIT_MESSAGE" value="快乐就完事了" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
