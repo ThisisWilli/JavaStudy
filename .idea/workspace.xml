@@ -6,11 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/lengthoflongestsubstring3/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/reflection/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/reflection/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/reflection/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/reflection/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/maxsubarray53/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/reflection/Test05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,7 +112,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -139,13 +136,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test04">
-    <configuration name="CustomizeAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.annotation.CustomizeAnnotation" />
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.maxsubarray53.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.annotation.*" />
+          <option name="PATTERN" value="com.coding.leetcode.dp.maxsubarray53.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,19 +156,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.coding.leetcode.string.lengthoflongestsubstring3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.reflection.Test01" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,20 +189,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.reflection.Test05" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CustomizeAnnotation" />
-      <item itemvalue="Application.Test01" />
       <item itemvalue="Application.Test03" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Test04" />
+      <item itemvalue="Application.Test05" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Test05" />
         <item itemvalue="Application.Test04" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Test03" />
-        <item itemvalue="Application.Test01" />
-        <item itemvalue="Application.CustomizeAnnotation" />
       </list>
     </recent_temporary>
   </component>
@@ -359,14 +356,8 @@
       <workItem from="1587948541668" duration="1708000" />
       <workItem from="1588035060473" duration="3376000" />
       <workItem from="1588076044411" duration="3812000" />
-      <workItem from="1588337260507" duration="10961000" />
-    </task>
-    <task id="LOCAL-00040" summary="单例模式">
-      <created>1583590930288</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1583590930288</updated>
+      <workItem from="1588337260507" duration="11004000" />
+      <workItem from="1588404757027" duration="3983000" />
     </task>
     <task id="LOCAL-00041" summary="工厂模式">
       <created>1583676138528</created>
@@ -704,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588342148286</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="反射">
+      <created>1588401634900</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1588401634901</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +722,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java二维数组的深浅拷贝 + mysql中insert IGNORE + 自定义一个AQS锁" />
     <MESSAGE value="字符转换为数字 + mysql将旧表数据导入新表 + ReentrantLock竞争锁成功和竞争锁失败" />
     <MESSAGE value="双指针接雨水 + mysql建立索引。。反正我也不会" />
     <MESSAGE value="设计LRU缓存 + ReentrantLock锁重入，可打断锁，不可打断锁" />
@@ -749,7 +746,8 @@
     <MESSAGE value="二分查找1095" />
     <MESSAGE value="快乐就完事了" />
     <MESSAGE value="元注解 + 内置注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="元注解 + 内置注解" />
+    <MESSAGE value="反射" />
+    <option name="LAST_COMMIT_MESSAGE" value="反射" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="193" key="#Notifications" timestamp="1578375413192">
