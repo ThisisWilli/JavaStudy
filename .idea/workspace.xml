@@ -6,10 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/mincosttickets983/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/issubtree572/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/generateparenthesis22/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/string/generateparenthesis22/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,14 +345,7 @@
       <workItem from="1588076044411" duration="3812000" />
       <workItem from="1588337260507" duration="11004000" />
       <workItem from="1588404757027" duration="3983000" />
-      <workItem from="1588641571690" duration="11219000" />
-    </task>
-    <task id="LOCAL-00043" summary="求二叉树直径即dfs求解">
-      <created>1583851310801</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1583851310801</updated>
+      <workItem from="1588641571690" duration="17339000" />
     </task>
     <task id="LOCAL-00044" summary="指向右节点的二叉树">
       <created>1583938700213</created>
@@ -692,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588659076931</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="逆向dp之旅游买票(https://leetcode-cn.com/problems/minimum-cost-for-tickets/solution/java-dong-tai-gui-hua-si-lu-bu-zou-cong-hou-xiang-/)">
+      <created>1588732741106</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1588732741106</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="设计LRU缓存 + ReentrantLock锁重入，可打断锁，不可打断锁" />
     <MESSAGE value="dfs + mysql构造一个触发器 + mysql新加一列数据" />
     <MESSAGE value="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错" />
     <MESSAGE value="翻转单词 + mysql update更新数据 update table_name set column_name = value" />
@@ -737,13 +734,14 @@
     <MESSAGE value="反射" />
     <MESSAGE value="跳跃游戏(贪心算法)" />
     <MESSAGE value="中序遍历判断二叉树是否为二叉搜索树" />
-    <option name="LAST_COMMIT_MESSAGE" value="中序遍历判断二叉树是否为二叉搜索树" />
+    <MESSAGE value="逆向dp之旅游买票(https://leetcode-cn.com/problems/minimum-cost-for-tickets/solution/java-dong-tai-gui-hua-si-lu-bu-zou-cong-hou-xiang-/)" />
+    <option name="LAST_COMMIT_MESSAGE" value="逆向dp之旅游买票(https://leetcode-cn.com/problems/minimum-cost-for-tickets/solution/java-dong-tai-gui-hua-si-lu-bu-zou-cong-hou-xiang-/)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="822" y="116" key="CommitChangelistDialog2" timestamp="1588659075480">
+    <state x="822" y="116" key="CommitChangelistDialog2" timestamp="1588732739749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="822" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588659075480" />
+    <state x="822" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588732739749" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1588641622242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -768,10 +766,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588641628066" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588659079002">
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588732744934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588659079002" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588732744934" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1588641572531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
