@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/issubtree572/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/maximalsquare221/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/math/mysqrt69/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +123,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.maxsubarray53.Solution" />
       <module name="JavaStudy" />
@@ -149,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.string.lengthoflongestsubstring3.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.maximalsquare221.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.string.lengthoflongestsubstring3.*" />
+          <option name="PATTERN" value="com.coding.leetcode.dp.maximalsquare221.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.reflection.Test04" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.math.mysqrt69.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.reflection.*" />
+          <option name="PATTERN" value="com.coding.leetcode.math.mysqrt69.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,19 +190,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Test04" />
       <item itemvalue="Application.Test05" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Test05" />
-        <item itemvalue="Application.Test04" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -345,14 +346,7 @@
       <workItem from="1588076044411" duration="3812000" />
       <workItem from="1588337260507" duration="11004000" />
       <workItem from="1588404757027" duration="3983000" />
-      <workItem from="1588641571690" duration="17339000" />
-    </task>
-    <task id="LOCAL-00044" summary="指向右节点的二叉树">
-      <created>1583938700213</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1583938700213</updated>
+      <workItem from="1588641571690" duration="25158000" />
     </task>
     <task id="LOCAL-00045" summary="能将两个字符串最大程度整除的字符串">
       <created>1583992686028</created>
@@ -690,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588732741106</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="判断一棵树是否为另一棵二叉树的子树">
+      <created>1588819521830</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1588819521830</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,7 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dfs + mysql构造一个触发器 + mysql新加一列数据" />
     <MESSAGE value="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错" />
     <MESSAGE value="翻转单词 + mysql update更新数据 update table_name set column_name = value" />
     <MESSAGE value="dp + mysql中如何使用replace" />
@@ -735,41 +735,58 @@
     <MESSAGE value="跳跃游戏(贪心算法)" />
     <MESSAGE value="中序遍历判断二叉树是否为二叉搜索树" />
     <MESSAGE value="逆向dp之旅游买票(https://leetcode-cn.com/problems/minimum-cost-for-tickets/solution/java-dong-tai-gui-hua-si-lu-bu-zou-cong-hou-xiang-/)" />
-    <option name="LAST_COMMIT_MESSAGE" value="逆向dp之旅游买票(https://leetcode-cn.com/problems/minimum-cost-for-tickets/solution/java-dong-tai-gui-hua-si-lu-bu-zou-cong-hou-xiang-/)" />
+    <MESSAGE value="判断一棵树是否为另一棵二叉树的子树" />
+    <option name="LAST_COMMIT_MESSAGE" value="判断一棵树是否为另一棵二叉树的子树" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="822" y="116" key="CommitChangelistDialog2" timestamp="1588732739749">
+    <state x="574" y="116" key="CommitChangelistDialog2" timestamp="1588819520754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="822" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588732739749" />
+    <state x="574" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588819520754" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1588641622242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588641622242" />
-    <state width="1417" height="296" key="GridCell.Tab.0.bottom" timestamp="1588732693831">
+    <state width="1417" height="296" key="GridCell.Tab.0.bottom" timestamp="1588990086450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588732693831" />
-    <state width="1417" height="296" key="GridCell.Tab.0.center" timestamp="1588732693831">
+    <state width="1417" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588990086450" />
+    <state width="1417" height="296" key="GridCell.Tab.0.center" timestamp="1588990086450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588732693831" />
-    <state width="1417" height="296" key="GridCell.Tab.0.left" timestamp="1588732693830">
+    <state width="1417" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588990086450" />
+    <state width="1417" height="296" key="GridCell.Tab.0.left" timestamp="1588990086450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588732693830" />
-    <state width="1417" height="296" key="GridCell.Tab.0.right" timestamp="1588732693831">
+    <state width="1417" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588990086450" />
+    <state width="1417" height="296" key="GridCell.Tab.0.right" timestamp="1588990086450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588732693831" />
+    <state width="1417" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588990086450" />
+    <state width="1417" height="329" key="GridCell.Tab.1.bottom" timestamp="1588987664766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1417" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588987664766" />
+    <state width="1417" height="329" key="GridCell.Tab.1.center" timestamp="1588987664766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1417" height="329" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588987664766" />
+    <state width="1417" height="329" key="GridCell.Tab.1.left" timestamp="1588987664766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1417" height="329" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588987664766" />
+    <state width="1417" height="329" key="GridCell.Tab.1.right" timestamp="1588987664766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1417" height="329" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588987664766" />
     <state x="461" y="150" key="SettingsEditor" timestamp="1588641628066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588641628066" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588732744934">
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588819523703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588732744934" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588819523703" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1588641572531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
