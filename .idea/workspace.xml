@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/math/mypow50/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/stack/minstack/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -345,14 +345,7 @@
       <workItem from="1588076044411" duration="3812000" />
       <workItem from="1588337260507" duration="11004000" />
       <workItem from="1588404757027" duration="3983000" />
-      <workItem from="1588641571690" duration="32401000" />
-    </task>
-    <task id="LOCAL-00047" summary="Java中变量的线程安全分析 + leetcode单词接龙">
-      <created>1584193331104</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1584193331104</updated>
+      <workItem from="1588641571690" duration="35656000" />
     </task>
     <task id="LOCAL-00048" summary="synchronized优化即monitor，偏向锁优化">
       <created>1584267008678</created>
@@ -690,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589157294610</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="快速幂求mypow">
+      <created>1589160093353</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1589160093353</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dp + mysql中如何使用replace" />
     <MESSAGE value="mysql中如何使用replace修改表名" />
     <MESSAGE value="mysql中添加外键依赖" />
     <MESSAGE value="超级0解决寻找最近的1问题 + mysql寻找交集" />
@@ -735,13 +734,14 @@
     <MESSAGE value="判断一棵树是否为另一棵二叉树的子树" />
     <MESSAGE value="二分查找，自己的sqrt" />
     <MESSAGE value="记录两棵树的共同父结点" />
-    <option name="LAST_COMMIT_MESSAGE" value="记录两棵树的共同父结点" />
+    <MESSAGE value="快速幂求mypow" />
+    <option name="LAST_COMMIT_MESSAGE" value="快速幂求mypow" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="116" key="CommitChangelistDialog2" timestamp="1589157293404">
+    <state x="574" y="116" key="CommitChangelistDialog2" timestamp="1589160092196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="574" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589157293404" />
+    <state x="574" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589160092196" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1588641622242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -782,10 +782,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588641628066" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1589157299292">
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1589160096274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589157299292" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589160096274" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1588641572531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
