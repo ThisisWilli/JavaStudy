@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/math/singlenumber136/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/subarraysum560/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +122,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Inc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inc" />
       <module name="JavaStudy" />
@@ -143,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.maximalsquare221.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.subarraysum560.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dp.maximalsquare221.*" />
+          <option name="PATTERN" value="com.coding.leetcode.array.subarraysum560.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,19 +183,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Inc" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Inc" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -341,14 +341,8 @@
       <workItem from="1588404757027" duration="3983000" />
       <workItem from="1588641571690" duration="38280000" />
       <workItem from="1589331414451" duration="7111000" />
-      <workItem from="1589417332161" duration="1515000" />
-    </task>
-    <task id="LOCAL-00050" summary="最大回文子串之打表 + 线程设计模式之保护性暂停(类似RPC？)">
-      <created>1584605255941</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1584605255941</updated>
+      <workItem from="1589417332161" duration="2163000" />
+      <workItem from="1589458062462" duration="4630000" />
     </task>
     <task id="LOCAL-00051" summary="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()">
       <created>1584710445139</created>
@@ -686,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589335402243</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="通过异或寻找数组中只出现一次的数字">
+      <created>1589421154194</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1589421154195</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +707,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="超级0解决寻找最近的1问题 + mysql寻找交集" />
     <MESSAGE value="合并数组区间" />
     <MESSAGE value="贪心算法跳台阶" />
     <MESSAGE value="双指针盛水 + 包装类中的值都是final类型的" />
@@ -731,33 +731,34 @@
     <MESSAGE value="快速幂求mypow" />
     <MESSAGE value="实现最小栈，用两个栈，同时入栈最小元素" />
     <MESSAGE value="输出二叉树的层次遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="输出二叉树的层次遍历" />
+    <MESSAGE value="通过异或寻找数组中只出现一次的数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="通过异或寻找数组中只出现一次的数字" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="116" key="CommitChangelistDialog2" timestamp="1589335400953">
+    <state x="574" y="116" key="CommitChangelistDialog2" timestamp="1589421152943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="574" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589335400953" />
+    <state x="574" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589421152943" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1589354719239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354719239" />
-    <state width="1417" height="293" key="GridCell.Tab.0.bottom" timestamp="1589417584136">
+    <state width="1876" height="296" key="GridCell.Tab.0.bottom" timestamp="1589506752697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589417584136" />
-    <state width="1417" height="293" key="GridCell.Tab.0.center" timestamp="1589417584135">
+    <state width="1876" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506752697" />
+    <state width="1876" height="296" key="GridCell.Tab.0.center" timestamp="1589506752697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="293" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589417584135" />
-    <state width="1417" height="293" key="GridCell.Tab.0.left" timestamp="1589417584135">
+    <state width="1876" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506752697" />
+    <state width="1876" height="296" key="GridCell.Tab.0.left" timestamp="1589506752697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="293" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589417584135" />
-    <state width="1417" height="293" key="GridCell.Tab.0.right" timestamp="1589417584136">
+    <state width="1876" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506752697" />
+    <state width="1876" height="296" key="GridCell.Tab.0.right" timestamp="1589506752697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1417" height="293" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589417584136" />
+    <state width="1876" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506752697" />
     <state width="1417" height="326" key="GridCell.Tab.1.bottom" timestamp="1589354981006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -778,10 +779,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588641628066" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1589335407604">
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1589421156302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589335407604" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589421156302" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1589331419477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
