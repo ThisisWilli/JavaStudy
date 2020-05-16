@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/subarraysum560/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/linkedlist/reversekgroup25/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -342,14 +342,8 @@
       <workItem from="1588641571690" duration="38280000" />
       <workItem from="1589331414451" duration="7111000" />
       <workItem from="1589417332161" duration="2163000" />
-      <workItem from="1589458062462" duration="4630000" />
-    </task>
-    <task id="LOCAL-00051" summary="最小的k个数(使用优先队列) + 线程的死锁活锁饥饿 + java中的==、equals()和hashCode()">
-      <created>1584710445139</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1584710445139</updated>
+      <workItem from="1589458062462" duration="6146000" />
+      <workItem from="1589590192925" duration="5827000" />
     </task>
     <task id="LOCAL-00052" summary="两个桶倒水问题 + ReentrantLock 可重入，可主动可被动打断 + 哲学家问题优化">
       <created>1584775096547</created>
@@ -687,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589421154195</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="和为k的子数组">
+      <created>1589506990481</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1589506990482</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,7 +708,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="合并数组区间" />
     <MESSAGE value="贪心算法跳台阶" />
     <MESSAGE value="双指针盛水 + 包装类中的值都是final类型的" />
     <MESSAGE value="八皇后问题" />
@@ -732,33 +732,34 @@
     <MESSAGE value="实现最小栈，用两个栈，同时入栈最小元素" />
     <MESSAGE value="输出二叉树的层次遍历" />
     <MESSAGE value="通过异或寻找数组中只出现一次的数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="通过异或寻找数组中只出现一次的数字" />
+    <MESSAGE value="和为k的子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="和为k的子数组" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="116" key="CommitChangelistDialog2" timestamp="1589421152943">
+    <state x="574" y="116" key="CommitChangelistDialog2" timestamp="1589506989155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="574" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589421152943" />
+    <state x="574" y="116" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506989155" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1589354719239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354719239" />
-    <state width="1876" height="296" key="GridCell.Tab.0.bottom" timestamp="1589506752697">
+    <state width="1876" height="296" key="GridCell.Tab.0.bottom" timestamp="1589526638442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506752697" />
-    <state width="1876" height="296" key="GridCell.Tab.0.center" timestamp="1589506752697">
+    <state width="1876" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589526638442" />
+    <state width="1876" height="296" key="GridCell.Tab.0.center" timestamp="1589526638441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506752697" />
-    <state width="1876" height="296" key="GridCell.Tab.0.left" timestamp="1589506752697">
+    <state width="1876" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589526638441" />
+    <state width="1876" height="296" key="GridCell.Tab.0.left" timestamp="1589526638441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506752697" />
-    <state width="1876" height="296" key="GridCell.Tab.0.right" timestamp="1589506752697">
+    <state width="1876" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589526638441" />
+    <state width="1876" height="296" key="GridCell.Tab.0.right" timestamp="1589526638442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506752697" />
+    <state width="1876" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589526638442" />
     <state width="1417" height="326" key="GridCell.Tab.1.bottom" timestamp="1589354981006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -779,10 +780,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588641628066" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1589421156302">
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1589506992767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589421156302" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589506992767" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1589331419477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
