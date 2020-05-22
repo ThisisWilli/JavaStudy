@@ -25,6 +25,8 @@ public class Solution {
         boolean[][] dp = new boolean[n][n];
         String ans = "";
         for (int l = 0; l < n; l++) {
+            // 第一轮循环进行的是，判断每个单个字符是不是回文子串，第一次判断长度为1的字符串是否为回文子串，第二次判断长度为2的子串是否为回文子串
+            // i+ l是判断是否溢出的
             for (int i = 0; i + l < n; i++){
                 int j = i + l;
                 if (i == j){
@@ -43,6 +45,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().longestPalindrome("b"));
+        System.out.println(new Solution().longestPalindrome("abba"));
     }
 }
