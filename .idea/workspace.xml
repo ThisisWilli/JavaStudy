@@ -6,7 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/canpartition416/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/kthlargest54/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/levelorder32/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/maxDepth55/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/mirrortree27/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/inorder/InOrderIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/inorder/InOrderRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/postorder/PostOrderIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/postorder/PostOrderRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/preorder/PreOrderInteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/preorder/PreOrderRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -372,14 +381,7 @@
       <workItem from="1592099898189" duration="12820000" />
       <workItem from="1592231103371" duration="13298000" />
       <workItem from="1592443310278" duration="7502000" />
-      <workItem from="1592788250023" duration="8877000" />
-    </task>
-    <task id="LOCAL-00068" summary="dfs + mysql构造一个触发器 + mysql新加一列数据">
-      <created>1586355573984</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1586355573984</updated>
+      <workItem from="1592788250023" duration="24202000" />
     </task>
     <task id="LOCAL-00069" summary="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错">
       <created>1586399797011</created>
@@ -717,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592793023291</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="分割等和子集416(0-1背包)">
+      <created>1592879274430</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1592879274430</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +747,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="中序遍历判断二叉树是否为二叉搜索树" />
     <MESSAGE value="逆向dp之旅游买票(https://leetcode-cn.com/problems/minimum-cost-for-tickets/solution/java-dong-tai-gui-hua-si-lu-bu-zou-cong-hou-xiang-/)" />
     <MESSAGE value="判断一棵树是否为另一棵二叉树的子树" />
     <MESSAGE value="二分查找，自己的sqrt" />
@@ -763,17 +771,18 @@
     <MESSAGE value="出现频率第k多的元素 + 打家劫舍III 二叉树的dp" />
     <MESSAGE value="完全平方数 + 乘法计算(图) + 买卖股票最佳时机" />
     <MESSAGE value="解码字符串 + 能否完成课程(拓扑排序 + 边缘列表) + 在二维数组中高效查找元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="解码字符串 + 能否完成课程(拓扑排序 + 边缘列表) + 在二维数组中高效查找元素" />
+    <MESSAGE value="分割等和子集416(0-1背包)" />
+    <option name="LAST_COMMIT_MESSAGE" value="分割等和子集416(0-1背包)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1592183582796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="625" y="126" key="CommitChangelistDialog2" timestamp="1592793021339">
+    <state x="625" y="126" key="CommitChangelistDialog2" timestamp="1592879273280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="625" y="126" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592793021339" />
+    <state x="625" y="126" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592879273280" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -818,10 +827,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588641628066" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1592793025682">
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1592879277469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592793025682" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592879277469" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1590758600752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
