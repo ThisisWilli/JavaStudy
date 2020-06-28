@@ -6,16 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/kthlargest54/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/levelorder32/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/maxDepth55/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/mirrortree27/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/inorder/InOrderIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/inorder/InOrderRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/postorder/PostOrderIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/postorder/PostOrderRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/preorder/PreOrderInteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/basicalgorithm/tree/preorder/PreOrderRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/isbalance55II/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/issymmetric28/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/levelorder32II/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/levelorder32III/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/lowestCommonAncestor68I/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/lowestCommonAncestor68II/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +79,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/lowestCommonAncestor68II/Solution.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -123,7 +122,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -381,14 +380,8 @@
       <workItem from="1592099898189" duration="12820000" />
       <workItem from="1592231103371" duration="13298000" />
       <workItem from="1592443310278" duration="7502000" />
-      <workItem from="1592788250023" duration="24202000" />
-    </task>
-    <task id="LOCAL-00069" summary="回溯括号匹配 + mysql删除表中数据中间加一个表避免出错">
-      <created>1586399797011</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1586399797012</updated>
+      <workItem from="1592788250023" duration="24420000" />
+      <workItem from="1593306731730" duration="18070000" />
     </task>
     <task id="LOCAL-00070" summary="翻转单词 + mysql update更新数据 update table_name set column_name = value">
       <created>1586485654081</created>
@@ -726,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592879274430</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="剑指offer树部分二刷 + 二叉树的所有遍历的递归版本和非递归版本">
+      <created>1592981249447</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1592981249447</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,7 +747,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="逆向dp之旅游买票(https://leetcode-cn.com/problems/minimum-cost-for-tickets/solution/java-dong-tai-gui-hua-si-lu-bu-zou-cong-hou-xiang-/)" />
     <MESSAGE value="判断一棵树是否为另一棵二叉树的子树" />
     <MESSAGE value="二分查找，自己的sqrt" />
     <MESSAGE value="记录两棵树的共同父结点" />
@@ -772,17 +771,18 @@
     <MESSAGE value="完全平方数 + 乘法计算(图) + 买卖股票最佳时机" />
     <MESSAGE value="解码字符串 + 能否完成课程(拓扑排序 + 边缘列表) + 在二维数组中高效查找元素" />
     <MESSAGE value="分割等和子集416(0-1背包)" />
-    <option name="LAST_COMMIT_MESSAGE" value="分割等和子集416(0-1背包)" />
+    <MESSAGE value="剑指offer树部分二刷 + 二叉树的所有遍历的递归版本和非递归版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer树部分二刷 + 二叉树的所有遍历的递归版本和非递归版本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1592183582796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="625" y="126" key="CommitChangelistDialog2" timestamp="1592879273280">
+    <state x="625" y="126" key="CommitChangelistDialog2" timestamp="1592981247497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="625" y="126" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592879273280" />
+    <state x="625" y="126" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981247497" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -791,46 +791,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354719239" />
-    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1592878839168">
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1592981264708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592878839168" />
-    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1592878839168">
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981264708" />
+    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1592981264708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592878839168" />
-    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1592878839168">
+    <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981264708" />
+    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1592981264708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592878839168" />
-    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1592878839168">
+    <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981264708" />
+    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1592981264708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592878839168" />
-    <state width="1876" height="303" key="GridCell.Tab.1.bottom" timestamp="1592878588853">
+    <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981264708" />
+    <state width="1876" height="303" key="GridCell.Tab.1.bottom" timestamp="1592981264706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592878588853" />
-    <state width="1876" height="303" key="GridCell.Tab.1.center" timestamp="1592878588853">
+    <state width="1876" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981264706" />
+    <state width="1876" height="303" key="GridCell.Tab.1.center" timestamp="1592981264706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="303" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592878588853" />
-    <state width="1876" height="303" key="GridCell.Tab.1.left" timestamp="1592878588853">
+    <state width="1876" height="303" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981264706" />
+    <state width="1876" height="303" key="GridCell.Tab.1.left" timestamp="1592981264706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="303" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592878588853" />
-    <state width="1876" height="303" key="GridCell.Tab.1.right" timestamp="1592878588853">
+    <state width="1876" height="303" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981264706" />
+    <state width="1876" height="303" key="GridCell.Tab.1.right" timestamp="1592981264706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="303" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592878588853" />
-    <state x="461" y="150" key="SettingsEditor" timestamp="1588641628066">
+    <state width="1876" height="303" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981264706" />
+    <state x="540" y="253" key="IDE.errors.dialog" timestamp="1593321879068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1588641628066" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1592879277469">
+    <state x="540" y="253" key="IDE.errors.dialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593321879068" />
+    <state x="461" y="150" key="SettingsEditor" timestamp="1593307551175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592879277469" />
+    <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593307551175" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1592981251829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981251829" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1590758600752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -843,10 +847,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="124" key="new project wizard/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354979300" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591864976386">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593324922089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1591864976386" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593324922089" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
