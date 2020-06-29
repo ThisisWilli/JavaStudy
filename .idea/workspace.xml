@@ -6,12 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/isbalance55II/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/issymmetric28/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/levelorder32II/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/levelorder32III/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/lowestCommonAncestor68I/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/lowestCommonAncestor68II/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/buildtree07/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/issubstructure26/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/pathsum34/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/serializetree37/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,11 +116,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -230,7 +228,7 @@
     </option>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,ALPHA_COMPARATOR,VISIBILITY_SORTER" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -381,14 +379,7 @@
       <workItem from="1592231103371" duration="13298000" />
       <workItem from="1592443310278" duration="7502000" />
       <workItem from="1592788250023" duration="24420000" />
-      <workItem from="1593306731730" duration="18070000" />
-    </task>
-    <task id="LOCAL-00070" summary="翻转单词 + mysql update更新数据 update table_name set column_name = value">
-      <created>1586485654081</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1586485654081</updated>
+      <workItem from="1593306731730" duration="40505000" />
     </task>
     <task id="LOCAL-00071" summary="dp + mysql中如何使用replace">
       <created>1586568355765</created>
@@ -726,7 +717,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592981249447</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="剑指offer树部分二刷：两个结点的最近公共祖先结点 + 判断一棵树是否是对称的二叉树 + 判断一棵树是否为平衡二叉树">
+      <created>1593329674425</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1593329674425</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,7 +745,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="判断一棵树是否为另一棵二叉树的子树" />
     <MESSAGE value="二分查找，自己的sqrt" />
     <MESSAGE value="记录两棵树的共同父结点" />
     <MESSAGE value="快速幂求mypow" />
@@ -772,25 +769,26 @@
     <MESSAGE value="解码字符串 + 能否完成课程(拓扑排序 + 边缘列表) + 在二维数组中高效查找元素" />
     <MESSAGE value="分割等和子集416(0-1背包)" />
     <MESSAGE value="剑指offer树部分二刷 + 二叉树的所有遍历的递归版本和非递归版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer树部分二刷 + 二叉树的所有遍历的递归版本和非递归版本" />
+    <MESSAGE value="剑指offer树部分二刷：两个结点的最近公共祖先结点 + 判断一棵树是否是对称的二叉树 + 判断一棵树是否为平衡二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer树部分二刷：两个结点的最近公共祖先结点 + 判断一棵树是否是对称的二叉树 + 判断一棵树是否为平衡二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1592183582796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="625" y="126" key="CommitChangelistDialog2" timestamp="1592981247497">
+    <state x="605" y="132" key="CommitChangelistDialog2" timestamp="1593329672660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="625" y="126" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981247497" />
+    <state x="605" y="132" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593329672660" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="98" key="DiffContextDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592792902413" />
-    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1589354719239">
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1593333429165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354719239" />
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
     <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1592981264708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -827,14 +825,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="253" key="IDE.errors.dialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593321879068" />
-    <state x="461" y="150" key="SettingsEditor" timestamp="1593307551175">
+    <state x="-1094" y="6" key="SettingsEditor" timestamp="1593345428536">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
+    <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1593329678183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593307551175" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1592981251829">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592981251829" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593329678183" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1590758600752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -847,10 +846,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="124" key="new project wizard/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354979300" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593324922089">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup" timestamp="1593345437579">
+      <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593324922089" />
+    <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333506881" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
