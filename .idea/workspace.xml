@@ -6,10 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/string/cqueue09/CQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/string/myatoi/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/string/reverseleftwords/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/string/reversewords/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/findnumberin2darray04/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/findrepeatnumber03/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/missnumber53II/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/search53I/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/spiralorder29/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,13 +133,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test1">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.canpartition416.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.findrepeatnumber03.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dp.canpartition416.*" />
+          <option name="PATTERN" value="com.coding.sword2nd.array.findrepeatnumber03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +148,11 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.string.reverseleftwords.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.search53I.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.string.reverseleftwords.*" />
+          <option name="PATTERN" value="com.coding.sword2nd.array.search53I.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +161,11 @@
       </method>
     </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.string.reversewords.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.findnumberin2darray04.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.string.reversewords.*" />
+          <option name="PATTERN" value="com.coding.sword2nd.array.findnumberin2darray04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +174,11 @@
       </method>
     </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.doublepointer.searchmatrix74.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.missnumber53II.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.doublepointer.searchmatrix74.*" />
+          <option name="PATTERN" value="com.coding.sword2nd.array.missnumber53II.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,27 +186,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.spiralorder29.Solution" />
       <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword2nd.array.spiralorder29.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.test1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test1" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -373,14 +380,8 @@
       <workItem from="1592231103371" duration="13298000" />
       <workItem from="1592443310278" duration="7502000" />
       <workItem from="1592788250023" duration="24420000" />
-      <workItem from="1593306731730" duration="52662000" />
-    </task>
-    <task id="LOCAL-00072" summary="mysql中如何使用replace修改表名">
-      <created>1586654990326</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1586654990327</updated>
+      <workItem from="1593306731730" duration="54093000" />
+      <workItem from="1593565111414" duration="7530000" />
     </task>
     <task id="LOCAL-00073" summary="mysql中添加外键依赖">
       <created>1586740536584</created>
@@ -718,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593408368647</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="剑指offer字符串部分二刷：用两个栈实现队列 + 翻转单词顺序 + 把字符串转换为整数 + 左旋转字符串">
+      <created>1593501820116</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1593501820116</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +747,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="记录两棵树的共同父结点" />
     <MESSAGE value="快速幂求mypow" />
     <MESSAGE value="实现最小栈，用两个栈，同时入栈最小元素" />
     <MESSAGE value="输出二叉树的层次遍历" />
@@ -764,17 +771,18 @@
     <MESSAGE value="剑指offer树部分二刷 + 二叉树的所有遍历的递归版本和非递归版本" />
     <MESSAGE value="剑指offer树部分二刷：两个结点的最近公共祖先结点 + 判断一棵树是否是对称的二叉树 + 判断一棵树是否为平衡二叉树" />
     <MESSAGE value="剑指offer树部分二刷：重建二叉树 + 和为某个值的路径 + 树的子结构 + 序列化二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer树部分二刷：重建二叉树 + 和为某个值的路径 + 树的子结构 + 序列化二叉树" />
+    <MESSAGE value="剑指offer字符串部分二刷：用两个栈实现队列 + 翻转单词顺序 + 把字符串转换为整数 + 左旋转字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer字符串部分二刷：用两个栈实现队列 + 翻转单词顺序 + 把字符串转换为整数 + 左旋转字符串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1592183582796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="605" y="132" key="CommitChangelistDialog2" timestamp="1593501660664">
+    <state x="605" y="132" key="CommitChangelistDialog2" timestamp="1593501818131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="605" y="132" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593501660664" />
+    <state x="605" y="132" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593501818131" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -783,38 +791,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1593497630476">
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1593572728713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593497630476" />
-    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1593497630476">
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572728713" />
+    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1593572728713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593497630476" />
-    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1593497630475">
+    <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572728713" />
+    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1593572728713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593497630475" />
-    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1593497630476">
+    <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572728713" />
+    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1593572728713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593497630476" />
-    <state width="1876" height="364" key="GridCell.Tab.1.bottom" timestamp="1593482289645">
+    <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572728713" />
+    <state width="1876" height="364" key="GridCell.Tab.1.bottom" timestamp="1593572608369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593482289645" />
-    <state width="1876" height="364" key="GridCell.Tab.1.center" timestamp="1593482289644">
+    <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572608369" />
+    <state width="1876" height="364" key="GridCell.Tab.1.center" timestamp="1593572608369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593482289644" />
-    <state width="1876" height="364" key="GridCell.Tab.1.left" timestamp="1593482289644">
+    <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572608369" />
+    <state width="1876" height="364" key="GridCell.Tab.1.left" timestamp="1593572608369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593482289644" />
-    <state width="1876" height="364" key="GridCell.Tab.1.right" timestamp="1593482289645">
+    <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572608369" />
+    <state width="1876" height="364" key="GridCell.Tab.1.right" timestamp="1593572608369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593482289645" />
+    <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572608369" />
     <state x="540" y="253" key="IDE.errors.dialog" timestamp="1593321879068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -824,10 +832,10 @@
     </state>
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1593408370674">
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1593501822505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593408370674" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593501822505" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1590758600752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -988,6 +996,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/string/reversewords/Solution.java</url>
           <line>55</line>
           <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/findnumberin2darray04/Solution.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
