@@ -5,13 +5,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="剑指offer数组部分二刷">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/linkedlist/copyrandomlist35/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/linkedlist/deletenode18/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/linkedlist/getintersectionnode52/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/linkedlist/getkthfromend22/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/linkedlist/reverselist24/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/linkedlist/reverseprint06/Solution.java" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/producerandconsumer/UseSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/tryandcatch/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,13 +130,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.findrepeatnumber03.Solution" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="MyContainer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.producerandconsumer.MyContainer1" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.array.findrepeatnumber03.*" />
+          <option name="PATTERN" value="com.concurrency.producerandconsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.missnumber53II.Solution" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.tryandcatch.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.array.missnumber53II.*" />
+          <option name="PATTERN" value="com.study.tryandcatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.spiralorder29.Solution" />
+    <configuration name="UseSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.producerandconsumer.UseSynchronized" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.array.spiralorder29.*" />
+          <option name="PATTERN" value="com.concurrency.producerandconsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.MyContainer1" />
+      <item itemvalue="Application.UseSynchronized" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.UseSynchronized" />
+        <item itemvalue="Application.MyContainer1" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -383,14 +379,7 @@
       <workItem from="1592788250023" duration="24420000" />
       <workItem from="1593306731730" duration="54093000" />
       <workItem from="1593565111414" duration="8956000" />
-      <workItem from="1593685764245" duration="12829000" />
-    </task>
-    <task id="LOCAL-00074" summary="超级0解决寻找最近的1问题 + mysql寻找交集">
-      <created>1586921326057</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1586921326057</updated>
+      <workItem from="1593685764245" duration="19046000" />
     </task>
     <task id="LOCAL-00075" summary="合并数组区间">
       <created>1587004362874</created>
@@ -728,7 +717,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593572810590</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="剑指offer链表部分二刷">
+      <created>1593776237939</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1593776237940</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -749,7 +745,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="实现最小栈，用两个栈，同时入栈最小元素" />
     <MESSAGE value="输出二叉树的层次遍历" />
     <MESSAGE value="通过异或寻找数组中只出现一次的数字" />
     <MESSAGE value="和为k的子数组" />
@@ -774,17 +769,18 @@
     <MESSAGE value="剑指offer树部分二刷：重建二叉树 + 和为某个值的路径 + 树的子结构 + 序列化二叉树" />
     <MESSAGE value="剑指offer字符串部分二刷：用两个栈实现队列 + 翻转单词顺序 + 把字符串转换为整数 + 左旋转字符串" />
     <MESSAGE value="剑指offer数组部分二刷" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer数组部分二刷" />
+    <MESSAGE value="剑指offer链表部分二刷" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer链表部分二刷" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1592183582796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="605" y="132" key="CommitChangelistDialog2" timestamp="1593700430109">
+    <state x="605" y="132" key="CommitChangelistDialog2" timestamp="1593776236098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="605" y="132" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593700430109" />
+    <state x="605" y="132" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593776236098" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -793,22 +789,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="364" key="GridCell.Tab.0.bottom" timestamp="1593685327476">
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1593785200582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593685327476" />
-    <state width="1876" height="364" key="GridCell.Tab.0.center" timestamp="1593685327476">
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785200582" />
+    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1593785200582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593685327476" />
-    <state width="1876" height="364" key="GridCell.Tab.0.left" timestamp="1593685327476">
+    <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785200582" />
+    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1593785200582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593685327476" />
-    <state width="1876" height="364" key="GridCell.Tab.0.right" timestamp="1593685327476">
+    <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785200582" />
+    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1593785200582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593685327476" />
+    <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785200582" />
     <state width="1876" height="364" key="GridCell.Tab.1.bottom" timestamp="1593685327477">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -834,27 +830,27 @@
     </state>
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1593572813408">
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2" timestamp="1593776240519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593572813408" />
+    <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593776240519" />
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog" timestamp="1593685767675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593685767675" />
-    <state x="969" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589332242083">
+    <state x="969" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593777245114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="969" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589332242083" />
+    <state x="969" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777245114" />
     <state x="447" y="124" key="new project wizard" timestamp="1589354979300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="124" key="new project wizard/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354979300" />
-    <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup" timestamp="1593345437579">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593777055814">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333506881" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777055814" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
