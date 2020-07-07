@@ -6,11 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/string/findsubstring30/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/exchange21/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/bit/hammingweight15/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/math/printnumbers17/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/string/isnumber20/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword/sort/quicksort/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,13 +129,26 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.exchange21.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.coding.sword2nd.array.exchange21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword.sort.quicksort.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword.sort.quicksort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,33 +195,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.volatilestudy.VolatileTest" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.volatilestudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.VolatileTest" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.VolatileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -386,14 +382,7 @@
       <workItem from="1593827208727" duration="15568000" />
       <workItem from="1593923550232" duration="6312000" />
       <workItem from="1594020818331" duration="23286000" />
-      <workItem from="1594097476106" duration="9317000" />
-    </task>
-    <task id="LOCAL-00079" summary="岛屿问题 + 静态代理 + 动态代理">
-      <created>1587384372943</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1587384372943</updated>
+      <workItem from="1594097476106" duration="11565000" />
     </task>
     <task id="LOCAL-00080" summary="完美子数组">
       <created>1587469452510</created>
@@ -731,7 +720,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594039730748</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="剑指offer二刷：汉明距离，求一个数中1的个数， n = n &amp;(n -1)两种方法;表示数值的字符串：使用状态机解题，重要！;调整数组顺序：利用快排思想">
+      <created>1594107968739</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1594107968740</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,7 +748,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="拓扑排序解决排序问题" />
     <MESSAGE value="乘积最大子数组，dp维护一个最大值数组，一个最小值数组" />
     <MESSAGE value="判断一个字符串在可以删除一个元素的情况下是不是一个回文串" />
     <MESSAGE value="判断字符串中的最长回文子串" />
@@ -777,7 +772,8 @@
     <MESSAGE value="二刷剑指offer排序 + 学习ThreadLocal" />
     <MESSAGE value="剑指offer递归部分" />
     <MESSAGE value="剑指offer二刷：&#10;替换空格05：秒杀；旋转数组中最小的数11：采用二分查找，一直将nums[mid] 于 nums[end]进行比较，相等时end--；矩阵中的路径12：dfs秒杀；剪绳子14I：考虑小于4的情况，大于4的情况，开始dp套公式；剪绳子14||：因为要取余，那么dp过程中的max会被取余去掉，所以使用贪心的做法，优先剪长度为3的绳子" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer二刷：&#10;替换空格05：秒杀；旋转数组中最小的数11：采用二分查找，一直将nums[mid] 于 nums[end]进行比较，相等时end--；矩阵中的路径12：dfs秒杀；剪绳子14I：考虑小于4的情况，大于4的情况，开始dp套公式；剪绳子14||：因为要取余，那么dp过程中的max会被取余去掉，所以使用贪心的做法，优先剪长度为3的绳子" />
+    <MESSAGE value="剑指offer二刷：汉明距离，求一个数中1的个数， n = n &amp;(n -1)两种方法;表示数值的字符串：使用状态机解题，重要！;调整数组顺序：利用快排思想" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer二刷：汉明距离，求一个数中1的个数， n = n &amp;(n -1)两种方法;表示数值的字符串：使用状态机解题，重要！;调整数组顺序：利用快排思想" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1594047483754">
@@ -789,11 +785,11 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1593860245558" />
-    <state x="683" y="142" key="CommitChangelistDialog2" timestamp="1594039729156">
+    <state x="0" y="142" key="CommitChangelistDialog2" timestamp="1594107966532">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="683" y="142" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594039729156" />
+    <state x="0" y="142" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594107966532" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -802,46 +798,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="298" key="GridCell.Tab.0.bottom" timestamp="1594107862610">
+    <state width="1876" height="298" key="GridCell.Tab.0.bottom" timestamp="1594110015114">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594107862610" />
-    <state width="1876" height="298" key="GridCell.Tab.0.center" timestamp="1594107862610">
+    <state width="1876" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594110015114" />
+    <state width="1876" height="298" key="GridCell.Tab.0.center" timestamp="1594110015114">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="298" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594107862610" />
-    <state width="1876" height="298" key="GridCell.Tab.0.left" timestamp="1594107862610">
+    <state width="1876" height="298" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594110015114" />
+    <state width="1876" height="298" key="GridCell.Tab.0.left" timestamp="1594110015114">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="298" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594107862610" />
-    <state width="1876" height="298" key="GridCell.Tab.0.right" timestamp="1594107862610">
+    <state width="1876" height="298" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594110015114" />
+    <state width="1876" height="298" key="GridCell.Tab.0.right" timestamp="1594110015114">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="298" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594107862610" />
-    <state width="1876" height="367" key="GridCell.Tab.1.bottom" timestamp="1594103067919">
+    <state width="1876" height="298" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594110015114" />
+    <state width="1876" height="367" key="GridCell.Tab.1.bottom" timestamp="1594109511636">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594103067919" />
-    <state width="1876" height="367" key="GridCell.Tab.1.center" timestamp="1594103067919">
+    <state width="1876" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594109511636" />
+    <state width="1876" height="367" key="GridCell.Tab.1.center" timestamp="1594109511635">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594103067919" />
-    <state width="1876" height="367" key="GridCell.Tab.1.left" timestamp="1594103067919">
+    <state width="1876" height="367" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594109511635" />
+    <state width="1876" height="367" key="GridCell.Tab.1.left" timestamp="1594109511635">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594103067919" />
-    <state width="1876" height="367" key="GridCell.Tab.1.right" timestamp="1594103067919">
+    <state width="1876" height="367" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594109511635" />
+    <state width="1876" height="367" key="GridCell.Tab.1.right" timestamp="1594109511636">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594103067919" />
+    <state width="1876" height="367" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594109511636" />
     <state x="540" y="253" key="IDE.errors.dialog" timestamp="1593321879068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -851,11 +847,11 @@
     </state>
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594039733651">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594107972550">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594039733651" />
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594107972550" />
     <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1594097478450">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
