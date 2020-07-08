@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-06-18 10:03:01
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \JavaStudy\src\main\java\com\coding\leetcode\stack\decodestring394\Solution.java
+ * @FilePath: \JavaStudy\src\main\java\com\coding\leetcode\stack\decodestring394\MinStack.java
  */ 
 package com.coding.leetcode.stack.decodestring394;
 
