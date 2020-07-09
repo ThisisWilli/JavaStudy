@@ -47,6 +47,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().countDigitOne(12));
+        System.out.println(new Solution().countDigitOne(9));
     }
 }
