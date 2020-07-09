@@ -1,8 +1,8 @@
-package com.coding.sword.sort.quicksort;
+package com.study.sort.quicksort;
 
 /**
  * \* project: JavaStudy
- * \* package: com.coding.sword.sort.quicksort
+ * \* package: com.study.sort.quicksort
  * \* author: Willi Wei
  * \* date: 2020-07-07 16:00:42
  * \* description:

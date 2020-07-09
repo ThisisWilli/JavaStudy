@@ -1,4 +1,4 @@
-package com.coding.sword.sort.mergesort;
+package com.study.sort.mergesort;
 
 /**
  * @program: JavaStudy

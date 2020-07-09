@@ -6,9 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/sort/insertsort/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/math/countdigitone43/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/math/countdigitone43/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sword/sort/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/sort/mergesort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/sword/sort/quicksort/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/sort/quicksort/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/coding/sword/sort/mergesort/MergeSort.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,18 +132,6 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.dp.maxsubarray42.Solution" />
@@ -162,6 +152,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.coding.sword2nd.math.countdigitone43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.sort.insertsort.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.sort.insertsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,6 +221,18 @@
         <item itemvalue="Application.TestScanner" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,ALPHA_COMPARATOR" />
@@ -778,10 +793,10 @@
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594047483754" />
-    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593860245558">
+    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594302279095">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
-    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1593860245558" />
+    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594302279095" />
     <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1594212184014">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -795,26 +810,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="367" key="GridCell.Tab.0.bottom" timestamp="1594280025732">
+    <state width="1876" height="298" key="GridCell.Tab.0.bottom" timestamp="1594303678618">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594280025732" />
-    <state width="1876" height="367" key="GridCell.Tab.0.center" timestamp="1594280025732">
+    <state width="1876" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594303678618" />
+    <state width="1876" height="298" key="GridCell.Tab.0.center" timestamp="1594303678618">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594280025732" />
-    <state width="1876" height="367" key="GridCell.Tab.0.left" timestamp="1594280025731">
+    <state width="1876" height="298" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594303678618" />
+    <state width="1876" height="298" key="GridCell.Tab.0.left" timestamp="1594303678617">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594280025731" />
-    <state width="1876" height="367" key="GridCell.Tab.0.right" timestamp="1594280025732">
+    <state width="1876" height="298" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594303678617" />
+    <state width="1876" height="298" key="GridCell.Tab.0.right" timestamp="1594303678618">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594280025732" />
+    <state width="1876" height="298" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594303678618" />
     <state width="1876" height="367" key="GridCell.Tab.1.bottom" timestamp="1594280025732">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
