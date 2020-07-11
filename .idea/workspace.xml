@@ -5,10 +5,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="各种排序">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/dp/maxvalue47/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/dp/translateNum47/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/slidewindow/lengthoflongestsubstring48/Solution.java" afterDir="false" />
+    <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="剑指offer 将字符串翻译成26个字母47 dp +  礼物的最大价值 47 dp + 最长不含重复字符的子字符串48 滑动窗口">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/singlenumberII56/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/math/nthuglynumber49/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/string/firstuniqchar50/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -131,39 +134,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.dp.maxsubarray42.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.singlenumberII56.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.dp.maxsubarray42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.math.countdigitone43.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.math.countdigitone43.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.sort.insertsort.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.sort.insertsort.*" />
+          <option name="PATTERN" value="com.coding.sword2nd.array.singlenumberII56.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +174,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.dp.translateNum47.Solution" />
+    <configuration name="Solution (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.math.nthuglynumber49.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.dp.translateNum47.*" />
+          <option name="PATTERN" value="com.coding.sword2nd.math.nthuglynumber49.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.string.firstuniqchar50.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword2nd.string.firstuniqchar50.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,19 +214,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution (6)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (6)" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -413,14 +403,8 @@
       <workItem from="1594097476106" duration="12725000" />
       <workItem from="1594191569088" duration="14943000" />
       <workItem from="1594272981725" duration="8366000" />
-      <workItem from="1594366891131" duration="8515000" />
-    </task>
-    <task id="LOCAL-00083" summary="全排列">
-      <created>1587791726119</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1587791726120</updated>
+      <workItem from="1594366891131" duration="9798000" />
+      <workItem from="1594449492424" duration="8355000" />
     </task>
     <task id="LOCAL-00084" summary="归并合并k个链表">
       <created>1587877161019</created>
@@ -758,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594303973037</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="剑指offer 将字符串翻译成26个字母47 dp +  礼物的最大价值 47 dp + 最长不含重复字符的子字符串48 滑动窗口">
+      <created>1594384469817</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1594384469817</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +770,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="通过中序遍历和前序遍历确定二叉树" />
     <MESSAGE value="链表相加 + 链表的深拷贝 + 两数相加有序和无序两种情况" />
     <MESSAGE value="加油" />
     <MESSAGE value="hot 100" />
@@ -804,7 +794,8 @@
     <MESSAGE value="快速排序" />
     <MESSAGE value="剑指offer：合并两个有序链表；有min功能的最小栈；判断两个序列是不是正确的出栈序列；判断该序列是否为有效的二叉树后续遍历序列；将二叉搜索树转化为双向链表" />
     <MESSAGE value="各种排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="各种排序" />
+    <MESSAGE value="剑指offer 将字符串翻译成26个字母47 dp +  礼物的最大价值 47 dp + 最长不含重复字符的子字符串48 滑动窗口" />
+    <option name="LAST_COMMIT_MESSAGE" value="剑指offer 将字符串翻译成26个字母47 dp +  礼物的最大价值 47 dp + 最长不含重复字符的子字符串48 滑动窗口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1594047483754">
@@ -816,11 +807,11 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594302279095" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1594384321204">
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1594455245736">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594384321204" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594455245736" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -829,46 +820,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="298" key="GridCell.Tab.0.bottom" timestamp="1594384198713">
+    <state width="1876" height="298" key="GridCell.Tab.0.bottom" timestamp="1594467382616">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594384198713" />
-    <state width="1876" height="298" key="GridCell.Tab.0.center" timestamp="1594384198713">
+    <state width="1876" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594467382616" />
+    <state width="1876" height="298" key="GridCell.Tab.0.center" timestamp="1594467382616">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="298" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594384198713" />
-    <state width="1876" height="298" key="GridCell.Tab.0.left" timestamp="1594384198713">
+    <state width="1876" height="298" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594467382616" />
+    <state width="1876" height="298" key="GridCell.Tab.0.left" timestamp="1594467382616">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="298" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594384198713" />
-    <state width="1876" height="298" key="GridCell.Tab.0.right" timestamp="1594384198713">
+    <state width="1876" height="298" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594467382616" />
+    <state width="1876" height="298" key="GridCell.Tab.0.right" timestamp="1594467382616">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="298" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594384198713" />
-    <state width="1876" height="367" key="GridCell.Tab.1.bottom" timestamp="1594380906282">
+    <state width="1876" height="298" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594467382616" />
+    <state width="1876" height="489" key="GridCell.Tab.1.bottom" timestamp="1594455542732">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594380906282" />
-    <state width="1876" height="367" key="GridCell.Tab.1.center" timestamp="1594380906282">
+    <state width="1876" height="489" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594455542732" />
+    <state width="1876" height="489" key="GridCell.Tab.1.center" timestamp="1594455542732">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594380906282" />
-    <state width="1876" height="367" key="GridCell.Tab.1.left" timestamp="1594380906282">
+    <state width="1876" height="489" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594455542732" />
+    <state width="1876" height="489" key="GridCell.Tab.1.left" timestamp="1594455542732">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594380906282" />
-    <state width="1876" height="367" key="GridCell.Tab.1.right" timestamp="1594380906282">
+    <state width="1876" height="489" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594455542732" />
+    <state width="1876" height="489" key="GridCell.Tab.1.right" timestamp="1594455542732">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="367" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594380906282" />
+    <state width="1876" height="489" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594455542732" />
     <state x="540" y="253" key="IDE.errors.dialog" timestamp="1593321879068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -878,11 +869,11 @@
     </state>
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594303975090">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594384471916">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594303975090" />
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594384471916" />
     <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1594097478450">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -896,12 +887,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="124" key="new project wizard/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354979300" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1593847270836">
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1594453933295">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777055814" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1593847270836" />
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594453933295" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,5 +1079,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaStudy$Solution__1_.ic" NAME="Solution (1) Coverage Results" MODIFIED="1594455098754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.coding.sword2nd.array.singlenumberII56.*</FILTER>
+    </SUITE>
   </component>
 </project>
