@@ -6,11 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="剑指offer 将字符串翻译成26个字母47 dp +  礼物的最大价值 47 dp + 最长不含重复字符的子字符串48 滑动窗口">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/singlenumberII56/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/math/nthuglynumber49/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/string/firstuniqchar50/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/findcontinuoussequence57II/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/twosum57/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/heap/maxslidingwindow59I/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/stack/maxqueue59II/MaxQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +137,19 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Solution (4)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.singlenumberII56.Solution" />
       <module name="JavaStudy" />
@@ -148,38 +163,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.twosum57.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword2nd.array.twosum57.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.array.findcontinuoussequence57II.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coding.sword2nd.array.findcontinuoussequence57II.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.dp.maxvalue47.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.heap.maxslidingwindow59I.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.dp.maxvalue47.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.slidewindow.lengthoflongestsubstring48.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.slidewindow.lengthoflongestsubstring48.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.sword2nd.math.nthuglynumber49.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.sword2nd.math.nthuglynumber49.*" />
+          <option name="PATTERN" value="com.coding.sword2nd.heap.maxslidingwindow59I.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,33 +229,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution (5)" />
-      <item itemvalue="Application.Solution (6)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (6)" />
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,ALPHA_COMPARATOR" />
@@ -405,6 +408,7 @@
       <workItem from="1594272981725" duration="8366000" />
       <workItem from="1594366891131" duration="9798000" />
       <workItem from="1594449492424" duration="8355000" />
+      <workItem from="1594619983936" duration="7299000" />
     </task>
     <task id="LOCAL-00084" summary="归并合并k个链表">
       <created>1587877161019</created>
@@ -1076,6 +1080,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/Solution.java</url>
           <line>23</line>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/array/findcontinuoussequence57II/Solution.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/heap/maxslidingwindow59I/Solution.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
