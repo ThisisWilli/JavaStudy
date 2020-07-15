@@ -1,1 +1,0 @@
-select * from emp_v intersect select * from employees
