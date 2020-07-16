@@ -1,5 +1,7 @@
 package com.coding.leetcode.tree.invalidbst98;
 
+import java.util.LinkedList;
+
 /**
  * \* project: JavaStudy
  * \* package: com.coding.leetcode.tree.invalidbst98
@@ -40,23 +42,29 @@ class TreeNode {
     TreeNode(int x) { val = x; }
 }
 public class Solution {
-    // 中序遍历解题目，最后的序列一定是升序序列
-    long pre = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
         if (root == null){
             return true;
+        }else if (root.left == null && root.right == null){
+            return true;
         }
+        LinkedList<TreeNode> stack = new LinkedList<>();
+        TreeNode cur = root;
+        double pre = -Double.MAX_VALUE;
+        while (cur != null || !stack.isEmpty()){
+            while (cur != null){
+                stack.addLast(cur);
+                cur = cur.left;
+            }
 
-        if (!isValidBST(root.left)){
-            return false;
+            cur = stack.pollLast();
+            if (cur.val > pre){
+                pre = cur.val;
+            }else {
+                return false;
+            }
+            cur = cur.right;
         }
-
-        if (root.val <= pre){
-            return false;
-        }
-
-        pre = root.val;
-        return isValidBST(root.right);
+        return true;
     }
-
 }

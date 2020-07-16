@@ -6,49 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/array/findmediansortedarrays4/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/langchao/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/2_查找入职员工时间排名倒数第三的员工信息.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/3_查找各个部门当前领导薪水详情以及对应的部门编号.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/inorderTraversal94/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/issymmetric101/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/maxpathsum124/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/numtrees96/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/4_查找所有已经分配部门的员工的last_name和first_name以及dept_no.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/5_查找所有员工的last_name和first_name以及对应部门编号dept_no，也包括暂时没有分配具体部门的员工(请注意输出描述里各个列的前后顺序).sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/6_查找所有员工入职时候的薪水情况，给出emp_no以及salary， 并按照emp_no进行逆序.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/7_查找薪水变动超过15次的员工号emp_no以及其对应的变动次数t.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/8_找出所有员工当前(to_date='9999-01-01')具体的薪水salary情况，对于相同的薪水只显示一次,并按照逆序显示.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/SearchEmpFirstAndLastName.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/SearchEmployeeSalariesAndOrder.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/nowcoder02.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/从titles表获取按照title进行分组，每组个数大于等于2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/使用join查询方式找出没有分类的电影id以及名称.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/使用子查询的方式找出属于Action分类的所有电影对应的title,description.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/创建actor并创建数据.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/创建一个actor_name表，将actor表中的所有first_name以及last_name导入改表.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/删除emp_no重复的记录，只保留最小的id对应的记录.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/在audit表上创建外键约束，其emp_no对应employees_test表的主键id.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/如何获取emp_v和employees有相同的数据.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/对于表actor批量插入如下数据,如果数据已经存在，请忽略，不使用replace操作.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/对所有员工的当前薪水按照salary进行按照1-N的排名.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将employees表的所有员工的last_name和first_name拼接起来作为Name，中间以一个空格区分.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将id=5以及emp_no=10001的行数据替换成id=5以及emp_no=10005,其他数据保持不变，使用replace实现.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将titles_test表名修改为titles_2017.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将所有to_date为9999-01-01的全部更新为NULL,且 from_date更新为2001-01-01.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/将所有获取奖金的员工当前的薪水增加10%.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/找出员工中第二高的薪水不能使用orderby.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/找出所有员工当前薪水salary情况.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/构造一个触发器audit_log，在向employees_test表中插入一条数据的时候，触发插入相关的数据到audit中.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找employees表所有emp_no为奇数.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找员工编号emp_no为10001其自入职以来的薪水salary涨幅值growth.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找所有员工的last_name和first_name以及对应的dept_name，也包括暂时没有分配部门的员工.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找所有员工自入职以来的薪水涨幅情况.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找薪水涨幅超过15次的员工号emp_no以及其对应的涨幅次数t.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/查找薪水第二多的员工.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/汇总各个部门当前员工的title类型的分配数目，结果给出部门编号dept_no、dept_name、其当前员工所有的title以及该类型title对应的数目count.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/给出每个员工每年薪水涨幅超过5000的员工编号.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/统计出当前各个title类型对应的员工当前的平均工资.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/统计各个部门的工资记录数.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取员工其当前的薪水比其manager当前薪水还高的相关信息" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有员工当前的manager.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有部门中当前员工薪水最高的相关信息.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有部门当前manager的当前薪水情况.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/获取所有非manager员工当前的薪水情况.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/针对actor表创建视图actor_name_view，只包含first_name以及last_name两列，并对这两列重新命名，first_name为first_name_v，last_name修改为last_name_v.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/针对如下表actor结构创建索引.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/invalidbst98/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/tree/invalidbst98/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,8 +235,19 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.18354088" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL for 5.1 - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL for 5.1 - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1299f6fd" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -439,14 +418,8 @@
       <workItem from="1594366891131" duration="9798000" />
       <workItem from="1594449492424" duration="8355000" />
       <workItem from="1594775700281" duration="13333000" />
-      <workItem from="1594817958348" duration="261000" />
-    </task>
-    <task id="LOCAL-00085" summary="在数组中寻找两个只出现一次的数（两个相同的数异或为0）">
-      <created>1588039667480</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1588039667481</updated>
+      <workItem from="1594817958348" duration="1721000" />
+      <workItem from="1594883212038" duration="12657000" />
     </task>
     <task id="LOCAL-00086" summary="二分查找1095">
       <created>1588139834642</created>
@@ -784,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594779738176</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="sql练习 + 浪潮笔试题">
+      <created>1594818325426</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1594818325426</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -805,7 +785,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="加油" />
     <MESSAGE value="hot 100" />
     <MESSAGE value="走一步看一步" />
     <MESSAGE value="归并排序排序链表 + 用栈处理多久才能检测到更高的温度" />
@@ -830,27 +809,28 @@
     <MESSAGE value="各种排序" />
     <MESSAGE value="剑指offer 将字符串翻译成26个字母47 dp +  礼物的最大价值 47 dp + 最长不含重复字符的子字符串48 滑动窗口" />
     <MESSAGE value="剑指offer用递归进行求和 + 用位运算计算两数加法 + 构建乘积数组，上下矩阵" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer用递归进行求和 + 用位运算计算两数加法 + 构建乘积数组，上下矩阵" />
+    <MESSAGE value="sql练习 + 浪潮笔试题" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql练习 + 浪潮笔试题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594792418058">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594792418058" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1594047483754">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1594818875103">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594047483754" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594818875103" />
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594302279095">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594302279095" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1594779736994">
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1594818323868">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594779736994" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594818323868" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -859,26 +839,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="489" key="GridCell.Tab.0.bottom" timestamp="1594794196189">
+    <state width="1507" height="280" key="GridCell.Tab.0.bottom" timestamp="1594900454884">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="489" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594794196189" />
-    <state width="1876" height="489" key="GridCell.Tab.0.center" timestamp="1594794196189">
+    <state width="1507" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594900454884" />
+    <state width="1507" height="280" key="GridCell.Tab.0.center" timestamp="1594900454884">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="489" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594794196189" />
-    <state width="1876" height="489" key="GridCell.Tab.0.left" timestamp="1594794196189">
+    <state width="1507" height="280" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594900454884" />
+    <state width="1507" height="280" key="GridCell.Tab.0.left" timestamp="1594900454884">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="489" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594794196189" />
-    <state width="1876" height="489" key="GridCell.Tab.0.right" timestamp="1594794196189">
+    <state width="1507" height="280" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594900454884" />
+    <state width="1507" height="280" key="GridCell.Tab.0.right" timestamp="1594900454884">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="489" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594794196189" />
+    <state width="1507" height="280" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594900454884" />
     <state width="1876" height="489" key="GridCell.Tab.1.bottom" timestamp="1594794196190">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -912,11 +892,11 @@
     </state>
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594779743621">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594818327614">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594779743621" />
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594818327614" />
     <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1594097478450">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -930,12 +910,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="124" key="new project wizard/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1589354979300" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1594776274271">
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1594818566985">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777055814" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594776274271" />
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594818566985" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
