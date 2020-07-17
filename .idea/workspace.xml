@@ -6,14 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/diameterOfBinaryTree543/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/flatten114/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/lowestCommonAncestor236/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/10_获取所有非manager的员工emp_no.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/11_获取所有员工当前的(dept_manager.to_date='9999-01-01')manager.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/12_获取所有部门中当前(dept_emp.to_date = '9999-01-01')员工当前(salaries.to_date='9999-01-01')薪水最高的相关信息，给出dept_no, emp_no以及其对应的salary.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/13_从titles表获取按照title进行分组，每组个数大于等于2，给出title以及对应的数目t.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/9_获取所有部门当前(dept_manager.to_date='9999-01-01')manager的当前(salaries.to_date='9999-01-01')薪水情况，给出dept_no, emp_no以及salary(请注意，同一个人可能有多条薪水情况记录).sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -419,14 +411,7 @@
       <workItem from="1594775700281" duration="13333000" />
       <workItem from="1594817958348" duration="1721000" />
       <workItem from="1594883212038" duration="12937000" />
-      <workItem from="1594982305026" duration="6979000" />
-    </task>
-    <task id="LOCAL-00087" summary="快乐就完事了">
-      <created>1588225561782</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1588225561783</updated>
+      <workItem from="1594982305026" duration="7222000" />
     </task>
     <task id="LOCAL-00088" summary="元注解 + 内置注解">
       <created>1588342148284</created>
@@ -764,7 +749,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594900678353</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="求出两个结点值最近的公共祖先，分三种情况讨论 + 求二叉树的直径 就是求二叉树的高度，每求一个高度，汇总左右子树的和，选最大的返回">
+      <created>1594992348464</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1594992348465</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -785,7 +777,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="走一步看一步" />
     <MESSAGE value="归并排序排序链表 + 用栈处理多久才能检测到更高的温度" />
     <MESSAGE value="最小堆寻找数组中第k个大的元素 + 二维dp统计最大回文子串" />
     <MESSAGE value="出现频率第k多的元素 + 打家劫舍III 二叉树的dp" />
@@ -810,7 +801,8 @@
     <MESSAGE value="剑指offer用递归进行求和 + 用位运算计算两数加法 + 构建乘积数组，上下矩阵" />
     <MESSAGE value="sql练习 + 浪潮笔试题" />
     <MESSAGE value="1. 不同的二叉搜索树的个数(卡特兰数)96&#10;2. 二叉树中的最大路径和124：从左右子树中找到最大的数字返回上层&#10;3. 对称二叉树101：递归&#10;sql练习: group by 去重" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 不同的二叉搜索树的个数(卡特兰数)96&#10;2. 二叉树中的最大路径和124：从左右子树中找到最大的数字返回上层&#10;3. 对称二叉树101：递归&#10;sql练习: group by 去重" />
+    <MESSAGE value="求出两个结点值最近的公共祖先，分三种情况讨论 + 求二叉树的直径 就是求二叉树的高度，每求一个高度，汇总左右子树的和，选最大的返回" />
+    <option name="LAST_COMMIT_MESSAGE" value="求出两个结点值最近的公共祖先，分三种情况讨论 + 求二叉树的直径 就是求二叉树的高度，每求一个高度，汇总左右子树的和，选最大的返回" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594792418058">
@@ -826,11 +818,11 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594302279095" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1594900676686">
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1594992346645">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594900676686" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992346645" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -839,26 +831,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1507" height="279" key="GridCell.Tab.0.bottom" timestamp="1594992110384">
+    <state width="1507" height="279" key="GridCell.Tab.0.bottom" timestamp="1594992364529">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1507" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992110384" />
-    <state width="1507" height="279" key="GridCell.Tab.0.center" timestamp="1594992110383">
+    <state width="1507" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992364529" />
+    <state width="1507" height="279" key="GridCell.Tab.0.center" timestamp="1594992364529">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1507" height="279" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992110383" />
-    <state width="1507" height="279" key="GridCell.Tab.0.left" timestamp="1594992110383">
+    <state width="1507" height="279" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992364529" />
+    <state width="1507" height="279" key="GridCell.Tab.0.left" timestamp="1594992364529">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1507" height="279" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992110383" />
-    <state width="1507" height="279" key="GridCell.Tab.0.right" timestamp="1594992110383">
+    <state width="1507" height="279" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992364529" />
+    <state width="1507" height="279" key="GridCell.Tab.0.right" timestamp="1594992364529">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1507" height="279" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992110383" />
+    <state width="1507" height="279" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992364529" />
     <state width="1876" height="489" key="GridCell.Tab.1.bottom" timestamp="1594987782926">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -892,11 +884,11 @@
     </state>
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594900680257">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594992350845">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594900680257" />
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594992350845" />
     <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1594097478450">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
