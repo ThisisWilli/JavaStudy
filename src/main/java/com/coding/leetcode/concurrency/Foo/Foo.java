@@ -1,8 +1,6 @@
-package com.coding.leetcode.concurrency;
+package com.coding.leetcode.concurrency.Foo;
 
 import java.util.concurrent.Semaphore;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.DoubleStream;
 
 /**
  * \* project: JavaStudy

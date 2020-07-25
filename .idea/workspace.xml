@@ -6,17 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/bytedance/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/bytedance/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/aqs/CyclicBarrierStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/aqs/SemaphoreStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/31_获取selectfrom employees对应的执行计划.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/32_将employees表的所有员工的last_name和first_name拼接起来作为Name，中间以一个空格区分.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/33_创建一个actor表，包含如下列信息.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/34_批量插入数据.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/35_对于表actor批量插入如下数据,如果数据已经存在，请忽略(不支持使用replace操作).sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/FooBar1115/FooBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/Foo/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/test/HashMapTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +130,19 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution3">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FooBar">
     <configuration name="CyclicBarrierStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurrency.aqs.CyclicBarrierStudy" />
       <module name="JavaStudy" />
@@ -150,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.concurrency.Foo" />
+    <configuration name="FooBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.concurrency.FooBar1115.FooBar" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.concurrency.*" />
+          <option name="PATTERN" value="com.coding.leetcode.concurrency.FooBar1115.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,34 +209,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Foo" />
       <item itemvalue="Application.SemaphoreStudy" />
       <item itemvalue="Application.CyclicBarrierStudy" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution3" />
+      <item itemvalue="Application.FooBar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FooBar" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.CyclicBarrierStudy" />
         <item itemvalue="Application.SemaphoreStudy" />
-        <item itemvalue="Application.Foo" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.18354088" />
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,ALPHA_COMPARATOR" />
@@ -1114,7 +1107,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/diameterOfBinaryTree543/Solution.java</url>
           <line>20</line>
-          <properties class="com.coding.sword2nd.tree.diameterOfBinaryTree543.Solution" method="diameterOfBinaryTree">
+          <properties class="com.coding.sword2nd.tree.diameterOfBinaryTree543.Solution">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="102" />
