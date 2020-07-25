@@ -6,14 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/design/lfucache/LFUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/design/lrucache/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/27_给出每个员工每年薪水涨幅超过5000的员工编号emp_no、薪水变更开始日期from_date以及薪水涨幅值salary_growth，并按照salary_growth逆序排列.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/28_查找描述信息(film.description)中包含robot的电影对应的分类名称(category.name)以及电影数目.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/29_使用join查询方式找出没有分类的电影id以及名称.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/30_你能使用子查询的方式找出属于Action分类的所有电影对应的title,description.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/bytedance/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/bytedance/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/aqs/CyclicBarrierStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/aqs/SemaphoreStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/31_获取selectfrom employees对应的执行计划.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/32_将employees表的所有员工的last_name和first_name拼接起来作为Name，中间以一个空格区分.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/33_创建一个actor表，包含如下列信息.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/34_批量插入数据.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/35_对于表actor批量插入如下数据,如果数据已经存在，请忽略(不支持使用replace操作).sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/design/lfucache/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,13 +136,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LRUCache">
-    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.test.HashMapTest" />
+  <component name="RunManager" selected="Application.Solution3">
+    <configuration name="CyclicBarrierStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.aqs.CyclicBarrierStudy" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nowcoder.test.*" />
+          <option name="PATTERN" value="com.concurrency.aqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.design.lrucache.LRUCache" />
+    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.concurrency.Foo" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.design.lrucache.*" />
+          <option name="PATTERN" value="com.coding.leetcode.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,25 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.sort.selectsort.Solution" />
+    <configuration name="SemaphoreStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.aqs.SemaphoreStudy" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.sort.selectsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.sort.heapsort.Solution" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.sort.heapsort.*" />
+          <option name="PATTERN" value="com.concurrency.aqs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +177,24 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.maxarea11.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.company.bytedance.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.maxarea11.*" />
+          <option name="PATTERN" value="com.company.bytedance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.bytedance.Solution3" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.bytedance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +203,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Foo" />
+      <item itemvalue="Application.SemaphoreStudy" />
+      <item itemvalue="Application.CyclicBarrierStudy" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.HashMapTest" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="Application.Solution3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.HashMapTest" />
+        <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.CyclicBarrierStudy" />
+        <item itemvalue="Application.SemaphoreStudy" />
+        <item itemvalue="Application.Foo" />
       </list>
     </recent_temporary>
   </component>
@@ -222,17 +225,7 @@
         <serviceView>
           <option name="contentProportion" value="0.18354088" />
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL for 5.1 - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL for 5.1 - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@24ce4f46" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -411,14 +404,10 @@
       <workItem from="1595157325050" duration="3122000" />
       <workItem from="1595228733985" duration="8255000" />
       <workItem from="1595320860924" duration="17779000" />
-      <workItem from="1595484643729" duration="14389000" />
-    </task>
-    <task id="LOCAL-00093" summary="判断一棵树是否为另一棵二叉树的子树">
-      <created>1588819521830</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1588819521830</updated>
+      <workItem from="1595484643729" duration="20049000" />
+      <workItem from="1595569906925" duration="16810000" />
+      <workItem from="1595643981357" duration="4635000" />
+      <workItem from="1595662120520" duration="8753000" />
     </task>
     <task id="LOCAL-00094" summary="二分查找，自己的sqrt">
       <created>1588990133580</created>
@@ -756,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595341583304</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="LRU缓存 + 三道sql">
+      <created>1595502087595</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1595502087595</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -777,7 +773,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="解码字符串 + 能否完成课程(拓扑排序 + 边缘列表) + 在二维数组中高效查找元素" />
     <MESSAGE value="分割等和子集416(0-1背包)" />
     <MESSAGE value="剑指offer树部分二刷 + 二叉树的所有遍历的递归版本和非递归版本" />
     <MESSAGE value="剑指offer树部分二刷：两个结点的最近公共祖先结点 + 判断一棵树是否是对称的二叉树 + 判断一棵树是否为平衡二叉树" />
@@ -802,27 +797,32 @@
     <MESSAGE value="利用两个子查询 查询薪水的涨幅" />
     <MESSAGE value="mysql中将两表join之后去重 + 接雨水" />
     <MESSAGE value="堆排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="堆排序" />
+    <MESSAGE value="LRU缓存 + 三道sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="LRU缓存 + 三道sql" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594792418058">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594792418058" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1595491359624">
+    <state x="678" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595571738563">
+      <screen x="0" y="0" width="1920" height="1049" />
+    </state>
+    <state x="678" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595571738563" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1595573912259">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595491359624" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595573912259" />
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595234087771">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595234087771" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1595341581348">
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1595502085887">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595341581348" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595502085887" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -831,46 +831,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="301" key="GridCell.Tab.0.bottom" timestamp="1595495254639">
+    <state width="1876" height="301" key="GridCell.Tab.0.bottom" timestamp="1595655193987">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595495254639" />
-    <state width="1876" height="301" key="GridCell.Tab.0.center" timestamp="1595495254639">
+    <state width="1876" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595655193987" />
+    <state width="1876" height="301" key="GridCell.Tab.0.center" timestamp="1595655193987">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="301" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595495254639" />
-    <state width="1876" height="301" key="GridCell.Tab.0.left" timestamp="1595495254639">
+    <state width="1876" height="301" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595655193987" />
+    <state width="1876" height="301" key="GridCell.Tab.0.left" timestamp="1595655193987">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="301" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595495254639" />
-    <state width="1876" height="301" key="GridCell.Tab.0.right" timestamp="1595495254639">
+    <state width="1876" height="301" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595655193987" />
+    <state width="1876" height="301" key="GridCell.Tab.0.right" timestamp="1595655193987">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="301" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595495254639" />
-    <state width="1876" height="425" key="GridCell.Tab.1.bottom" timestamp="1595494716895">
+    <state width="1876" height="301" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595655193987" />
+    <state width="1876" height="425" key="GridCell.Tab.1.bottom" timestamp="1595643902025">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595494716895" />
-    <state width="1876" height="425" key="GridCell.Tab.1.center" timestamp="1595494716895">
+    <state width="1876" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595643902025" />
+    <state width="1876" height="425" key="GridCell.Tab.1.center" timestamp="1595643902025">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="425" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595494716895" />
-    <state width="1876" height="425" key="GridCell.Tab.1.left" timestamp="1595494716895">
+    <state width="1876" height="425" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595643902025" />
+    <state width="1876" height="425" key="GridCell.Tab.1.left" timestamp="1595643902024">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="425" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595494716895" />
-    <state width="1876" height="425" key="GridCell.Tab.1.right" timestamp="1595494716895">
+    <state width="1876" height="425" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595643902024" />
+    <state width="1876" height="425" key="GridCell.Tab.1.right" timestamp="1595643902025">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="425" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595494716895" />
+    <state width="1876" height="425" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595643902025" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1594792379141">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -884,16 +884,16 @@
     </state>
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1595341584340">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1595502090027">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595341584340" />
-    <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1594097478450">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595502090027" />
+    <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1595644002682">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593685767675" />
-    <state x="822" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594097478450" />
+    <state x="822" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595644002682" />
     <state x="969" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593777245114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -906,12 +906,12 @@
       <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state x="-1064" y="192" key="run.anything.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595236646578" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1595386851898">
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1595588965632">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777055814" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595386851898" />
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595588965632" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
