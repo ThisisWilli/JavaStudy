@@ -6,11 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/FooBar1115/FooBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/diningphilosophers1226/DiningPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/zeroevenodd1116/ZeroEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/alibaba/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/alibaba/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/37_针对actor表创建索引.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/38_针对actor表创建视图actor_name_view，只包含first_name以及last_name两列，并对这两列重新命名，first_name为first_name_v，last_name修改为last_name_v.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/针对salaries表emp_no字段创建索引idx_emp_no，查询emp_no为10005, 使用强制索.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/Foo/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/36_请你创建一个actor_name表，并且将actor表中的所有first_name以及last_name导入该表.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/36_请你创建一个actor_name表，并且将actor表中的所有first_name以及last_name导入该表.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/test/HashMapTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,32 +136,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.FooBar">
-    <configuration name="CyclicBarrierStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.aqs.CyclicBarrierStudy" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.aqs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HashMapTest">
     <configuration name="FooBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.concurrency.FooBar1115.FooBar" />
       <module name="JavaStudy" />
@@ -169,12 +150,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.aqs.SemaphoreStudy" />
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMapTest" />
+      <module name="JavaStudy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.sort.quicksort.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.aqs.*" />
+          <option name="PATTERN" value="com.study.sort.quicksort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.bytedance.Solution" />
+    <configuration name="TestTryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.TestTryLock" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.bytedance.*" />
+          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.bytedance.Solution3" />
+    <configuration name="ZeroEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.concurrency.zeroevenodd1116.ZeroEvenOdd" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.bytedance.*" />
+          <option name="PATTERN" value="com.coding.leetcode.concurrency.zeroevenodd1116.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,21 +197,34 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SemaphoreStudy" />
-      <item itemvalue="Application.CyclicBarrierStudy" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution3" />
       <item itemvalue="Application.FooBar" />
+      <item itemvalue="Application.ZeroEvenOdd" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.TestTryLock" />
+      <item itemvalue="Application.HashMapTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapTest" />
+        <item itemvalue="Application.TestTryLock" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.ZeroEvenOdd" />
         <item itemvalue="Application.FooBar" />
-        <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.CyclicBarrierStudy" />
-        <item itemvalue="Application.SemaphoreStudy" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.18354088" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,ALPHA_COMPARATOR" />
@@ -401,6 +402,8 @@
       <workItem from="1595569906925" duration="16810000" />
       <workItem from="1595643981357" duration="4635000" />
       <workItem from="1595662120520" duration="8753000" />
+      <workItem from="1595772201648" duration="2007000" />
+      <workItem from="1595835717098" duration="17866000" />
     </task>
     <task id="LOCAL-00094" summary="二分查找，自己的sqrt">
       <created>1588990133580</created>
@@ -798,10 +801,10 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1594792418058" />
-    <state x="678" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595571738563">
+    <state x="678" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595683631359">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
-    <state x="678" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595571738563" />
+    <state x="678" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595683631359" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1595573912259">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -824,45 +827,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="301" key="GridCell.Tab.0.bottom" timestamp="1595655193987">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state width="1396" height="425" key="GridCell.Tab.0.bottom" timestamp="1595855876236">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595655193987" />
-    <state width="1876" height="301" key="GridCell.Tab.0.center" timestamp="1595655193987">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state width="1396" height="425" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
+    <state width="1876" height="425" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595854491541" />
+    <state width="1396" height="425" key="GridCell.Tab.0.center" timestamp="1595855876236">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="301" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595655193987" />
-    <state width="1876" height="301" key="GridCell.Tab.0.left" timestamp="1595655193987">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state width="1396" height="425" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
+    <state width="1876" height="425" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595854491541" />
+    <state width="1396" height="425" key="GridCell.Tab.0.left" timestamp="1595855876235">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="301" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595655193987" />
-    <state width="1876" height="301" key="GridCell.Tab.0.right" timestamp="1595655193987">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state width="1396" height="425" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876235" />
+    <state width="1876" height="425" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595854491541" />
+    <state width="1396" height="425" key="GridCell.Tab.0.right" timestamp="1595855876236">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
-    <state width="1876" height="301" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595655193987" />
-    <state width="1876" height="425" key="GridCell.Tab.1.bottom" timestamp="1595643902025">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state width="1396" height="425" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
+    <state width="1876" height="425" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595854491541" />
+    <state width="1396" height="425" key="GridCell.Tab.1.bottom" timestamp="1595855876236">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
+    <state width="1396" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
     <state width="1876" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595643902025" />
-    <state width="1876" height="425" key="GridCell.Tab.1.center" timestamp="1595643902025">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state width="1396" height="425" key="GridCell.Tab.1.center" timestamp="1595855876236">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
+    <state width="1396" height="425" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
     <state width="1876" height="425" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595643902025" />
-    <state width="1876" height="425" key="GridCell.Tab.1.left" timestamp="1595643902024">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state width="1396" height="425" key="GridCell.Tab.1.left" timestamp="1595855876236">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
+    <state width="1396" height="425" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
     <state width="1876" height="425" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595643902024" />
-    <state width="1876" height="425" key="GridCell.Tab.1.right" timestamp="1595643902025">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state width="1396" height="425" key="GridCell.Tab.1.right" timestamp="1595855876236">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
+    <state width="1396" height="425" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
     <state width="1876" height="425" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595643902025" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1594792379141">
       <screen x="0" y="0" width="1920" height="1049" />
@@ -899,12 +910,13 @@
       <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state x="-1064" y="192" key="run.anything.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595236646578" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1595588965632">
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1595853408880">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777055814" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595588965632" />
+    <state x="-973" y="188" width="672" height="568" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595837514969" />
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595853408880" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1107,7 +1119,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/diameterOfBinaryTree543/Solution.java</url>
           <line>20</line>
-          <properties class="com.coding.sword2nd.tree.diameterOfBinaryTree543.Solution">
+          <properties class="com.coding.sword2nd.tree.diameterOfBinaryTree543.Solution" method="diameterOfBinaryTree">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="102" />
