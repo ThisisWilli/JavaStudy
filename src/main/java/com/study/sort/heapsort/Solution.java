@@ -1,5 +1,7 @@
 package com.study.sort.heapsort;
 
+import java.util.Collections;
+
 /**
  * \* project: JavaStudy
  * \* package: com.study.sort.heapsort
@@ -25,11 +27,18 @@ public class Solution {
         return nums;
     }
 
+    /**
+     * 第一步，创建一个大顶堆，从数组第一个元素开始
+     * @param nums
+     */
     public void heapify(int[] nums){
         for (int i = 1; i < nums.length; i++){
+            // 找到父结点
             int parent = (i - 1) >> 1;
+            // 定义子节点
             int child = i;
-            while (i > 0 && nums[parent] < nums[child]){
+            // 从子节点到根节点构建最大堆
+            while (child > 0 &&  nums[parent] < nums[child]){
                 swap(nums, parent, child);
                 child = parent;
                 // 还要判断换上来的元素是否大于parent，如果大于，继续向上换
@@ -38,8 +47,16 @@ public class Solution {
         }
     }
 
+    /**
+     * 每次将堆顶元素放到最后，并循环重建堆
+     * @param nums
+     * @param par
+     * @param last
+     */
     public void rebuidHeap(int[] nums, int par, int last){
+        // 左子节点
         int left = par * 2 + 1;
+        // 右子节点
         int right = par * 2 + 2;
         int maxIndex = left;
         // 找到最大子节点
