@@ -6,14 +6,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/fizzbuzz1195/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/concurrency/h2o1117/H2O.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/40_现在在last_update后面新增加一列名字为create_date, 类型为datetime, NOT NULL，默认值为'0000-00-00.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/41_构造一个触发器.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/42_删除emp_no重复的记录，只保留最小的id对应的记录.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/43_将所有to_date为9999-01-01的全部更新为NULL,且 from_date更新为2001-01-01.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problemsolve/arraycopy/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problemsolve/polymorphisms/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problemsolve/polymorphisms/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problemsolve/polymorphisms/OverLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/problemsolve/polymorphisms/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/44_将id=5以及emp_no=10001的行数据替换成id=5以及emp_no=10005,其他数据保持不变，使用replace实现.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/45_更改表名.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/46_在audit表上创建外键约束，其emp_no对应employees_test表的主键id.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/47_从view中获取与别的表相同的数据.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/48_请你写出更新语句，将所有获取奖金的员工当前的(salaries.to_date='9999-01-01')薪水增加10%.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/49_针对库中的所有表生成select count()对应的SQL语句如数据库里有以下表.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/50_将employees表中的所有员工的last_name和first_name通过(')连接起来.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/51_查找字符串'10,A,B' 中逗号','出现的次数cnt.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/52_获取Employees中的first_name，查询按照first_name最后两个字母，按照升序进行排列.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/sort/heapsort/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/sort/heapsort/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/tryandcatch/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/problemsolve/tryandcatch/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,36 +148,16 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.concurrency.fizzbuzz1195.FizzBuzz" />
+  <component name="RunManager" selected="Application.ArrayTest">
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.problemsolve.arraycopy.ArrayTest" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.concurrency.fizzbuzz1195.*" />
+          <option name="PATTERN" value="com.problemsolve.arraycopy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="H2O" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.concurrency.h2o1117.H2O" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.concurrency.h2o1117.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMapTest" />
-      <module name="JavaStudy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,12 +175,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTryLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.reentrantlockstudy.TestTryLock" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.problemsolve.polymorphisms.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurrency.reentrantlockstudy.*" />
+          <option name="PATTERN" value="com.problemsolve.polymorphisms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.problemsolve.tryandcatch.Test1" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.problemsolve.tryandcatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoPhaseTermination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.threadstructure.TwoPhaseTermination" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrency.threadstructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,19 +215,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestTryLock" />
-      <item itemvalue="Application.HashMapTest" />
-      <item itemvalue="Application.H2O" />
-      <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.TwoPhaseTermination" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ArrayTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TwoPhaseTermination" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.H2O" />
-        <item itemvalue="Application.HashMapTest" />
-        <item itemvalue="Application.TestTryLock" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +245,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:MySQL for 5.1 - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7ec7c0b8" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@37ec2a6f" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -418,14 +432,10 @@
       <workItem from="1595662120520" duration="8753000" />
       <workItem from="1595772201648" duration="2007000" />
       <workItem from="1595835717098" duration="20087000" />
-      <workItem from="1595913154208" duration="13069000" />
-    </task>
-    <task id="LOCAL-00095" summary="记录两棵树的共同父结点">
-      <created>1589157294610</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1589157294610</updated>
+      <workItem from="1595913154208" duration="13734000" />
+      <workItem from="1596009684925" duration="4098000" />
+      <workItem from="1596024382728" duration="84000" />
+      <workItem from="1596024484742" duration="18605000" />
     </task>
     <task id="LOCAL-00096" summary="快速幂求mypow">
       <created>1589160093353</created>
@@ -763,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595859496079</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="堆排序 + sql">
+      <created>1595947693083</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1595947693083</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,7 +801,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="剑指offer树部分二刷 + 二叉树的所有遍历的递归版本和非递归版本" />
     <MESSAGE value="剑指offer树部分二刷：两个结点的最近公共祖先结点 + 判断一棵树是否是对称的二叉树 + 判断一棵树是否为平衡二叉树" />
     <MESSAGE value="剑指offer树部分二刷：重建二叉树 + 和为某个值的路径 + 树的子结构 + 序列化二叉树" />
     <MESSAGE value="剑指offer字符串部分二刷：用两个栈实现队列 + 翻转单词顺序 + 把字符串转换为整数 + 左旋转字符串" />
@@ -809,7 +825,8 @@
     <MESSAGE value="堆排序" />
     <MESSAGE value="LRU缓存 + 三道sql" />
     <MESSAGE value="sql语句 + reentrantlock" />
-    <option name="LAST_COMMIT_MESSAGE" value="sql语句 + reentrantlock" />
+    <MESSAGE value="堆排序 + sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="堆排序 + sql" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594792418058">
@@ -820,20 +837,20 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="678" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595683631359" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1595573912259">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1596089025566">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595573912259" />
-    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595234087771">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596089025566" />
+    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596029993457">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
-    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595234087771" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1595859493986">
+    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596029993457" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1595947691409">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595859493986" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595947691409" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -842,54 +859,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1396" height="260" key="GridCell.Tab.0.bottom" timestamp="1595932725512">
-      <screen x="-1440" y="0" width="1440" height="870" />
+    <state width="1507" height="291" key="GridCell.Tab.0.bottom" timestamp="1596109464475">
+      <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725512" />
-    <state width="1876" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595932483130" />
-    <state width="1396" height="260" key="GridCell.Tab.0.center" timestamp="1595932725511">
-      <screen x="-1440" y="0" width="1440" height="870" />
+    <state width="1507" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596109464475" />
+    <state width="1507" height="291" key="GridCell.Tab.0.center" timestamp="1596109464475">
+      <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="260" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595932483130" />
-    <state width="1396" height="260" key="GridCell.Tab.0.left" timestamp="1595932725511">
-      <screen x="-1440" y="0" width="1440" height="870" />
+    <state width="1507" height="291" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596109464475" />
+    <state width="1507" height="291" key="GridCell.Tab.0.left" timestamp="1596109464474">
+      <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="260" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595932483130" />
-    <state width="1396" height="260" key="GridCell.Tab.0.right" timestamp="1595932725511">
-      <screen x="-1440" y="0" width="1440" height="870" />
+    <state width="1507" height="291" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596109464474" />
+    <state width="1507" height="291" key="GridCell.Tab.0.right" timestamp="1596109464475">
+      <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="260" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595932483130" />
-    <state width="1876" height="384" key="GridCell.Tab.1.bottom" timestamp="1595916868605">
+    <state width="1507" height="291" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596109464475" />
+    <state width="1876" height="384" key="GridCell.Tab.1.bottom" timestamp="1596033959974">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="384" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595916868605" />
-    <state width="1876" height="384" key="GridCell.Tab.1.center" timestamp="1595916868605">
+    <state width="1876" height="384" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596033959974" />
+    <state width="1876" height="384" key="GridCell.Tab.1.center" timestamp="1596033959974">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="384" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595916868605" />
-    <state width="1876" height="384" key="GridCell.Tab.1.left" timestamp="1595916868604">
+    <state width="1876" height="384" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596033959974" />
+    <state width="1876" height="384" key="GridCell.Tab.1.left" timestamp="1596033959974">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="384" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595916868604" />
-    <state width="1876" height="384" key="GridCell.Tab.1.right" timestamp="1595916868605">
+    <state width="1876" height="384" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596033959974" />
+    <state width="1876" height="384" key="GridCell.Tab.1.right" timestamp="1596033959974">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="384" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595916868605" />
+    <state width="1876" height="384" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596033959974" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1594792379141">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -898,21 +915,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="253" key="IDE.errors.dialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593321879068" />
-    <state x="-1094" y="6" key="SettingsEditor" timestamp="1593345428536">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state x="461" y="7" key="SettingsEditor" timestamp="1596024465484">
+      <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1595859498203">
+    <state x="461" y="7" key="SettingsEditor/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596024465484" />
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1595947696966">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595859498203" />
-    <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1595644002682">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595947696966" />
+    <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1596024383426">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593685767675" />
-    <state x="822" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595644002682" />
+    <state x="822" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596024383426" />
     <state x="969" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593777245114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -925,13 +943,13 @@
       <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state x="-1064" y="192" key="run.anything.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595236646578" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1595947634895">
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1596110562147">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777055814" />
     <state x="-973" y="188" width="672" height="568" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595837514969" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595947634895" />
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596110562147" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1140,6 +1158,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/study/sort/heapsort/Solution.java</url>
           <line>61</line>
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/concurrency/threadstructure/TwoPhaseTermination.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/diameterOfBinaryTree543/Solution.java</url>
