@@ -10,7 +10,8 @@ import java.util.Scanner;
  *
  * 编程实现一个从字符串输入提取整数的程序，要求尽量多的考虑异常输入的情况
  * 输入要求：字符串长度大于0
- *
+ * +1a2
+ * 12
  **/
 
 public class Main4 {

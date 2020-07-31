@@ -25,6 +25,7 @@ public class ProxyInvocationHandler implements InvocationHandler {
 
     // 生成得到代理类
     public Object getProxy(){
+        // this是指业务增强
         return Proxy.newProxyInstance(this.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
     }
 
@@ -32,7 +33,6 @@ public class ProxyInvocationHandler implements InvocationHandler {
     // 处理代理类并返回result
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         // 动态代理的本质，就是使用反射机制实现
-        Object result = method.invoke(target, args);
-        return result;
+        return method.invoke(target, args);
     }
 }

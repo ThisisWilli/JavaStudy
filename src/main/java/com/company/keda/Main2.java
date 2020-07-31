@@ -36,32 +36,43 @@ public class Main2 {
     }
 
     public int partition(int[] nums, int left, int right){
-        int pivot = nums[right];
-        int idx = right;
-        for (int i = right - 1; i >= left; i--){
-            if (nums[i] > pivot){
-                int temp = nums[i];
-                nums[i] = nums[--idx];
-                nums[idx] = temp;
+        int pivot = nums[left];
+        int i = left + 1, j = right;
+        while (i <= j){
+            while (i <= j && nums[i] <= pivot){
+                i++;
+            }
+
+            while (i <= j && nums[j] > pivot){
+                j--;
+            }
+            if (i <= j){
+                swap(nums, i, j);
+                i++;
+                j--;
             }
         }
-        nums[right] = nums[idx];
-        nums[idx] = pivot;
-//        System.out.println(Arrays.toString(nums));
-        return idx;
+        swap(nums, left, j);
+        return left;
+    }
+
+    public void swap(int[] num, int l1, int l2){
+        int temp = num[l1];
+        num[l1] = num[l2];
+        num[l2] = temp;
     }
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int len = sc.nextInt();
-        System.out.println(len);
-        int[] nums = new int[len];
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = sc.nextInt();
-        }
+//        Scanner sc = new Scanner(System.in);
+//        int len = sc.nextInt();
+//        System.out.println(len);
+//        int[] nums = new int[len];
+//        for (int i = 0; i < nums.length; i++) {
+//            nums[i] = sc.nextInt();
+//        }
 
-//        int[] nums = new int[]{25, 84, 21, 47, 15, 27, 68, 35, 20};
+        int[] nums = new int[]{25, 84, 21, 47, 15, 27, 68, 35, 20};
         new Main2().sortArray(nums);
 //        for (int re : res) {
 //            System.out.print(re + " ");
