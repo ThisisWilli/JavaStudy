@@ -22,7 +22,9 @@ public class FutureStudy {
         // 这是一个阻塞方法，等任务执行完了之后再去拿到那个值
         System.out.println(task.get());
 
-        ExecutorService service = Executors.newFixedThreadPool(5);
+//        ExecutorService service = Executors.newFixedThreadPool(5);
+        ExecutorService service = new ThreadPoolExecutor(4, 6, 2L, TimeUnit.SECONDS
+                , new LinkedBlockingDeque<Runnable>());
         Future<Integer> f = service.submit(() -> {
             try {
                 TimeUnit.SECONDS.sleep(1);

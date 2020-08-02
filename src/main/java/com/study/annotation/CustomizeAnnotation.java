@@ -35,7 +35,7 @@ public class CustomizeAnnotation {
             // 判断这个字段是否有MyField注解
             if(f.isAnnotationPresent(MyAnnotation2.class)){
                 MyAnnotation2 annotation = f.getAnnotation(MyAnnotation2.class);
-                System.out.println(annotation.name());
+                System.out.println("====" + annotation.name() + annotation.schools()[0]);
             }
         }
 
