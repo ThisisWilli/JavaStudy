@@ -34,23 +34,34 @@ class ListNode {
 
 public class Solution {
 
-    private ListNode frontPointer;
+    public boolean isPalindrome(ListNode head) {
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode slow = dummy, fast = dummy;
+        while(slow != null &&  fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        // 此时fast指向最后一个节点，slow指向第一个第一部分的最后一个几点
+        // 现在开始将后半部分链表反转
+        ListNode pre = null;
+        ListNode cur = slow.next;
+        while(cur != null){
+            ListNode temp = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = temp;
+        }
 
-    private boolean recursivelyCheck(ListNode currentNode){
-        if (currentNode != null){
-            if (!recursivelyCheck(currentNode.next)){
+        while(pre != null && head != null){
+            if(pre.val == head.val){
+
+            }else{
                 return false;
             }
-            if (currentNode.val != frontPointer.val){
-                return false;
-            }
-            frontPointer = frontPointer.next;
+            pre = pre.next;
+            head = head.next;
         }
         return true;
-    }
-
-    public boolean isPalindrome(ListNode head) {
-        frontPointer = head;
-        return recursivelyCheck(head);
     }
 }

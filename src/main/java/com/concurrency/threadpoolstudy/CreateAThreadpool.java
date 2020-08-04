@@ -19,7 +19,7 @@ public class CreateAThreadpool {
         ThreadPool threadPool = new ThreadPool(2, 1000, TimeUnit.MILLISECONDS, 1, ((queue, task) -> {
             // 死等
             //queue.put(task);
-             queue.offer(task, 1000, TimeUnit.MILLISECONDS);
+             queue.offer(task, 1000, TimeUnit.MILLISECONDS); // 在一段时间内尝试将任务放入等待队列
 //            System.out.println("give up...");
 //            new Thread(task, "救火队员").start();
         }));
@@ -143,7 +143,7 @@ class BlockQueue<T>{
         this.capcity = queueCapcity;
     }
 
-    // 6.阻塞获取
+    // 6.阻塞获取，消费者从队列中去拿任务
     public T take(){
         lock.lock();
         try {
@@ -162,7 +162,7 @@ class BlockQueue<T>{
         }
     }
 
-    // 带超时的阻塞获取，虚假唤醒
+    // 带超时的阻塞获取，虚假唤醒，消费者从队列中去拿数据
     public T poll(long timeout, TimeUnit unit){
         lock.lock();
         try {
@@ -185,6 +185,7 @@ class BlockQueue<T>{
         }
     }
 
+    // 生产者往集合中去放数据
     public void put(T task){
         lock.lock();
         try {
@@ -202,6 +203,7 @@ class BlockQueue<T>{
         }
     }
 
+    // 带超时阻塞时间添加，生产者往队列中生产数据
     public boolean offer(T task, long timeout, TimeUnit timeUnit){
         lock.lock();
         try {
@@ -236,6 +238,7 @@ class BlockQueue<T>{
         }
     }
 
+    // 任务数已经超过coreSize，需要将任务放入任务队列中，生产者将任务放入队列中
     public void tryPut(RejectPolicy<T> rejectPolicy, T task){
         lock.lock();
         try {
