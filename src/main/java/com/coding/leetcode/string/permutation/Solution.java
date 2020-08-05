@@ -64,6 +64,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Arrays.asList(new Solution().permutation("aab")).forEach(System.out::println);
+        Arrays.asList(new Solution().permutation("123")).forEach(System.out::println);
     }
 }
