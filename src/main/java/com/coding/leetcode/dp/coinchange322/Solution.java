@@ -24,44 +24,58 @@ import java.util.List;
  *
  * 输入: coins = [2], amount = 3
  * 输出: -1
+ *https://leetcode-cn.com/problems/coin-change/solution/dong-tai-gui-hua-shi-yong-wan-quan-bei-bao-wen-ti-/
+ * 图解题解https://www.pythonf.cn/read/100808
  */
 public class Solution {
-    int ans = Integer.MAX_VALUE;
+    public int coinChange1(int[] coins, int amount) {
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, amount + 1);
+        dp[0] = 0;
+        for (int i = 1; i <= amount; i++){
+            for (int j = 0; j < coins.length; j++) {
+                if (coins[j] <= i && dp[i - coins[j]] != amount + 1){
+                    dp[i] = Math.min(dp[i], 1 + dp[i - coins[j]]);
+                }
+            }
+        }
+        if (dp[amount] == amount + 1){
+            dp[amount] = -1;
+        }
+        return dp[amount];
+    }
+
     public int coinChange(int[] coins, int amount) {
-        Arrays.sort(coins);
-        dfs(coins,coins.length-1,amount,0);
-        return ans==Integer.MAX_VALUE?-1:ans;
-    }
-
-    /**
-     *
-     * @param coins
-     * @param index
-     * @param amount
-     * @param cnt 现在硬币的数量
-     */
-    private void dfs(int[] coins, int index, int amount, int cnt){
-        if(index<0){
-            return;
+        if (amount == 0){
+            return 0;
         }
-        for(int c = amount / coins[index]; c>=0; c--){
-            // 用较大硬币兑换过后的余额
-            int na = amount - c * coins[index];
-            // 现在兑换硬币的数量
-            int ncnt = cnt + c;
-            if(na==0){
-                ans=Math.min(ans,ncnt);
-                break;//剪枝1
+
+
+        int[][] dp = new int[coins.length + 1][amount + 1];
+        Arrays.fill(dp[0], amount + 1);
+        for (int i = 0; i < dp.length; i++) {
+            dp[i][0] = 0;
+        }
+        for (int i = 1; i <= coins.length; i++){
+            for (int j = 1; j <= amount; j++){
+                if (j >= coins[i- 1]){
+                    dp[i][j] = Math.min(dp[i - 1][j], dp[i][j - coins[i - 1]] + 1);
+                }else {
+                    dp[i][j] = dp[i - 1][j];
+                }
             }
-            if(ncnt+1>=ans){
-                break; //剪枝2
-            }
-            dfs(coins,index-1, na, ncnt);
+
+        }
+        // https://zhuanlan.zhihu.com/p/121837186
+        if (dp[coins.length][amount] >= amount + 1){
+            return -1;
+        }else {
+            return dp[coins.length][amount];
         }
     }
-
 
     public static void main(String[] args) {
-        System.out.println(new Solution().coinChange(new int[]{186, 419, 83, 408}, 6249));
+        System.out.println(new Solution().coinChange(new int[]{1}, 1));
     }
 }
+
