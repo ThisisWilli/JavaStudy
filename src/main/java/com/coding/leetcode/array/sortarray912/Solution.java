@@ -9,35 +9,51 @@ package com.coding.leetcode.array.sortarray912;
 
 public class Solution {
     public int[] sortArray(int[] nums) {
-        quickSort(nums, 0, nums.length - 1);
+        mergeSort(nums, 0, nums.length - 1);
         return nums;
     }
 
+    public void merge(int[] nums, int start, int mid, int end){
+        // 申请临时数组
+        int[] temp = new int[end - start + 1];
+        int i = start, j = mid + 1, tempLoc = 0;
+        while(i <= mid && j <= end){
+            if(nums[i] >= nums[j]){
+                temp[tempLoc++] = nums[j];
+                j++;
+            }else{
+                temp[tempLoc++] = nums[i];
+                i++;
+            }
+        }
 
-    private void quickSort(int[] nums, int begin ,int end){
-        if (begin > end){
-            return ;
+        while(i <= mid){
+            temp[tempLoc++] = nums[i++];
         }
-        int i = begin;
-        int j = end;
-        int guard = nums[begin];
-        while (begin < end){
-            while (begin < end && nums[end] > guard){
-                end--;
-            }
-            nums[begin] = nums[end];
-            while (begin < end && nums[begin] <= guard){
-                begin++;
-            }
-            nums[end] = nums[begin];
+
+        while(j <= end){
+            temp[tempLoc++] = nums[j++];
         }
-        nums[begin] = guard;
-        quickSort(nums, i, begin - 1);
-        quickSort(nums, end + 1, j);
+
+        i = start;
+        j = 0;
+        while(i <= end){
+            nums[i++] = temp[j++];
+        }
+    }
+
+    public void mergeSort(int[] nums, int start, int end){
+        if(start >= end){
+            return;
+        }
+        int mid = (start + end) / 2;
+        mergeSort(nums, start, mid);
+        mergeSort(nums, mid + 1, end);
+        merge(nums, start, mid, end);
     }
 
     public static void main(String[] args) {
-        int[] nums = {49, 38, 65, 97, 76, 13, 27, 49};
+        int[] nums = {};
         new Solution().sortArray(nums);
         for (int num : nums) {
             System.out.print(num + " ");
