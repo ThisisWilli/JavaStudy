@@ -25,6 +25,7 @@ public class Main4 {
                 minusCnt++;
             }
         }
+        // 为奇数，如果负号的个数为奇数，那么结果要为负数
         if ((minusCnt & 1) == 1){
             positive = false;
         }

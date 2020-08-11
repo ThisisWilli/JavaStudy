@@ -17,9 +17,13 @@ import java.util.Scanner;
 
 public class Main3 {
     public boolean isOverLap(Rect rc1, Rect rc2){
+        // r1的x坐标加上宽度 大于 r2的x坐标
         if (rc1.x + rc1.width >= rc2.x &&
-        rc2.x + rc2.width >= rc1.x &&
+        // r2的x坐标加上r2的宽度 大于 r1的x坐标1
+                rc2.x + rc2.width >= rc1.x &&
+                // r1的y坐标加上r1的高度大于r2的高度
         rc1.y + rc1.height >= rc2.y &&
+                // r2的y坐标加上r2的高度大于r1的高度
         rc2.y + rc2.height >= rc1.y){
             return true;
         }else {
