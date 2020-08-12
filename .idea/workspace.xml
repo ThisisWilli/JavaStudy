@@ -7,9 +7,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/keda/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/keda/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/keda/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/keda/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/netease/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/netease/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/netease/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +137,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/sql/myanswer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main1">
+  <component name="RunManager" selected="Application.Main4">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.designpattern.proxypattern.dynamicproxy.Client" />
       <module name="JavaStudy" />
@@ -163,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.keda.Main4" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.netease.Main2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.keda.*" />
+          <option name="PATTERN" value="com.company.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.longestPalindrome05.Solution" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.netease.Main3" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.dp.longestPalindrome05.*" />
+          <option name="PATTERN" value="com.company.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.sortarray912.Solution" />
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.netease.Main4" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.sortarray912.*" />
+          <option name="PATTERN" value="com.company.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Main4 (1)" />
       <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.Main4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main4 (1)" />
+        <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -417,13 +418,8 @@
       <workItem from="1596695006893" duration="19367000" />
       <workItem from="1596949863088" duration="5102000" />
       <workItem from="1597056429511" duration="5552000" />
-    </task>
-    <task id="LOCAL-00098" summary="输出二叉树的层次遍历">
-      <created>1589335402243</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1589335402243</updated>
+      <workItem from="1597208346816" duration="797000" />
+      <workItem from="1597228594538" duration="7030000" />
     </task>
     <task id="LOCAL-00099" summary="通过异或寻找数组中只出现一次的数字">
       <created>1589421154194</created>
@@ -761,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596715402680</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="科大讯飞笔试题整理">
+      <created>1597128378013</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1597128378013</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +785,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="剑指offer字符串部分二刷：用两个栈实现队列 + 翻转单词顺序 + 把字符串转换为整数 + 左旋转字符串" />
     <MESSAGE value="剑指offer数组部分二刷" />
     <MESSAGE value="剑指offer链表部分二刷" />
     <MESSAGE value="用synchronized实现生产者消费者 + try catch finally带return的情况" />
@@ -807,7 +809,8 @@
     <MESSAGE value="堆排序 + sql" />
     <MESSAGE value="0-1背包 + sql" />
     <MESSAGE value="完全背包 + sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="完全背包 + sql" />
+    <MESSAGE value="科大讯飞笔试题整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="科大讯飞笔试题整理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594792418058">
@@ -827,11 +830,11 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596636017842" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1596715401266">
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1597128376860">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596715401266" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128376860" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -840,54 +843,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="437" key="GridCell.Tab.0.bottom" timestamp="1597128302594">
+    <state width="1876" height="437" key="GridCell.Tab.0.bottom" timestamp="1597236425579">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725512" />
-    <state width="1876" height="437" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128302594" />
-    <state width="1876" height="437" key="GridCell.Tab.0.center" timestamp="1597128302594">
+    <state width="1876" height="437" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
+    <state width="1876" height="437" key="GridCell.Tab.0.center" timestamp="1597236425579">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="437" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128302594" />
-    <state width="1876" height="437" key="GridCell.Tab.0.left" timestamp="1597128302594">
+    <state width="1876" height="437" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
+    <state width="1876" height="437" key="GridCell.Tab.0.left" timestamp="1597236425579">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="437" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128302594" />
-    <state width="1876" height="437" key="GridCell.Tab.0.right" timestamp="1597128302594">
+    <state width="1876" height="437" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
+    <state width="1876" height="437" key="GridCell.Tab.0.right" timestamp="1597236425579">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="437" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128302594" />
-    <state width="1876" height="437" key="GridCell.Tab.1.bottom" timestamp="1597128314067">
+    <state width="1876" height="437" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
+    <state width="1876" height="437" key="GridCell.Tab.1.bottom" timestamp="1597236425579">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="437" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128314067" />
-    <state width="1876" height="437" key="GridCell.Tab.1.center" timestamp="1597128314066">
+    <state width="1876" height="437" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
+    <state width="1876" height="437" key="GridCell.Tab.1.center" timestamp="1597236425579">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="437" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128314066" />
-    <state width="1876" height="437" key="GridCell.Tab.1.left" timestamp="1597128314066">
+    <state width="1876" height="437" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
+    <state width="1876" height="437" key="GridCell.Tab.1.left" timestamp="1597236425579">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="437" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128314066" />
-    <state width="1876" height="437" key="GridCell.Tab.1.right" timestamp="1597128314066">
+    <state width="1876" height="437" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
+    <state width="1876" height="437" key="GridCell.Tab.1.right" timestamp="1597236425579">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="437" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128314066" />
+    <state width="1876" height="437" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1594792379141">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -902,11 +905,11 @@
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
     <state x="461" y="7" key="SettingsEditor/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596024465484" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1596715405145">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597128379803">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596715405145" />
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128379803" />
     <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1596024383426">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -1159,11 +1162,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/coinchange322/Solution.java</url>
           <line>69</line>
           <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/company/keda/Main1.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/diameterOfBinaryTree543/Solution.java</url>

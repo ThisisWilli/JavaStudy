@@ -34,15 +34,28 @@ public class Main4 {
                 nums[i] = sc.nextInt();
             }
             main.dfs(nums, 0, 0, 0, 0);
-//            System.out.println(main.res);
+            System.out.println(main.res);
         }
     }
 
+//    public void dfs(int[] nums, int index, int sum_1, int sum_2, int r){
+//        if (index == nums.length){
+//            System.out.println(r);
+//            if (sum_1 == sum_2){
+////                System.out.println("sum_1 = " + sum_1 + ", sum_2 = " + ", r = " + r);
+//                res = Math.min(r, res);
+//            }
+//            return;
+//        }
+//        dfs(nums, index + 1, sum_1 + nums[index], sum_2, r);
+//        dfs(nums, index + 1, sum_1, sum_2 + nums[index], r);
+//        dfs(nums, index + 1, sum_1, sum_2, r + nums[index]);
+//    }
+//
     public void dfs(int[] nums, int index, int sum_1, int sum_2, int r){
         if (index == nums.length){
             System.out.println(r);
             if (sum_1 == sum_2){
-//                System.out.println("sum_1 = " + sum_1 + ", sum_2 = " + ", r = " + r);
                 res = Math.min(r, res);
             }
             return;

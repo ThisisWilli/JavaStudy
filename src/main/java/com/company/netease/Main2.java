@@ -1,5 +1,6 @@
 package com.company.netease;
 
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -23,6 +24,7 @@ H表示有H道题目难度为Hard
 输出你最多能出多少场模拟赛
 示例1
 输入
+E,EM,M,MH,H
 2 2 1 2 2
 输出
 3
@@ -32,30 +34,81 @@ E + EM + H
 E + MH + H
 EM + M + MH
 
+E,EM,M,MH,H
+5 1 0 2 1
 思路：
-就像一根绳子，共5个部分，只能在第二部分和第四部分各切一刀，分3段，使得最短的那段最长。
-那我们直接返回(E+EM+M+MH+H)/3，（E+EM+M+MH)/2，（EM+M+MH+H)/2，E+EM,MH+H，EM+M+MH六者的最小值不就好了？（5部分分3段，4部分分2段，2~3部分分一段）
+二分查找，不断探索符合条件的最大 target 值。
+
+先对 e,h 进行分析，是否满足 target 个方案，不够的话， e 用 em 补充，h 用 mh 补充
+
+最后判断 e,h, 和 m +em + mh 三个级别的个数是否满足条件，
+即 e >= target && h >= target && m + em + mh >= target
+如果满足条件，增大target 值，继续探索。
+
+此处用二分查找来缩小每一步探索的范围，满足的话 left = mid +1
+
+不满足的话，right = mid -1
  *
  **/
 
 public class Main2 {
+    private static int score;
+    private static int max;
+
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
-        long[] nums = new long[5];
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = sc.nextLong();
+        int n = Integer.parseInt(sc.nextLine());
+        String[] arr = sc.nextLine().trim().split(" ");
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++) {
+            nums[i] = Integer.parseInt(arr[i]);
         }
-
-
-        System.out.println(new Main2().getResult(nums));
+        max = 0;
+        int res = EMH(nums);
+        System.out.println(res);
     }
-    public long getResult(long[] nums){
-        long sum = 0;
-        for (int i = 0; i < 5; i++) {
-            sum += nums[i];
+
+    private static int EMH(int[] nums) {
+
+        int e = nums[0];
+        int m = nums[2];
+        int h = nums[4];
+        int em = nums[1];
+        int mh = nums[3];
+
+        int maxval = (e + m + h + em + mh) / 3;
+        int left = 0, right = maxval + 1;
+        while (left <= right) {
+
+            int mid = (left + right) / 2;
+            if (binarySearch(mid, e, m, h, em, mh)) {
+                //若满足
+                left = mid + 1;
+                max = Math.max(max, mid);
+            } else {
+                right = mid - 1;
+            }
         }
-        long sum1 = sum /3;
-        long sum2 = Math.min(nums[0] + nums[1], nums[1] + nums[2] + nums[3]);
-        return Math.min(sum1, sum2);
+        return max;
+    }
+    private static boolean binarySearch(int mid, int e, int m, int h, int em, int mh) {
+        //1.先处理 e, e 与要求的 mid 相比,少几个就从 em 中拿几个,假设 em是充足的
+        if(mid > e){
+            int cur = Math.min(mid - e,em);
+            e += cur;
+            em -= cur;
+        }
+        //2 处理 h ,h 与要求的 mid 相比,少几个就从 mh 中拿几个,假设 mh 是充足的
+        if(mid > h){
+            int cur = Math.max(mid - h ,mh);
+            h += cur;
+            mh -= cur;
+        }
+        // 3 判断拿完之后是否符合条件
+        return e >= mid && h >= mid && (m + em + mh) >= mid;
+
     }
 }
+
+
