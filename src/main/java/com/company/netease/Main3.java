@@ -1,5 +1,6 @@
 package com.company.netease;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -9,51 +10,57 @@ import java.util.Scanner;
  * @create: 2020-08-08 15:27
  *
  * n个题目，第i个题目的分数为Si，如果第i题回答正确，得到Si分，否则得0分，如果学生总分有数字5，那么这个学生得0分
+ * 5
+ * 5 15 5 15 5
+ * 40
  **/
 
-public class Main3 {
-    int max = 0;
+
+public class Main3{
+    static boolean flag = false;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
-        int[] scores = new int[size];
-        int sum = 0;
-        for (int i = 0; i < scores.length; i++) {
-            scores[i] = sc.nextInt();
-            sum += scores[i];
-        }
-        System.out.println(new Main3().maxnum(size, scores));
-    }
-
-    public int maxnum(int n, int[] nums){
+        int n = sc.nextInt();
+        int[] arr = new int[n];
         int sum = 0;
         for (int i = 0; i < n; i++) {
-            sum += nums[i];
+            arr[i] = sc.nextInt();
+            sum += arr[i];
         }
-        if (panduan(sum)){
-            return sum;
+        if(!containFive(sum)){
+            System.out.println(sum);
+            return;
         }
-        return diu(0, n, nums, sum);
+        Arrays.sort(arr);
+        dfs(arr, arr.length - 1, 0);
+        if(!flag)
+            System.out.println(0);
     }
 
-    public int diu(int m, int n, int[] nums, int sum){
-        for (int i = m; i < n; i++) {
-            if (panduan(sum-nums[i]) && max < sum - nums[i]){
-                max = sum - nums[i];
+    public static void dfs(int[] arr, int index, int sum){
+        if(index == -1){
+            if(!containFive(sum)){
+                System.out.println(sum);
+                flag = true;
             }
-            diu(i + 1, n, nums, sum - nums[i]);
+            return;
         }
-        return max;
+        if(flag)
+            return;
+        dfs(arr, index - 1, sum + arr[index]);
+        if(flag)
+            return;
+        dfs(arr, index - 1, sum);
     }
 
-    public boolean panduan(int sum){
-        while (sum != 0){
-            if (sum % 10 == 5) {
-                return false;
-            }
-            sum = sum / 10;
+    public static boolean containFive(int x){
+        while (x > 0){
+            if(x % 10 == 5)
+                return true;
+            x /= 10;
         }
-        return true;
+        return false;
     }
+
 }
 
