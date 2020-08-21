@@ -6,11 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/locksupportstudy/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/readwritelock/StudyReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/62_id为用户主键id，number代表积分情况，让你写一个sql查询，积分表里面出现三次以上的积分，查询结果如下.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/63_输出通过的题目的排名，通过题目个数相同的，排名相同，此时按照id升序排列，数据如下.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/netease/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/netease/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/netease/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/designpattern/proxypattern/dynamicproxy/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/aqs/CyclicBarrierStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/aqs/CyclicBarrierStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/concurrency/locksupportstudy/StudyLockSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/concurrency/locksupportstudy/StudyLockSupport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +121,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/study/designpattern/factorypattern/methodfactory" />
+    <property name="last_opened_file_path" value="D:/apache-flink/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -137,13 +140,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/sql/myanswer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main4">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.proxypattern.dynamicproxy.Client" />
+  <component name="RunManager" selected="Application.StudyReadWriteLock">
+    <configuration name="EnumSingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.designpattern.singletonpattern.EnumSingle" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.designpattern.proxypattern.dynamicproxy.*" />
+          <option name="PATTERN" value="com.study.designpattern.singletonpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.keda.Main1" />
+    <configuration name="StudyLockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.locksupportstudy.StudyLockSupport" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.keda.*" />
+          <option name="PATTERN" value="com.concurrency.locksupportstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.netease.Main2" />
+    <configuration name="StudyReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.readwritelock.StudyReadWriteLock" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.netease.*" />
+          <option name="PATTERN" value="com.concurrency.readwritelock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.netease.Main3" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.cas.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.netease.*" />
+          <option name="PATTERN" value="com.concurrency.cas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.netease.Main4" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrency.locksupportstudy.test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.netease.*" />
+          <option name="PATTERN" value="com.concurrency.locksupportstudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +207,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main4" />
+      <item itemvalue="Application.EnumSingle" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.StudyLockSupport" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.StudyReadWriteLock" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.StudyReadWriteLock" />
+        <item itemvalue="Application.StudyLockSupport" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.EnumSingle" />
       </list>
     </recent_temporary>
   </component>
@@ -419,14 +422,13 @@
       <workItem from="1596949863088" duration="5102000" />
       <workItem from="1597056429511" duration="5552000" />
       <workItem from="1597208346816" duration="797000" />
-      <workItem from="1597228594538" duration="7030000" />
-    </task>
-    <task id="LOCAL-00099" summary="通过异或寻找数组中只出现一次的数字">
-      <created>1589421154194</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1589421154195</updated>
+      <workItem from="1597228594538" duration="7896000" />
+      <workItem from="1597313715845" duration="1539000" />
+      <workItem from="1597587269759" duration="909000" />
+      <workItem from="1597649837203" duration="601000" />
+      <workItem from="1597651665909" duration="6758000" />
+      <workItem from="1597921674454" duration="2726000" />
+      <workItem from="1597931270878" duration="13993000" />
     </task>
     <task id="LOCAL-00100" summary="和为k的子数组">
       <created>1589506990481</created>
@@ -764,7 +766,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597128378013</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="日常总结">
+      <created>1597236456973</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1597236456973</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -785,7 +794,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="剑指offer数组部分二刷" />
     <MESSAGE value="剑指offer链表部分二刷" />
     <MESSAGE value="用synchronized实现生产者消费者 + try catch finally带return的情况" />
     <MESSAGE value="二刷剑指offer排序 + 学习ThreadLocal" />
@@ -810,7 +818,8 @@
     <MESSAGE value="0-1背包 + sql" />
     <MESSAGE value="完全背包 + sql" />
     <MESSAGE value="科大讯飞笔试题整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="科大讯飞笔试题整理" />
+    <MESSAGE value="日常总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594792418058">
@@ -821,76 +830,77 @@
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="678" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1595683631359" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1596089025566">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1597987278351">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596089025566" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597987278351" />
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596636017842">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596636017842" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1597128376860">
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1597313730615">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128376860" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597313730615" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="98" key="DiffContextDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592792902413" />
-    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1593333429165">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="446" y="219" key="FileChooserDialogImpl" timestamp="1597379951251">
+      <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1876" height="437" key="GridCell.Tab.0.bottom" timestamp="1597236425579">
+    <state x="446" y="219" key="FileChooserDialogImpl/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597379951251" />
+    <state width="1876" height="286" key="GridCell.Tab.0.bottom" timestamp="1597992924713">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725512" />
-    <state width="1876" height="437" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
-    <state width="1876" height="437" key="GridCell.Tab.0.center" timestamp="1597236425579">
+    <state width="1876" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597992924713" />
+    <state width="1876" height="286" key="GridCell.Tab.0.center" timestamp="1597992924713">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="437" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
-    <state width="1876" height="437" key="GridCell.Tab.0.left" timestamp="1597236425579">
+    <state width="1876" height="286" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597992924713" />
+    <state width="1876" height="286" key="GridCell.Tab.0.left" timestamp="1597992924713">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="437" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
-    <state width="1876" height="437" key="GridCell.Tab.0.right" timestamp="1597236425579">
+    <state width="1876" height="286" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597992924713" />
+    <state width="1876" height="286" key="GridCell.Tab.0.right" timestamp="1597992924713">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1876" height="437" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
-    <state width="1876" height="437" key="GridCell.Tab.1.bottom" timestamp="1597236425579">
+    <state width="1876" height="286" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597992924713" />
+    <state width="1876" height="437" key="GridCell.Tab.1.bottom" timestamp="1597929106066">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="437" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
-    <state width="1876" height="437" key="GridCell.Tab.1.center" timestamp="1597236425579">
+    <state width="1876" height="437" key="GridCell.Tab.1.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597929106066" />
+    <state width="1876" height="437" key="GridCell.Tab.1.center" timestamp="1597929106066">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="437" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
-    <state width="1876" height="437" key="GridCell.Tab.1.left" timestamp="1597236425579">
+    <state width="1876" height="437" key="GridCell.Tab.1.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597929106066" />
+    <state width="1876" height="437" key="GridCell.Tab.1.left" timestamp="1597929106066">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="437" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
-    <state width="1876" height="437" key="GridCell.Tab.1.right" timestamp="1597236425579">
+    <state width="1876" height="437" key="GridCell.Tab.1.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597929106066" />
+    <state width="1876" height="437" key="GridCell.Tab.1.right" timestamp="1597929106066">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="425" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595855876236" />
-    <state width="1876" height="437" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236425579" />
+    <state width="1876" height="437" key="GridCell.Tab.1.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597929106066" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1594792379141">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -905,11 +915,11 @@
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
     <state x="461" y="7" key="SettingsEditor/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596024465484" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597128379803">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597236467266">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597128379803" />
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597236467266" />
     <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1596024383426">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -927,13 +937,13 @@
       <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state x="-1064" y="192" key="run.anything.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595236646578" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1597060138476">
-      <screen x="0" y="0" width="1920" height="1049" />
+    <state x="-973" y="188" width="672" height="568" key="search.everywhere.popup" timestamp="1597921720669">
+      <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777055814" />
-    <state x="-973" y="188" width="672" height="568" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595837514969" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597060138476" />
+    <state x="-973" y="188" width="672" height="568" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1597921720669" />
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1597651672342" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1162,6 +1172,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/coinchange322/Solution.java</url>
           <line>69</line>
           <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/netease/Main4.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/concurrency/locksupportstudy/test.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/diameterOfBinaryTree543/Solution.java</url>

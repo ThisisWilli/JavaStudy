@@ -3,6 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/main/java/com/sql/myanswer/CreateSchemas" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise1.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sql/nowcoder/62_id为用户主键id，number代表积分情况，让你写一个sql查询，积分表里面出现三次以上的积分，查询结果如下.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>

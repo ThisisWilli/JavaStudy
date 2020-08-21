@@ -12,25 +12,32 @@ import java.util.concurrent.locks.LockSupport;
  * \
  */
 public class StudyLockSupport {
-    public static void main(String[] args) throws InterruptedException {
-        Thread t1 = new Thread(() -> {
-            System.out.println(Thread.currentThread().getName() + "running....");
-            LockSupport.park(Thread.currentThread());
-            LockSupport.unpark(Thread.currentThread());
-            System.out.println("parking...");
-            System.out.println(Thread.currentThread().getName() + "over....");
-        });
+    public static void main(String[] args) {
+        System.out.println(Thread.currentThread());
+        TestThread testThread = new TestThread(Thread.currentThread());
+        testThread.start();
+        System.out.println("被阻塞");
+        LockSupport.park(Thread.currentThread());
+        System.out.println("被释放");
+    }
+}
+class TestThread extends Thread{
+    Object object;
 
-//        t1.start();
-//        TimeUnit.SECONDS.sleep(4);
-//        System.out.println("unpark t1");
-//        LockSupport.unpark(t1);
-        new StudyLockSupport().test(Thread.currentThread());
+    public TestThread(Object object) {
+        this.object = object;
+        System.out.println("构造器中" + object);
     }
 
-    public void test(Thread t){
-        LockSupport.park(t);
-        LockSupport.unpark(t);
-
+    @Override
+    public void run() {
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Object blocker = LockSupport.getBlocker((Thread) object);
+        System.out.println(blocker);
+        LockSupport.unpark((Thread) blocker);
     }
 }
