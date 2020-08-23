@@ -28,56 +28,39 @@ import java.util.Stack;
  **/
 
 public class Solution {
-    List<String> results = new ArrayList<String>();
     public List<String> generateParenthesis(int n) {
-        if (n <= 0){
-            return results;
-        }
-        if (n == 1){
-            results.add("()");
-            return results;
-        }
-
-        helper("(", n - 1, n);
-        return results;
+        ArrayList<String> result = new ArrayList<>();
+        helper(result, new StringBuilder(""), n, n);
+        return result;
     }
 
-    private void helper(String s, int left, int right){
-        if (left > 0 && right > 0){
-            helper(s + "(", left - 1, right);
-            helper(s + ")", left, right - 1);
-        }else if (left == 0 && right > 0){
-            helper(s + ")", left, right - 1);
-        }else if (left > 0 && right == 0){
-            helper(s + "(", left - 1, right);
-        }else if (left == 0 && right == 0){
-            if (isResult(s)){
-                results.add(s);
+    public void helper(List<String> result, StringBuilder builder, int left, int right){
+        if (left > right){
+            return;
+        }
+        if (left == 0 && right == 0){
+            result.add(new String(builder));
+            return;
+        }
+        if (left > 0){
+            helper(result, builder.append('('), left - 1, right);
+            if (builder.length() >0 ){
+                builder.deleteCharAt(builder.length() - 1);
             }
-//            results.add(s);
-        }
-    }
 
-    private boolean isResult(String s){
-        char[] chars = s.toCharArray();
-        Stack<Character> stack = new Stack<>();
-        stack.push(chars[0]);
-        for (int i = 1; i < chars.length; i++) {
-            if (chars[i] == '('){
-                stack.push(chars[i]);
-            }else {
-                if (stack.isEmpty()){
-                    return false;
-                }
-                stack.pop();
+        }
+        if (right > 0){
+            helper(result, builder.append(')'), left, right - 1);
+            if (builder.length() >0 ){
+                builder.deleteCharAt(builder.length() - 1);
             }
         }
-        return stack.isEmpty();
     }
-
 
     public static void main(String[] args) {
-         new Solution().generateParenthesis(3).forEach(s-> System.out.println(s));
-//        System.out.println(new Solution().isResult("((()))"));
+        List<String> strings = new Solution().generateParenthesis(3);
+        for (String string : strings) {
+            System.out.println(string);
+        }
     }
 }
