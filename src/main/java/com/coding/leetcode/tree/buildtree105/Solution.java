@@ -30,35 +30,42 @@ public class Solution {
      * 1、先确定左右子树的长度，也就是区间，再从区间中寻找子树
      */
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        if (preorder.length == 0 || inorder.length == 0){
+        if(preorder.length == 0){
             return null;
         }
-        TreeNode root = new TreeNode(preorder[0]);
         int preStart = 0, preEnd = preorder.length - 1, inStart = 0, inEnd = inorder.length - 1;
-        for (int i = 0; i < inorder.length; i++) {
-            if (inorder[i] == preorder[preStart]){
-                // inorder中[0, i - 1] 为左子树区间，[i + 1, in.length - 1]为右子树区间
-                root.left = helper(preorder, inorder, inStart, i - 1, preStart + 1, preStart + (i - inStart));
-                root.right = helper(preorder, inorder, i + 1, preorder.length - 1, preStart + i - inStart + 1, preEnd);
+        TreeNode result = new TreeNode(preorder[preStart]);
+        for(int i = inStart; i <= inEnd; i++){
+            // 找到第一个根节点
+            if(inorder[i] == preorder[preStart]){
+                // 左子树长度
+                int leftLen = i - inStart;
+                //                                     先序序列               中序序列
+                result.left = helper(preorder, inorder, preStart + 1, preStart + leftLen, inStart, i - 1);
+                result.right = helper(preorder, inorder, preStart + leftLen + 1, preEnd, i + 1, inEnd);
                 break;
             }
         }
-        return root;
+        return result;
     }
 
-    private TreeNode helper(int[] preorder, int[] inorder, int inStart, int inEnd, int preStart, int preEnd){
+    public TreeNode helper(int[] preorder, int[] inorder, int preStart, int preEnd, int inStart, int inEnd){
         if (inStart > inEnd || preStart > preEnd){
             return null;
         }
-        TreeNode root = new TreeNode(preorder[preStart]);
-        for (int i = inStart; i <= inEnd; i++) {
-            if (inorder[i] == preorder[preStart]){
-                root.left = helper(preorder, inorder, inStart, i - 1, preStart + 1, preStart + (i - inStart));
-                root.right = helper(preorder, inorder, i + 1, inEnd, preStart + i - inStart + 1, preEnd);
+        TreeNode result = new TreeNode(preorder[preStart]);
+        for(int i = inStart; i <= inEnd; i++){
+            // 找到第一个根节点
+            if(inorder[i] == preorder[preStart]){
+                // 左子树长度
+                int leftLen = i - inStart;
+                //                                     先序序列               中序序列
+                result.left = helper(preorder, inorder, preStart + 1, preStart + leftLen, inStart, i - 1);
+                result.right = helper(preorder, inorder, preStart + leftLen + 1, preEnd, i + 1, inEnd);
                 break;
             }
         }
-        return root;
+        return result;
     }
 
     public static void main(String[] args) {
