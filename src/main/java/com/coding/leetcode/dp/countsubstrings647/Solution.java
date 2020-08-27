@@ -25,7 +25,7 @@ package com.coding.leetcode.dp.countsubstrings647;
  * \
  */
 public class Solution {
-    public int countSubstrings(String s) {
+    public int countSubstrings1(String s) {
         if (s == null || "".equals(s)){
             return 0;
         }
@@ -56,7 +56,32 @@ public class Solution {
         return result;
     }
 
+
+    public int countSubstrings(String s) {
+        // 定义dp数组
+        boolean[][] dp = new boolean[s.length()][s.length()];
+        int result = 0;
+
+
+        for (int len = 0; len < s.length(); len++) {
+            for (int i = 0; i < s.length(); i++) {
+                // i为开始节点，i + len为结束节点
+                int j = i + len;
+                if (len == 0){
+                    dp[i][j] = true;
+                }else if (len == 1 && j < s.length()){
+                    dp[i][j] = (s.charAt(i) == s.charAt(j));
+                } else if (len > 1 && j < s.length()){
+                    dp[i][j] = dp[i + 1][j - 1] && (s.charAt(i) == s.charAt(j));
+                }
+                if (j < s.length() && dp[i][j]){
+                    result++;
+                }
+            }
+        }
+        return result;
+    }
     public static void main(String[] args) {
-        System.out.println(new Solution().countSubstrings("aaa"));
+        System.out.println(new Solution().countSubstrings("abc"));
     }
 }
