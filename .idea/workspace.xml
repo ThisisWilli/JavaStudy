@@ -6,11 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/69_牛客每个人最近的登录日期三.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/70_牛客每个日期登录新用户的个数.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/interview/mysql查询连续登录天数.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/71_牛客网每个人的最近登录日期五.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/design/tiretree208/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/design/tiretree208/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/countsubstrings647/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/countsubstrings647/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/70_牛客每个日期登录新用户的个数.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/nowcoder/70_牛客每个日期登录新用户的个数四.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +233,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:MySQL for 5.1 - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@720368ce" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@305f2b8c" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -432,14 +431,9 @@
       <workItem from="1597228594538" duration="7030000" />
       <workItem from="1598319828166" duration="13573000" />
       <workItem from="1598404048090" duration="10018000" />
-      <workItem from="1598440483819" duration="17447000" />
-    </task>
-    <task id="LOCAL-00101" summary="头插法反转k个链表，要记录最开始反转的那个节点">
-      <created>1589596472477</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1589596472477</updated>
+      <workItem from="1598440483819" duration="22410000" />
+      <workItem from="1598667198166" duration="6382000" />
+      <workItem from="1598677542560" duration="9318000" />
     </task>
     <task id="LOCAL-00102" summary="拓扑排序解决排序问题">
       <created>1589697821640</created>
@@ -777,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598423711783</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="leetcode + sql">
+      <created>1598525514706</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1598525514706</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -839,15 +840,15 @@
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1592183582796" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598496413895" />
-    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598404604684">
+    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598528734206">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
-    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598404604684" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1598423710025">
+    <state x="601" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598528734206" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2" timestamp="1598525513357">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="683" y="141" key="CommitChangelistDialog2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785255198" />
-    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598423710025" />
+    <state x="516" y="171" width="800" height="792" key="CommitChangelistDialog2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598525513357" />
     <state x="249" y="98" key="DiffContextDialog" timestamp="1592792902413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -856,30 +857,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333429165" />
-    <state width="1507" height="415" key="GridCell.Tab.0.bottom" timestamp="1598516342246">
+    <state width="1507" height="327" key="GridCell.Tab.0.bottom" timestamp="1598686887988">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725512" />
-    <state width="1507" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598516342246" />
-    <state width="1507" height="415" key="GridCell.Tab.0.center" timestamp="1598516342246">
+    <state width="1507" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598686887988" />
+    <state width="1507" height="327" key="GridCell.Tab.0.center" timestamp="1598686887988">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1507" height="415" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598516342246" />
-    <state width="1507" height="415" key="GridCell.Tab.0.left" timestamp="1598516342246">
+    <state width="1507" height="327" key="GridCell.Tab.0.center/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598686887988" />
+    <state width="1507" height="327" key="GridCell.Tab.0.left" timestamp="1598686887988">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1507" height="415" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598516342246" />
-    <state width="1507" height="415" key="GridCell.Tab.0.right" timestamp="1598516342246">
+    <state width="1507" height="327" key="GridCell.Tab.0.left/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598686887988" />
+    <state width="1507" height="327" key="GridCell.Tab.0.right" timestamp="1598686887988">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593844126471" />
     <state width="1396" height="260" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595932725511" />
-    <state width="1507" height="415" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598516342246" />
+    <state width="1507" height="327" key="GridCell.Tab.0.right/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598686887988" />
     <state width="1876" height="437" key="GridCell.Tab.1.bottom" timestamp="1598423736193">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
@@ -918,16 +919,16 @@
     <state x="-1094" y="6" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345428536" />
     <state x="461" y="150" key="SettingsEditor/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593333483194" />
     <state x="461" y="7" key="SettingsEditor/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598339767632" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1598423716055">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2" timestamp="1598525517266">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="814" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593785258521" />
-    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598423716055" />
-    <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1596024383426">
+    <state x="814" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598525517266" />
+    <state x="822" y="373" key="com.intellij.ide.util.TipDialog" timestamp="1598677542621">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="822" y="370" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593685767675" />
-    <state x="822" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1596024383426" />
+    <state x="822" y="373" key="com.intellij.ide.util.TipDialog/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598677542621" />
     <state x="969" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593777245114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -936,13 +937,13 @@
       <screen x="-1440" y="0" width="1440" height="870" />
     </state>
     <state x="-1064" y="192" key="run.anything.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595236646578" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1598507595927">
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup" timestamp="1598681409952">
       <screen x="0" y="0" width="1920" height="1049" />
     </state>
     <state x="-973" y="186" width="670" height="561" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@-1440.0.1440.860" timestamp="1593345437579" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.0.1440.860@0.0.1920.1040" timestamp="1593777055814" />
     <state x="-973" y="188" width="672" height="568" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@-1440.0.1440.870" timestamp="1595837514969" />
-    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598507595927" />
+    <state x="623" y="227" width="672" height="684" key="search.everywhere.popup/0.0.1920.1049/-1440.0.1440.870@0.0.1920.1049" timestamp="1598681409952" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
