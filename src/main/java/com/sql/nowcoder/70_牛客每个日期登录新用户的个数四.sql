@@ -31,6 +31,33 @@ from login
      on login.date = n1.date
 group by login.date order by login.date;
 
+# 先找出当前这个日期之前出现过的用户id号
 select distinct l1.user_id, l2.date
 from login l1, login l2
-where l2.date > l1.date
+where l2.date > l1.date;
+
+# 然后两张表进行比较
+select l1.date, if(count(l1.user_id) > 0, count(l1.user_id), 0)  as new
+from login as l1
+where l1.user_id not in(
+    select distinct l2.user_id
+    from login as l2
+    where l2.date < l1.date
+    )
+group by l1.date
+
+
+select distinct l0.date, (case when l3.new is null then 0 else l3.new end ) as new
+from login as l0
+left join (
+    select l1.date, count(l1.user_id)  as new
+    from login as l1
+    where l1.user_id not in(
+        select distinct l2.user_id
+        from login as l2
+        where l2.date < l1.date
+    )
+    group by l1.date
+) as l3
+on l0.date = l3.date
+

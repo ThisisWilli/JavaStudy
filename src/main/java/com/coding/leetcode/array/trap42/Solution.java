@@ -1,5 +1,8 @@
 package com.coding.leetcode.array.trap42;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * @program: JavaStudy
  * @description:
@@ -41,7 +44,30 @@ public class Solution {
         return result;
     }
 
+
+    public int trap2(int[] height) {
+        Deque<Integer> stack = new LinkedList<Integer>();
+        int result = 0;
+        // 先算底部长度，再算高度
+        for(int i = 0; i < height.length; i++){
+            // 如果栈不为空，并且当前元素大于栈顶元素所指向的那个元素，说明当前元素到栈顶元素之间的可接雨水量是可以确定的
+            while(!stack.isEmpty() && height[i] > height[stack.peekLast()]){
+                // 首先将这个栈顶元素出栈, 这个相当于较低的高度
+                int curIndex = stack.pollLast();
+                while (!stack.isEmpty() && height[stack.peekLast()] == height[curIndex]){
+                    stack.pollLast();
+                }
+                if (!stack.isEmpty()){
+                    int distance = i - stack.peekLast() - 1;
+                    int boundedHeight = Math.min(height[i], height[stack.peekLast()]) - height[curIndex];
+                    result += distance * boundedHeight;
+                }
+            }
+            stack.addLast(i);
+        }
+        return result;
+    }
     public static void main(String[] args) {
-        System.out.println(new Solution().trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
+        System.out.println(new Solution().trap2(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
     }
 }
