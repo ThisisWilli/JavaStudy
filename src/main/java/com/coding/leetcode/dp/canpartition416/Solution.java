@@ -49,6 +49,38 @@ public class Solution {
         return false;
     }
 
+    public boolean canPartition2(int[] nums) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+
+        if (sum % 2 == 1){
+            return false;
+        }
+
+        int[] nums2 = new int[nums.length + 1];
+        System.arraycopy(nums, 0, nums2, 1, nums.length);
+        // 第一维代表总共有多少个数，第二维代表目标
+        int[][] dp = new int[nums2.length][sum / 2 + 1];
+
+        for (int i = 1; i < nums2.length; i++) {
+            for (int j = 1; j <= sum / 2; j++){
+                dp[i][j] = dp[i - 1][j];
+                if (j >= nums2[i]){
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - nums2[i]] + nums2[i]);
+                }
+                if(dp[i][j] == sum / 2){
+                    return true;
+                }
+                if (dp[i][j] > sum / 2){
+                    dp[i][j] = dp[i - 1][j];
+                }
+            }
+        }
+        return false;
+    }
+
 
     public static void main(String[] args) {
         System.out.println(new Solution().canPartition(new int[]{1, 5, 11, 5}));

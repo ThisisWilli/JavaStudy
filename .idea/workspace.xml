@@ -6,10 +6,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/huawei/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/huawei/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/huawei/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/change518/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/beike/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/beike/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/beike/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/netease/Main_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/xiaohongshu/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/xiaohongshu/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/xiaohongshu/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/xiaomi/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/xiaomi/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/xiecheng/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/youzan/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/youzan/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/canpartition416/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding/leetcode/dp/canpartition416/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +33,7 @@
     <option name="done" value="true" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="221" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -149,26 +162,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.baidu.Main1" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.baidu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main_4">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.huawei.Main1" />
+      <option name="MAIN_CLASS_NAME" value="com.company.xiaomi.Main1" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.huawei.*" />
+          <option name="PATTERN" value="com.company.xiaomi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.huawei.Main2" />
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.youzan.Main2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.huawei.*" />
+          <option name="PATTERN" value="com.company.youzan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +189,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.baidu.Main3" />
+    <configuration name="Main2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.xiaohongshu.Main2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.baidu.*" />
+          <option name="PATTERN" value="com.company.xiaohongshu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.netease.Main_1" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.netease.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.netease.Main_4" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.netease.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,11 +229,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.array.trap42.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.leetcode.dp.change518.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.coding.leetcode.array.trap42.*" />
+          <option name="PATTERN" value="com.coding.leetcode.dp.change518.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,18 +243,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Main1 (1)" />
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main2 (1)" />
+      <item itemvalue="Application.Main2 (2)" />
+      <item itemvalue="Application.Main_1" />
+      <item itemvalue="Application.Main_4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main1 (1)" />
+        <item itemvalue="Application.Main_4" />
+        <item itemvalue="Application.Main_1" />
+        <item itemvalue="Application.Main2 (2)" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -425,13 +451,6 @@
       <workItem from="1598667198166" duration="6382000" />
       <workItem from="1598677542560" duration="9318000" />
       <workItem from="1598870953277" duration="15884000" />
-    </task>
-    <task id="LOCAL-00102" summary="拓扑排序解决排序问题">
-      <created>1589697821640</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1589697821640</updated>
     </task>
     <task id="LOCAL-00103" summary="乘积最大子数组，dp维护一个最大值数组，一个最小值数组">
       <created>1589766664955</created>
@@ -769,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598525514706</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="华为笔试">
+      <created>1599401190860</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1599401190860</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +816,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="用synchronized实现生产者消费者 + try catch finally带return的情况" />
     <MESSAGE value="二刷剑指offer排序 + 学习ThreadLocal" />
     <MESSAGE value="剑指offer递归部分" />
     <MESSAGE value="剑指offer二刷：&#10;替换空格05：秒杀；旋转数组中最小的数11：采用二分查找，一直将nums[mid] 于 nums[end]进行比较，相等时end--；矩阵中的路径12：dfs秒杀；剪绳子14I：考虑小于4的情况，大于4的情况，开始dp套公式；剪绳子14||：因为要取余，那么dp过程中的max会被取余去掉，所以使用贪心的做法，优先剪长度为3的绳子" />
@@ -815,7 +840,8 @@
     <MESSAGE value="科大讯飞笔试题整理" />
     <MESSAGE value="sql练习" />
     <MESSAGE value="leetcode + sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode + sql" />
+    <MESSAGE value="华为笔试" />
+    <option name="LAST_COMMIT_MESSAGE" value="华为笔试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594792418058">
@@ -1194,6 +1220,46 @@
           <line>111</line>
           <option name="timeStamp" value="151" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/beike/Main2.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/xiaomi/Main1.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/xiaomi/Main1.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/xiecheng/Main1.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/youzan/Main2.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/xiaohongshu/Main2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/netease/Main_1.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/netease/Main_4.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/coding/sword2nd/tree/diameterOfBinaryTree543/Solution.java</url>
           <line>20</line>
@@ -1208,6 +1274,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaStudy$Solution__1_.ic" NAME="Solution (1) Coverage Results" MODIFIED="1594455098754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.coding.sword2nd.array.singlenumberII56.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaStudy$Main1__1_.ic" NAME="Main1 (1) Coverage Results" MODIFIED="1599468320666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.beike.*</FILTER>
     </SUITE>
   </component>
 </project>
