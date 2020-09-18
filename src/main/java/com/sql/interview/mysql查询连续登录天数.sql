@@ -1,7 +1,7 @@
 create database interview;
 CREATE TABLE `tmp_test_lianxu_3` (
-                                     `id` int(11) NOT NULL AUTO_INCREMENT,
-                                     `uid` int(11) DEFAULT NULL,
+                                     `id` int(11) NOT NULL AUTO_INCREMENT,  # 主键id
+                                     `uid` int(11) DEFAULT NULL,            # 用户id
                                      `sts` datetime DEFAULT NULL COMMENT '登录时间',
                                      `ets` datetime DEFAULT NULL COMMENT '离线时间',
                                      PRIMARY KEY (`id`)
@@ -89,8 +89,11 @@ from
             order by tmp_test_lianxu_3.uid, tmp_test_lianxu_3.sts
         ) as t1, (select @last_uid := '', @last_dt := '', @cont_ix := 0, @cont_day := 0) as t2
     ) as main
-group by uid, continuous_login
+group by uid, continuous_login;
 
+select *
+from tmp_test_lianxu_3 t1
+order by t1.uid, t1.sts
 
 
 

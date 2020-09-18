@@ -25,4 +25,109 @@ from login
 where (user_id,date)
           in (select user_id,date(min(date),'+1 day') from login group by user_id);
 
+use nowcoder;
+drop table login;
+create table login(
+                      id int,
+                      user_id int,
+                      client_id int,
+                      date date
+);
 
+insert into login values
+(1, 2, 1, '2020-10-12'),
+(2, 3, 2, '2020-10-12'),
+(3, 1, 2, '2020-10-12'),
+(4, 2, 2, '2020-10-13'),
+(5, 4, 1, '2020-10-13'),
+(6, 1, 2, '2020-10-13');
+
+# 1. 找出当天新登录的用户
+select l1.date, l1.user_id
+from login l1
+where l1.user_id not in
+(
+    select l2.user_id
+    from login l2
+    where l1.date > l2.date
+);
+
+# 2. 将明天新登录的用户是否包含当天新登录的用户，占了多少
+
+# 2. 计算明天有哪几个新用户登录了
+select ll1.date, ll2.user_id
+from login as ll1
+inner join
+    (
+    select l1.date, l1.user_id
+    from login l1
+    where l1.user_id not in
+          (
+              select l2.user_id
+              from login l2
+              where l1.date > l2.date
+          )
+    ) as ll2
+on ll1.date = ll2.date + 1 and ll1.user_id = ll2.user_id;
+
+# 3. 计算最终结果
+
+select l1.date, count(l1.user_id) as new_user_per_day
+from login l1
+where l1.user_id not in
+      (
+          select l2.user_id
+          from login l2
+          where l1.date > l2.date
+      )
+group by l1.date;
+
+select ll2.date, count(ll2.user_id) as still_login_per_day
+from login as ll1
+         inner join
+     (
+         select l1.date, l1.user_id
+         from login l1
+         where l1.user_id not in
+               (
+                   select l2.user_id
+                   from login l2
+                   where l1.date > l2.date
+               )
+     ) as ll2
+     on ll1.date = ll2.date + 1 and ll1.user_id = ll2.user_id
+group by ll2.date;
+
+select  round(1.0 * ll2.still_login_per_day / ll1.new_user_per_day, 3) as p
+from
+(
+    select l1.date, count(l1.user_id) as new_user_per_day
+    from login l1
+    where l1.user_id not in
+          (
+              select l2.user_id
+              from login l2
+              where l1.date > l2.date
+          )
+    group by l1.date
+    ) as ll1
+inner join
+(
+    select ll2.date, count(ll2.user_id) as still_login_per_day
+    from login as ll1
+             inner join
+         (
+             select l1.date, l1.user_id
+             from login l1
+             where l1.user_id not in
+                   (
+                       select l2.user_id
+                       from login l2
+                       where l1.date > l2.date
+                   )
+         ) as ll2
+#          on ll1.date = date(ll2.date, '+1 day') and ll1.user_id = ll2.user_id
+         on ll1.date = ll2.date + 1 and ll1.user_id = ll2.user_id
+    group by ll2.date
+    ) as ll2
+on ll1.date = ll2.date

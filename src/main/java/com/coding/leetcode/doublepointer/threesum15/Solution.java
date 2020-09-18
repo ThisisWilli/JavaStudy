@@ -74,9 +74,47 @@ public class Solution {
         return result;
     }
 
+    public List<List<Integer>> threeSum2(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        Arrays.sort(nums);
+        for(int i = 0; i < nums.length; i++){
+            // 1. 跳过重复元素，避免出现重复解
+            if (i - 1 > 0 && nums[i] == nums[i - 1]){
+                continue;
+            }
+            int target = -nums[i];
+            int start = i + 1, end = nums.length - 1;
+            while(start < end){
+                if (nums[start] + nums[end] == target){
+                    List<Integer> temp = new ArrayList<Integer>();
+                    temp.add(nums[i]);
+                    temp.add(nums[start]);
+                    temp.add(nums[end]);
+                    result.add(new ArrayList<>(temp));
+                    temp.clear();
+                    // 去除重复解
+                    while (start < end && nums[start] == nums[start + 1]){
+                        start++;
+                    }
+                    // 去除重复的数
+                    while (start < end && nums[end - 1] == nums[end]){
+                        end--;
+                    }
+                    start++;
+                    end--;
+                }else if(nums[start] + nums[end] < target){
+                    start++;
+                }else{
+                    end--;
+                }
+            }
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
-        int[] nums = {-2, 0, 1, 1, 2};
-        List<List<Integer>> result = new Solution().threeSum(nums);
+        int[] nums = {0, 0, 0, 0};
+        List<List<Integer>> result = new Solution().threeSum2(nums);
         result.forEach(list->{
             list.forEach(num->{
                 System.out.print(num + " ");
