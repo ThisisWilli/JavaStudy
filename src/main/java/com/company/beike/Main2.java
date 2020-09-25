@@ -14,7 +14,7 @@ import java.util.Scanner;
  * input
  * 6
  * abcdef
- * output
+ * input
  * 6
  *
  * 9

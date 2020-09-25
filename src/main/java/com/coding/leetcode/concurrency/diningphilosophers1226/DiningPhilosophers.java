@@ -30,7 +30,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 解释:
  * n 表示每个哲学家需要进餐的次数。
  * 输出数组描述了叉子的控制和进餐的调用，它的格式如下：
- * output[i] = [a, b, c] (3个整数)
+ * input[i] = [a, b, c] (3个整数)
  * - a 哲学家编号。
  * - b 指定叉子：{1 : 左边, 2 : 右边}.
  * - c 指定行为：{1 : 拿起, 2 : 放下, 3 : 吃面}。

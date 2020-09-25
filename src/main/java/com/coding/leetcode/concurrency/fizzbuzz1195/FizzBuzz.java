@@ -20,10 +20,10 @@ import java.util.function.IntConsumer;
  *
  * class FizzBuzz {
  *   public FizzBuzz(int n) { ... }               // constructor
- *   public void fizz(printFizz) { ... }          // only output "fizz"
- *   public void buzz(printBuzz) { ... }          // only output "buzz"
- *   public void fizzbuzz(printFizzBuzz) { ... }  // only output "fizzbuzz"
- *   public void number(printNumber) { ... }      // only output the numbers
+ *   public void fizz(printFizz) { ... }          // only input "fizz"
+ *   public void buzz(printBuzz) { ... }          // only input "buzz"
+ *   public void fizzbuzz(printFizzBuzz) { ... }  // only input "fizzbuzz"
+ *   public void number(printNumber) { ... }      // only input the numbers
  * }
  * 请你实现一个有四个线程的多线程版  FizzBuzz， 同一个 FizzBuzz 实例会被如下四个线程使用：
  *
