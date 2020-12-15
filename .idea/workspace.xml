@@ -9,60 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/00_CreateTables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/01_简单查询.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/02_汇总分析.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/03_分组查询.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/04_分组结果的条件.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/05_汇总分析_查询结构排序_分组的制定条件.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/06_日期函数.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/answer/CreateSchemas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/answer/Exercise1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/answer/Exercise7.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/CreateSchemas" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/CreateSchemas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise10.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise10.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise11.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise11.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise12.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise12.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise13.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise13.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise14.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise14.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise15.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise15.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise16.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise16.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise17.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise17.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise18.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise18.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise19.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise19.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise20.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise20.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise21.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise21.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise22.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise22.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise23.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise23.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise24.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise24.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise25.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise25.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise26.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise26.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise27.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise27.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise28.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise28.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise29.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise29.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise3.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise30.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise30.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise31.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise31.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise32.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise32.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise33.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise33.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise34.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise34.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise35.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise35.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise4.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise5.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise6.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise6.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise7.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise7.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise8.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise8.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/Exercise9.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/Exercise9.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/myanswer/MyTest.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v1/MyTest.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JavaStudy.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/test/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/test/TestStaticMethod.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,13 +202,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -496,14 +447,8 @@
       <workItem from="1607651612743" duration="53000" />
       <workItem from="1607653124289" duration="1132000" />
       <workItem from="1607663713977" duration="8674000" />
-      <workItem from="1607832422584" duration="8151000" />
-    </task>
-    <task id="LOCAL-00106" summary="通过中序遍历和前序遍历确定二叉树">
-      <created>1590114623922</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1590114623922</updated>
+      <workItem from="1607832422584" duration="11259000" />
+      <workItem from="1607944574327" duration="5882000" />
     </task>
     <task id="LOCAL-00107" summary="链表相加 + 链表的深拷贝 + 两数相加有序和无序两种情况">
       <created>1590374774290</created>
@@ -841,7 +786,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600781105083</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="重写mysql50题">
+      <created>1607861721995</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1607861721996</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -861,7 +813,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="剑指offer二刷：汉明距离，求一个数中1的个数， n = n &amp;(n -1)两种方法;表示数值的字符串：使用状态机解题，重要！;调整数组顺序：利用快排思想" />
     <MESSAGE value="快速排序" />
     <MESSAGE value="剑指offer：合并两个有序链表；有min功能的最小栈；判断两个序列是不是正确的出栈序列；判断该序列是否为有效的二叉树后续遍历序列；将二叉搜索树转化为双向链表" />
     <MESSAGE value="各种排序" />
@@ -886,7 +837,8 @@
     <MESSAGE value="各种笔试" />
     <MESSAGE value="各种笔试题 + 总结" />
     <MESSAGE value="CompletableFuture学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="CompletableFuture学习" />
+    <MESSAGE value="重写mysql50题" />
+    <option name="LAST_COMMIT_MESSAGE" value="重写mysql50题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
