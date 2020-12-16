@@ -9,8 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/05_汇总分析_查询结构排序_分组的制定条件.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/06_日期函数.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/07_多表查询.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -448,14 +447,7 @@
       <workItem from="1607653124289" duration="1132000" />
       <workItem from="1607663713977" duration="8674000" />
       <workItem from="1607832422584" duration="11259000" />
-      <workItem from="1607944574327" duration="5882000" />
-    </task>
-    <task id="LOCAL-00107" summary="链表相加 + 链表的深拷贝 + 两数相加有序和无序两种情况">
-      <created>1590374774290</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1590374774290</updated>
+      <workItem from="1607944574327" duration="10929000" />
     </task>
     <task id="LOCAL-00108" summary="加油">
       <created>1590631042055</created>
@@ -793,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607861721996</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="重写mysql50题">
+      <created>1607999255516</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1607999255516</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
