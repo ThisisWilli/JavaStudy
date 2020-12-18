@@ -9,8 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e163ce05-effc-4f79-b3d0-dd472986ab5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/07_多表查询.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/08_多表连接.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/07_多表查询.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sql/sql50_v2/07_多表查询.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,14 +448,7 @@
       <workItem from="1607653124289" duration="1132000" />
       <workItem from="1607663713977" duration="8674000" />
       <workItem from="1607832422584" duration="11259000" />
-      <workItem from="1607944574327" duration="10929000" />
-    </task>
-    <task id="LOCAL-00108" summary="加油">
-      <created>1590631042055</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1590631042055</updated>
+      <workItem from="1607944574327" duration="17352000" />
     </task>
     <task id="LOCAL-00109" summary="hot 100">
       <created>1590754304608</created>
@@ -792,7 +786,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607999255516</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="重做sql50题">
+      <created>1608086134459</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1608086134459</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,7 +813,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="快速排序" />
     <MESSAGE value="剑指offer：合并两个有序链表；有min功能的最小栈；判断两个序列是不是正确的出栈序列；判断该序列是否为有效的二叉树后续遍历序列；将二叉搜索树转化为双向链表" />
     <MESSAGE value="各种排序" />
     <MESSAGE value="剑指offer 将字符串翻译成26个字母47 dp +  礼物的最大价值 47 dp + 最长不含重复字符的子字符串48 滑动窗口" />
@@ -837,7 +837,8 @@
     <MESSAGE value="各种笔试题 + 总结" />
     <MESSAGE value="CompletableFuture学习" />
     <MESSAGE value="重写mysql50题" />
-    <option name="LAST_COMMIT_MESSAGE" value="重写mysql50题" />
+    <MESSAGE value="重做sql50题" />
+    <option name="LAST_COMMIT_MESSAGE" value="重做sql50题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

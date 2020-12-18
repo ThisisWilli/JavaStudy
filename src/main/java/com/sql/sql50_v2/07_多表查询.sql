@@ -70,8 +70,8 @@ where score.course_id = '03' and score.score > 80;
 # 用sql实现行专列 将学号 课程号 成绩 转化为 学号，课程1，课程2，课程3
 select
     score.student_id,
-    sum(if(score.course_id = '01', score.score, 0)) as 'course01',
-    sum(if(score.course_id = '02', score.score, 0)) as 'course02',
-    sum(if(score.course_id = '03', score.score, 0)) as 'course03'
+    max(if(score.course_id = '01', score.score, 0)) as 'course01',
+    max(if(score.course_id = '02', score.score, 0)) as 'course02',
+    max(if(score.course_id = '03', score.score, 0)) as 'course03'
 from score
-group by score.student_id
+group by score.student_id;
