@@ -127,4 +127,34 @@ where s.course_id not in
     where t.teacher_name = '李四'
 )
 order by s.score desc
-limit 1
+limit 1;
+
+# 查询至少有一门与学号为01的学生所学课程相同的学生的学号和姓名
+select s2.student_id, s3.student_name
+from
+(
+    select *
+    from score
+    where score.student_id = '01'
+) as s1
+inner join
+(
+    select *
+    from score
+    where score.student_id != '01'
+) as s2
+on s1.course_id = s2.course_id
+inner join student s3 on s2.student_id = s3.student_id
+group by s3.student_id;
+
+# 按平均成绩从高到低显示所有学生的所有课程的成绩以及平均成绩, 相当于是行转列
+select
+    s.student_id,
+    max(if(c.course_name = '数学', score, 0)) as 数学,
+    max(if(c.course_name = '语文', score, 0)) as 语文,
+    max(if(c.course_name = '英语', score, 0)) as 英语,
+    avg(s.score) as 平均分
+from score s
+inner join
+course c on s.course_id = c.course_id
+group by s.student_id;
