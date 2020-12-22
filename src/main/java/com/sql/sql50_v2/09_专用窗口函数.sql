@@ -52,4 +52,45 @@ from
     select score.course_id, score.student_id, score.score
     from score
     order by score.course_id, score.score desc
-) as s1
+) as s1;
+
+
+# 查询所有课程的成绩第2名到第3名的学生信息及该课程成绩
+select s2.student_id, s2.score, s2.rank_num
+from
+(
+    select
+    s.student_id,
+    s.score,
+    case
+        when @pre = s.course_id then @rank := @rank + 1
+        when @pre := s.course_id then @rank := 1
+    end as rank_num
+    from
+    (
+        select *
+        from score
+        order by score.course_id, score.score desc
+    ) as s , (select @pre := null, @rank := 0) as tt
+) as s2
+where s2.rank_num = 2 or s2.rank_num = 3;
+
+# 查询各科成绩前3名的记录，不考虑成绩并列的情况
+select ss.course_id, ss.score, ss.rank_num
+from
+    (
+        select
+            s.course_id,
+            s.score,
+            case
+                when @pre = s.course_id then @`rank` := @`rank` + 1
+                when @pre := s.course_id then @`rank` := 1
+                end as rank_num
+        from
+            (
+                select score.course_id, score.student_id, score.score
+                from score
+                order by score.course_id, score.score desc
+            ) as s,(select @pre := null, @rank := 0) as tt
+    ) as ss
+where rank_num <= 3;

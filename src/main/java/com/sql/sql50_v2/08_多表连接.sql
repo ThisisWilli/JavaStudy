@@ -158,3 +158,4 @@ from score s
 inner join
 course c on s.course_id = c.course_id
 group by s.student_id;
+
